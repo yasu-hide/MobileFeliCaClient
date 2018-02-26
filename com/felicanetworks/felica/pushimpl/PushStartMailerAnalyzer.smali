@@ -28,7 +28,7 @@
     .line 124
     const-string v0, "%s In pushSeg = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushStartMailerAnalyzer"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -38,7 +38,7 @@
     .line 127
     const-string v0, "%s pushSeg null"
 
-    const-string v1, "800"
+    const-string v1, "800 felica/pushimpl/PushStartMailerAnalyzer"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -60,7 +60,7 @@
     .line 133
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushStartMailerAnalyzer"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -86,7 +86,7 @@
 
     const-string v24, "%s In rcvdata = %s"
 
-    const-string v25, "000"
+    const-string v25, "000 felica/pushimpl/PushStartMailerAnalyzer"
 
     move/from16 v0, v23
 
@@ -130,7 +130,7 @@
 
     const-string v24, "%s data error"
 
-    const-string v25, "800"
+    const-string v25, "800 felica/pushimpl/PushStartMailerAnalyzer"
 
     invoke-static/range {v23 .. v25}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -509,7 +509,7 @@
 
     const-string v24, "%s"
 
-    const-string v25, "999"
+    const-string v25, "999 felica/pushimpl/PushStartMailerAnalyzer"
 
     invoke-static/range {v23 .. v25}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -544,7 +544,7 @@
 
     const-string v24, "%s Exception"
 
-    const-string v25, "801"
+    const-string v25, "801 felica/pushimpl/PushStartMailerAnalyzer"
 
     invoke-static/range {v23 .. v25}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -582,7 +582,7 @@
     .line 147
     const-string v1, "%s In Felica = %s : Context = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 execute"
 
     invoke-static {v4, v1, v2, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -595,7 +595,7 @@
     :cond_0
     const-string v1, "%s parameter error"
 
-    const-string v2, "800"
+    const-string v2, "800 execute"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -629,7 +629,7 @@
     .line 160
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 execute"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -651,7 +651,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "000"
+    const-string v21, "000 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -721,7 +721,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "001"
+    const-string v21, "001 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -765,7 +765,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "004"
+    const-string v21, "004 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -802,7 +802,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "007"
+    const-string v21, "007 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -839,7 +839,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "009"
+    const-string v21, "009 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -875,7 +875,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "011"
+    const-string v21, "011 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -953,7 +953,7 @@
 
     const-string v20, "%s return serializeData : %s"
 
-    const-string v21, "999"
+    const-string v21, "999 serialize"
 
     move/from16 v0, v19
 
@@ -977,7 +977,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "002"
+    const-string v21, "002 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1068,7 +1068,7 @@
 
     const-string v20, "%s Exception"
 
-    const-string v21, "800"
+    const-string v21, "800 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1096,7 +1096,7 @@
     :try_start_1
     const-string v20, "%s"
 
-    const-string v21, "003"
+    const-string v21, "003 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1150,7 +1150,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "005"
+    const-string v21, "005 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1228,7 +1228,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "006"
+    const-string v21, "006 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1282,7 +1282,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "008"
+    const-string v21, "008 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1368,7 +1368,7 @@
 
     const-string v20, "%s"
 
-    const-string v21, "010"
+    const-string v21, "010 serialize"
 
     invoke-static/range {v19 .. v21}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

@@ -54,7 +54,7 @@
     .line 245
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/NodeInformation"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -62,7 +62,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/NodeInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 247
-    const-string v0, "999"
+    const-string v0, "999 mfc/NodeInformation"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -101,7 +101,7 @@
     .line 50
     const-string v2, "%s In areaCodeList = %s : serviceCodeList = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 mfc/NodeInformation"
 
     invoke-static {v4, v2, v3, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -114,7 +114,7 @@
     :cond_0
     const-string v2, "%s areaCodeList == %s : serviceCodeList == %s"
 
-    const-string v3, "800"
+    const-string v3, "800 mfc/NodeInformation"
 
     invoke-static {v5, v2, v3, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -134,7 +134,7 @@
     .line 59
     const-string v2, "%s areaCodeList.length == %d"
 
-    const-string v3, "801"
+    const-string v3, "801 mfc/NodeInformation"
 
     array-length v4, p1
 
@@ -160,7 +160,7 @@
     .line 64
     const-string v2, "%s serviceCodeList.length == %d"
 
-    const-string v3, "802"
+    const-string v3, "802 mfc/NodeInformation"
 
     array-length v4, p2
 
@@ -199,7 +199,7 @@
     .line 80
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 mfc/NodeInformation"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -232,7 +232,7 @@
     .local v0, "e":Ljava/lang/Exception;
     const-string v2, "%s %s"
 
-    const-string v3, "803"
+    const-string v3, "803 mfc/NodeInformation"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -269,14 +269,14 @@
     .line 94
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAreaInformationList"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 96
     const-string v0, "%s return areaCode = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getAreaInformationList"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/NodeInformation;->areaCodeList:[Lcom/felicanetworks/mfc/AreaInformation;
 
@@ -297,14 +297,14 @@
     .line 140
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getServiceCodeList"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 142
     const-string v0, "%s return serviceCodeList = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getServiceCodeList"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/NodeInformation;->serviceCodeList:[I
 
@@ -326,7 +326,7 @@
     .line 213
     const-string v3, "%s : in = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 readFromParcel"
 
     invoke-static {v5, v3, v4, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -384,7 +384,7 @@
 
     .line 234
     :cond_1
-    const-string v3, "999"
+    const-string v3, "999 readFromParcel"
 
     invoke-static {v5, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -426,7 +426,7 @@
     .line 111
     const-string v0, "%s In areaCode = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAreaInformationList"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -436,7 +436,7 @@
     .line 114
     const-string v0, "%s areaCodeList == %s : serviceCodeList == %s"
 
-    const-string v1, "800"
+    const-string v1, "800 setAreaInformationList"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -456,7 +456,7 @@
     .line 120
     const-string v0, "%s areaCodeList.length == %d"
 
-    const-string v1, "801"
+    const-string v1, "801 setAreaInformationList"
 
     array-length v2, p1
 
@@ -480,7 +480,7 @@
     .line 126
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAreaInformationList"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -505,7 +505,7 @@
     .line 156
     const-string v2, "%s In serviceCodeList = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 setServiceCodeList"
 
     invoke-static {v4, v2, v3, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -515,7 +515,7 @@
     .line 159
     const-string v2, "%s areaCodeList == %s : serviceCodeList == %s"
 
-    const-string v3, "800"
+    const-string v3, "800 setServiceCodeList"
 
     invoke-static {v5, v2, v3, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -535,7 +535,7 @@
     .line 164
     const-string v2, "%s serviceCodeList.length == %d"
 
-    const-string v3, "801"
+    const-string v3, "801 setServiceCodeList"
 
     array-length v4, p1
 
@@ -571,7 +571,7 @@
     .line 178
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 setServiceCodeList"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -604,7 +604,7 @@
     .local v0, "e":Ljava/lang/Exception;
     const-string v2, "%s %s"
 
-    const-string v3, "802"
+    const-string v3, "802 setServiceCodeList"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -631,7 +631,7 @@
 
     const-string v1, "%s : out = %s, flag = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -664,7 +664,7 @@
     .line 282
     const/4 v0, 0x7
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

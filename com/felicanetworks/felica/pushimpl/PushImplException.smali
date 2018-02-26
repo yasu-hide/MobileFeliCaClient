@@ -38,7 +38,7 @@
     .line 87
     const-string v0, "%s type=%d,message=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushImplException"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -52,7 +52,7 @@
     .line 91
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushImplException"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -73,7 +73,7 @@
     .line 62
     const-string v0, "%s message=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushImplException"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -85,7 +85,7 @@
     .line 66
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushImplException"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -104,14 +104,14 @@
     .line 102
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getType"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 103
     const-string v0, "%s return=%d"
 
-    const-string v1, "999"
+    const-string v1, "999 getType"
 
     iget v2, p0, Lcom/felicanetworks/felica/pushimpl/PushImplException;->type:I
 

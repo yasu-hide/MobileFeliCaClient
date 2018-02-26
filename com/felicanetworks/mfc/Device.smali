@@ -353,7 +353,7 @@
     .line 271
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -370,7 +370,7 @@
     .line 276
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

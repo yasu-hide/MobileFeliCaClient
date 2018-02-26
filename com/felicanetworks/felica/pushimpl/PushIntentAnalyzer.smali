@@ -30,7 +30,7 @@
     .line 114
     const-string v0, "%s In pushSeg = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -40,7 +40,7 @@
     .line 117
     const-string v0, "%s pushSeg null"
 
-    const-string v1, "800"
+    const-string v1, "800 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -62,7 +62,7 @@
     .line 124
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -88,7 +88,7 @@
 
     const-string v15, "%s In rcvdata = %s"
 
-    const-string v16, "000"
+    const-string v16, "000 felica/pushimpl/PushIntentAnalyzer"
 
     move-object/from16 v0, v16
 
@@ -120,7 +120,7 @@
 
     const-string v15, "%s data error"
 
-    const-string v16, "800"
+    const-string v16, "800 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static/range {v14 .. v16}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -250,7 +250,7 @@
 
     const-string v15, "%s intentData null"
 
-    const-string v16, "802"
+    const-string v16, "802 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static/range {v14 .. v16}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -287,7 +287,7 @@
 
     const-string v15, "%s URISyntaxException"
 
-    const-string v16, "803"
+    const-string v16, "803 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static/range {v14 .. v16}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -319,7 +319,7 @@
     :try_start_1
     const-string v15, "%s"
 
-    const-string v16, "001"
+    const-string v16, "001 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static/range {v14 .. v16}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -376,7 +376,7 @@
 
     const-string v15, "%s"
 
-    const-string v16, "999"
+    const-string v16, "999 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static/range {v14 .. v16}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -407,7 +407,7 @@
 
     const-string v15, "%s Exception"
 
-    const-string v16, "804"
+    const-string v16, "804 felica/pushimpl/PushIntentAnalyzer"
 
     invoke-static/range {v14 .. v16}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -443,7 +443,7 @@
     .line 138
     const-string v1, "%s In Felica = %s : Context = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 execute"
 
     invoke-static {v3, v1, v2, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -465,7 +465,7 @@
     .line 145
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 execute"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -489,7 +489,7 @@
     .line 156
     const-string v7, "%s"
 
-    const-string v8, "000"
+    const-string v8, "000 serialize"
 
     invoke-static {v9, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -580,7 +580,7 @@
 
     const-string v8, "%s size over (%d)"
 
-    const-string v9, "800"
+    const-string v9, "800 serialize"
 
     invoke-virtual {v6}, Ljava/lang/String;->length()I
 
@@ -616,7 +616,7 @@
     .local v2, "e":Ljava/lang/Exception;
     const-string v7, "%s Exception"
 
-    const-string v8, "801"
+    const-string v8, "801 serialize"
 
     invoke-static {v11, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -668,7 +668,7 @@
 
     const-string v8, "%s return serializeData : %s"
 
-    const-string v9, "999"
+    const-string v9, "999 serialize"
 
     invoke-static {v7, v8, v9, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_1

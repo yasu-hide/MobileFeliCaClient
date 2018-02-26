@@ -39,7 +39,7 @@
     .line 28
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 onStart"
 
     invoke-static {v9, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -64,7 +64,7 @@
     .line 45
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 onStart"
 
     invoke-static {v9, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -80,7 +80,7 @@
     const-string v1, "%s : catch FelicaException type = %d, id = %d, statusFlag1 = %d, statusFlag2 = %d, pid = %d"
 
     .line 37
-    const-string v2, "800"
+    const-string v2, "800 onStart"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getType()I
 
@@ -133,7 +133,7 @@
     .local v8, "e":Lcom/felicanetworks/felica/pushimpl/PushImplException;
     const-string v1, "%s : catch PushImplException id = %d, message = %s"
 
-    const-string v2, "801"
+    const-string v2, "801 onStart"
 
     .line 41
     invoke-virtual {v8}, Lcom/felicanetworks/felica/pushimpl/PushImplException;->getType()I

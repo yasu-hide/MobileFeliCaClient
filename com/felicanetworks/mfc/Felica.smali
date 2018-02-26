@@ -243,7 +243,7 @@
     .line 1186
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/Felica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -271,7 +271,7 @@
     .line 1196
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/Felica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -333,7 +333,7 @@
     .line 3879
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkActivateWorker"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -347,7 +347,7 @@
 
     const-string v1, "%s activateWorker != null"
 
-    const-string v2, "800"
+    const-string v2, "800 checkActivateWorker"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -368,7 +368,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkActivateWorker"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -514,7 +514,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 getInstance"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -528,7 +528,7 @@
 
     const-string v2, "%s instance == null"
 
-    const-string v3, "001"
+    const-string v3, "001 getInstance"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -545,7 +545,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 getInstance"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -685,7 +685,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -712,7 +712,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "998"
+    const-string v3, "998 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -764,7 +764,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -791,7 +791,7 @@
     :try_start_4
     const-string v2, "%s"
 
-    const-string v3, "004"
+    const-string v3, "004 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_4
@@ -863,7 +863,7 @@
 
     const-string v2, "%s careerIdentifyCode=%s"
 
-    const-string v3, "006"
+    const-string v3, "006 open"
 
     invoke-static {v0, v2, v3, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -979,7 +979,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1004,7 +1004,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "008"
+    const-string v3, "008 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1046,7 +1046,7 @@
 
     const-string v2, "%s FelicaException failed open == true"
 
-    const-string v3, "800"
+    const-string v3, "800 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1085,7 +1085,7 @@
 
     const-string v2, "%s Exception failed open == true"
 
-    const-string v3, "801"
+    const-string v3, "801 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1114,7 +1114,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_8
@@ -1145,7 +1145,7 @@
     :try_start_a
     const-string v2, "%s"
 
-    const-string v3, "003"
+    const-string v3, "003 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1168,7 +1168,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "809"
+    const-string v3, "809 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1201,7 +1201,7 @@
 
     const-string v2, "%s FelicaException failed polling == true"
 
-    const-string v3, "802"
+    const-string v3, "802 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1230,7 +1230,7 @@
 
     const-string v2, "%s Exception failed polling == true"
 
-    const-string v3, "803"
+    const-string v3, "803 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1266,7 +1266,7 @@
 
     const-string v2, "%s FelicaException failed not chip format== true"
 
-    const-string v3, "804"
+    const-string v3, "804 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1303,7 +1303,7 @@
     :try_start_c
     const-string v2, "%s FelicaException failed Container Issue Information == true"
 
-    const-string v3, "805"
+    const-string v3, "805 open"
 
     .line 1741
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1335,7 +1335,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "008"
+    const-string v4, "008 open"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1361,7 +1361,7 @@
     :try_start_e
     const-string v2, "%s FelicaException failed not chip format== true"
 
-    const-string v3, "806"
+    const-string v3, "806 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1380,7 +1380,7 @@
     const-string v2, "%s Exception failed Container Issue Information == true"
 
     .line 1749
-    const-string v3, "807"
+    const-string v3, "807 open"
 
     .line 1748
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1409,7 +1409,7 @@
     :try_start_f
     const-string v2, "%s"
 
-    const-string v3, "005"
+    const-string v3, "005 open"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1444,7 +1444,7 @@
     :try_start_0
     const-string v2, "%s In permitList = %s, listener = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 activateFelica"
 
     invoke-static {v1, v2, v3, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1456,7 +1456,7 @@
 
     const-string v2, "%s listener == null"
 
-    const-string v3, "800"
+    const-string v3, "800 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1495,7 +1495,7 @@
 
     const-string v2, "%s permitList.length > MAX_PERMIT_LIST_SIZE"
 
-    const-string v3, "801"
+    const-string v3, "801 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1519,7 +1519,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1533,7 +1533,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1569,7 +1569,7 @@
     .line 1362
     const-string v2, "%s activatedApp.getPID(UID) == Binder.getCallingPid(Uid)"
 
-    const-string v3, "802"
+    const-string v3, "802 activateFelica"
 
     .line 1361
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1593,7 +1593,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "003"
+    const-string v3, "003 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1622,7 +1622,7 @@
     .line 1371
     const-string v2, "%s activatedApp.getPID(UID) == Binder.getCallingPid(Uid)"
 
-    const-string v3, "803"
+    const-string v3, "803 activateFelica"
 
     .line 1370
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1657,7 +1657,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "005"
+    const-string v3, "005 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1676,7 +1676,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "006"
+    const-string v3, "006 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1743,7 +1743,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -1762,7 +1762,7 @@
     :try_start_2
     const-string v2, "%s"
 
-    const-string v3, "007"
+    const-string v3, "007 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1798,7 +1798,7 @@
     .line 1398
     const-string v2, "%s activatedApp.getPID(UID) == Binder.getCallingPid(Uid)"
 
-    const-string v3, "804"
+    const-string v3, "804 activateFelica"
 
     .line 1397
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1822,7 +1822,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "008"
+    const-string v3, "008 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1851,7 +1851,7 @@
     .line 1407
     const-string v2, "%s activatedApp.getPID(UID) == Binder.getCallingPid(Uid)"
 
-    const-string v3, "805"
+    const-string v3, "805 activateFelica"
 
     .line 1406
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1891,7 +1891,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "009"
+    const-string v3, "009 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1905,7 +1905,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "010"
+    const-string v3, "010 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2048,7 +2048,7 @@
     .line 4229
     const-string v0, "%s In currentSystemCode = %s : nodeCodeList = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkAccessNodeCodeList"
 
     .line 4230
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2071,7 +2071,7 @@
     .line 4236
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkAccessNodeCodeList"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2093,9 +2093,7 @@
     const/4 v0, 0x4
 
     const-string v1, "%s In category = %s"
-
-    const-string v2, "000"
-
+    const-string v2, "000 checkAccessRight"
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
     move-result-object v3
     invoke-static {v0, v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -2119,7 +2117,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 checkAccessRight"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -2155,7 +2153,7 @@
     .line 4188
     const-string v0, "%s In systemCode = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkAccessSystemCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2176,7 +2174,7 @@
     .line 4194
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkAccessSystemCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2198,7 +2196,7 @@
     .line 4011
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkActivated"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2211,7 +2209,7 @@
     .line 4016
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkActivated"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2315,7 +2313,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 checkOnlineAccess"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2380,7 +2378,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 checkOnlineAccess"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -2437,7 +2435,7 @@
     .line 3969
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkPidUid"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2455,7 +2453,7 @@
     .line 3973
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkPidUid"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2485,7 +2483,7 @@
     .line 3920
     const-string v1, "%s In pid = %d uid = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 checkPidUid"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2505,7 +2503,7 @@
     .line 3923
     const-string v1, "%s activatedApp == null"
 
-    const-string v2, "800"
+    const-string v2, "800 checkPidUid"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2542,7 +2540,7 @@
     const-string v2, "%s activatedApp.getPID() = %d, activatedApp.getUID() = %d"
 
     .line 3930
-    const-string v3, "801"
+    const-string v3, "801 checkPidUid"
 
     iget-object v4, p0, Lcom/felicanetworks/mfc/Felica;->activatedApp:Lcom/felicanetworks/mfc/Felica$FelicaAppInfo;
 
@@ -2590,7 +2588,7 @@
     .local v0, "ne":Ljava/lang/NullPointerException;
     const-string v1, "%s NullPointerException"
 
-    const-string v2, "802"
+    const-string v2, "802 checkPidUid"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2606,7 +2604,7 @@
     :cond_2
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 checkPidUid"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2628,7 +2626,7 @@
     .line 4116
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkSelectedInterfaceWired"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2642,7 +2640,7 @@
 
     const-string v1, "%s not interface wired"
 
-    const-string v2, "800"
+    const-string v2, "800 checkSelectedInterfaceWired"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2663,7 +2661,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkSelectedInterfaceWired"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2732,7 +2730,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 close"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2760,7 +2758,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 close"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -2902,7 +2900,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "006"
+    const-string v4, "006 completeFalp"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2978,7 +2976,7 @@
     .line 5962
     const-string v0, "%s In OfflineException = %s type = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 convException"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2989,7 +2987,7 @@
     .line 5964
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 convException"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3029,7 +3027,7 @@
     const-string v1, "%s In OfflineException = %s id = %d type = %d supportedCode = %s target = %d"
 
     .line 6019
-    const-string v2, "000"
+    const-string v2, "000 convException"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3066,7 +3064,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "011"
+    const-string v2, "011 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3086,7 +3084,7 @@
 
     const-string v1, "%s return fe= %s"
 
-    const-string v2, "999"
+    const-string v2, "999 convException"
 
     invoke-static {v0, v1, v2, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -3099,7 +3097,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3125,7 +3123,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3147,7 +3145,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "003"
+    const-string v2, "003 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3159,7 +3157,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "004"
+    const-string v2, "004 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3171,7 +3169,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "005"
+    const-string v2, "005 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3193,7 +3191,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "006"
+    const-string v2, "006 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3217,7 +3215,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "008"
+    const-string v2, "008 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3255,7 +3253,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "007"
+    const-string v2, "007 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3296,7 +3294,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "009"
+    const-string v2, "009 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3324,7 +3322,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "010"
+    const-string v2, "010 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3346,7 +3344,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "012"
+    const-string v2, "012 convException"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3390,7 +3388,7 @@
     :try_start_0
     const-string v1, "%s In isCheckProcess = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 doClose"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -3403,7 +3401,7 @@
 
     const-string v1, "%s, isCheckProcess = %s, callingPid=%d, callingUid=%d"
 
-    const-string v2, "700"
+    const-string v2, "700 doClose"
 
     .line 1836
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -3441,7 +3439,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 doClose"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3459,7 +3457,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "998"
+    const-string v2, "998 doClose"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -3483,7 +3481,7 @@
 
     const-string v1, "%s, force stop online"
 
-    const-string v2, "701"
+    const-string v2, "701 doClose"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3553,7 +3551,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doClose"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -3588,7 +3586,7 @@
     :try_start_0
     const-string v1, "%s In isCheckProcess = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 doCloseNoReset"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -3601,7 +3599,7 @@
 
     const-string v1, "%s, isCheckProcess = %s, callingPid=%d, callingUid=%d"
 
-    const-string v2, "700"
+    const-string v2, "700 doCloseNoReset"
 
     .line 7025
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -3639,7 +3637,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 doCloseNoReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3657,7 +3655,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "998"
+    const-string v2, "998 doCloseNoReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -3681,7 +3679,7 @@
 
     const-string v1, "%s, force stop online"
 
-    const-string v2, "701"
+    const-string v2, "701 doCloseNoReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3751,7 +3749,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doCloseNoReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -3786,7 +3784,7 @@
     :try_start_0
     const-string v2, "%s In isCheckProcess = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 doInactivateFelica"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -3802,7 +3800,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 doInactivateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3823,7 +3821,7 @@
 
     const-string v2, "%s opened == true"
 
-    const-string v3, "800"
+    const-string v3, "800 doInactivateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3862,7 +3860,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 doInactivateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -3925,7 +3923,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 doInactivateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_3
@@ -3947,7 +3945,7 @@
     :try_start_4
     const-string v2, "%s %s"
 
-    const-string v3, "801"
+    const-string v3, "801 doInactivateFelica"
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -3982,7 +3980,7 @@
     :try_start_0
     const-string v1, "%s isCheckState=%b"
 
-    const-string v2, "000"
+    const-string v2, "000 doReset"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -4034,7 +4032,7 @@
     .line 3658
     const-string v1, "%s nodeCodeSize = %d, selected = %b, target = %d, systemInfo = %s"
 
-    const-string v2, "001"
+    const-string v2, "001 doReset"
 
     .line 3659
     iget v3, p0, Lcom/felicanetworks/mfc/Felica;->nodeCodeSize:I
@@ -4070,7 +4068,7 @@
     :try_start_2
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_2
@@ -4092,7 +4090,7 @@
     :try_start_3
     const-string v1, "%s OfflineException"
 
-    const-string v2, "801"
+    const-string v2, "801 doReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4127,7 +4125,7 @@
     :try_start_4
     const-string v1, "%s Exception"
 
-    const-string v2, "802"
+    const-string v2, "802 doReset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4168,7 +4166,7 @@
     :try_start_0
     const-string v4, "%s"
 
-    const-string v5, "START"
+    const-string v5, "executeFelicaCommand START"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4192,7 +4190,7 @@
     :cond_0
     const/4 v3, 0x1
 
-    const-string v4, "invalid Command"
+    const-string v4, "executeFelicaCommand invalid Command"
 
     invoke-static {v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -4226,7 +4224,7 @@
     .line 6945
     const/4 v3, 0x4
 
-    const-string v4, "In felicaCommand = %s timeout = %d retryCount = %d"
+    const-string v4, "executeFelicaCommand In felicaCommand = %s timeout = %d retryCount = %d"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4264,7 +4262,7 @@
     :try_start_3
     const-string v4, "%s"
 
-    const-string v5, "call ChipController.executeFelicaCommand"
+    const-string v5, "executeFelicaCommand call ChipController.executeFelicaCommand"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4291,7 +4289,7 @@
 
     const-string v4, "%s return felicaResponse = %s"
 
-    const-string v5, "END"
+    const-string v5, "executeFelicaCommand END"
 
     invoke-static {v3, v4, v5, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_3
@@ -4316,7 +4314,7 @@
     :try_start_4
     const-string v4, "%s"
 
-    const-string v5, "NumberFormatException"
+    const-string v5, "executeFelicaCommand NumberFormatException"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4353,7 +4351,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
+    const-string v5, "executeFelicaCommand OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4376,7 +4374,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "OfflineException"
+    const-string v5, "executeFelicaCommand OfflineException"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4400,7 +4398,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "Exception"
+    const-string v5, "executeFelicaCommand Exception"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4429,14 +4427,14 @@
     .line 3983
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getActivatedApp"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 3984
     const-string v0, "%s return activatedApp "
 
-    const-string v1, "999"
+    const-string v1, "999 getActivatedApp"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/Felica;->activatedApp:Lcom/felicanetworks/mfc/Felica$FelicaAppInfo;
 
@@ -4484,7 +4482,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getAppIdentificationCode"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4493,7 +4491,7 @@
 
     const-string v1, "%s return appIdentifyCode= %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getAppIdentificationCode"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/Felica;->appIdentifyCode:Ljava/lang/String;
 
@@ -4540,7 +4538,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4566,7 +4564,7 @@
 
     const-string v2, "%s invalid NodeCodeList"
 
-    const-string v3, "800"
+    const-string v3, "800 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4611,7 +4609,7 @@
 
     const-string v1, "%s In nodeCodeList = %s timeout = %d retryCount = %d"
 
-    const-string v2, "001"
+    const-string v2, "001 getBlockCountInformation"
 
     .line 4849
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4661,7 +4659,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4702,7 +4700,7 @@
 
     const-string v2, "%s return blockInfo = %d"
 
-    const-string v3, "999"
+    const-string v3, "999 getBlockCountInformation"
 
     invoke-static {v0, v2, v3, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_3
@@ -4744,7 +4742,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "803"
+    const-string v3, "803 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4771,7 +4769,7 @@
     :try_start_5
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4833,7 +4831,7 @@
 
     const-string v2, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v3, "700"
+    const-string v3, "700 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4862,7 +4860,7 @@
 
     const-string v2, "%s OfflineException"
 
-    const-string v3, "801"
+    const-string v3, "801 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4895,7 +4893,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "802"
+    const-string v3, "802 getBlockCountInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4936,7 +4934,7 @@
     :try_start_0
     const-string v4, "%s In timeout = %d retryCount = %d"
 
-    const-string v5, "000"
+    const-string v5, "000 getContainerId"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -4988,7 +4986,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "001"
+    const-string v5, "001 getContainerId"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5018,7 +5016,7 @@
 
     const-string v4, "%s return ContainerId = %d"
 
-    const-string v5, "999"
+    const-string v5, "999 getContainerId"
 
     invoke-static {v3, v4, v5, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_2
@@ -5043,7 +5041,7 @@
     :try_start_3
     const-string v4, "%s Exception"
 
-    const-string v5, "802"
+    const-string v5, "802 getContainerId"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5078,7 +5076,7 @@
     :try_start_4
     const-string v4, "%s"
 
-    const-string v5, "002"
+    const-string v5, "002 getContainerId"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5120,7 +5118,7 @@
     :try_start_5
     const-string v4, "%s OfflineException"
 
-    const-string v5, "800"
+    const-string v5, "800 getContainerId"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5138,7 +5136,7 @@
 
     const-string v4, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v5, "700"
+    const-string v5, "700 getContainerId"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5176,7 +5174,7 @@
 
     const-string v4, "%s Exception"
 
-    const-string v5, "801"
+    const-string v5, "801 getContainerId"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5217,7 +5215,7 @@
     :try_start_0
     const-string v3, "%s In timeout = %d retryCount = %d"
 
-    const-string v4, "000"
+    const-string v4, "000 getContainerIssueInformation"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5263,7 +5261,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5300,7 +5298,7 @@
 
     const-string v3, "%s return containerIssueInfo = %s"
 
-    const-string v4, "999"
+    const-string v4, "999 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_1
@@ -5321,7 +5319,7 @@
     :try_start_2
     const-string v3, "%s"
 
-    const-string v4, "002"
+    const-string v4, "002 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5378,7 +5376,7 @@
 
     const-string v3, "%s OfflineException"
 
-    const-string v4, "802"
+    const-string v4, "802 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5414,7 +5412,7 @@
     :try_start_4
     const-string v3, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v4, "800"
+    const-string v4, "800 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5437,7 +5435,7 @@
 
     const-string v3, "%s OfflineException.TYPE_TIMEOUT_OCCURRED"
 
-    const-string v4, "801"
+    const-string v4, "801 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5458,7 +5456,7 @@
 
     const-string v3, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v4, "700"
+    const-string v4, "700 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5486,7 +5484,7 @@
 
     const-string v3, "%s Exception"
 
-    const-string v4, "803"
+    const-string v4, "803 getContainerIssueInformation"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5528,7 +5526,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getContext"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5537,7 +5535,7 @@
 
     const-string v1, "%s return context = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getContext"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/Felica;->context:Landroid/content/Context;
 
@@ -5707,7 +5705,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getICCode"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5731,7 +5729,7 @@
 
     const-string v1, "%s return ICCode = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getICCode"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/Felica;->systemInfo:Lcom/felicanetworks/felica/offlineimpl/SystemInfo;
 
@@ -5806,7 +5804,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getIDm"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5830,7 +5828,7 @@
 
     const-string v1, "%s return IDm = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getIDm"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/Felica;->systemInfo:Lcom/felicanetworks/felica/offlineimpl/SystemInfo;
 
@@ -5879,7 +5877,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getInterface"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5903,7 +5901,7 @@
 
     const-string v1, "%s return target = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getInterface"
 
     iget v3, p0, Lcom/felicanetworks/mfc/Felica;->target:I
 
@@ -5954,7 +5952,7 @@
     :try_start_0
     const-string v1, "%s In serviceCode = %d timeout = %d retryCount = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 getKeyVersion"
 
     .line 2601
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6018,7 +6016,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6036,7 +6034,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -6056,7 +6054,7 @@
     :try_start_1
     const-string v1, "%s"
 
-    const-string v2, "005"
+    const-string v2, "005 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6095,7 +6093,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "006"
+    const-string v2, "006 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6153,7 +6151,7 @@
 
     const-string v1, "%s FelicaException.TYPE_SERVICE_NOT_FOUND"
 
-    const-string v2, "800"
+    const-string v2, "800 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6187,7 +6185,7 @@
     :try_start_3
     const-string v1, "%s FelicaException"
 
-    const-string v2, "800"
+    const-string v2, "800 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6214,7 +6212,7 @@
     :try_start_4
     const-string v1, "%s"
 
-    const-string v2, "003"
+    const-string v2, "003 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6228,7 +6226,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "004"
+    const-string v2, "004 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6247,7 +6245,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "805"
+    const-string v2, "805 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6274,7 +6272,7 @@
     :try_start_5
     const-string v1, "%s"
 
-    const-string v2, "007"
+    const-string v2, "007 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6329,7 +6327,7 @@
 
     const-string v1, "%s return version = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getKeyVersion"
 
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6367,7 +6365,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "803"
+    const-string v2, "803 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6390,7 +6388,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v2, "801"
+    const-string v2, "801 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6413,7 +6411,7 @@
 
     const-string v1, "%s OfflineException.TYPE_TIMEOUT_OCCURRED"
 
-    const-string v2, "802"
+    const-string v2, "802 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6434,7 +6432,7 @@
 
     const-string v1, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v2, "700"
+    const-string v2, "700 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6462,7 +6460,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "804"
+    const-string v2, "804 getKeyVersion"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6517,7 +6515,7 @@
     :try_start_0
     const-string v1, "%s In parentAreaCode = %d timeout = %d retryCount = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 getNodeInformation"
 
     .line 4482
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6585,7 +6583,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6626,7 +6624,7 @@
 
     const-string v2, "%s return nodeInformation = %d"
 
-    const-string v3, "999"
+    const-string v3, "999 getNodeInformation"
 
     invoke-static {v0, v2, v3, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_2
@@ -6651,7 +6649,7 @@
     :try_start_3
     const-string v2, "%s Exception"
 
-    const-string v3, "802"
+    const-string v3, "802 getNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6686,7 +6684,7 @@
     :try_start_4
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 getNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6748,7 +6746,7 @@
 
     const-string v2, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v3, "700"
+    const-string v3, "700 getNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6779,7 +6777,7 @@
 
     const-string v2, "%s OfflineException"
 
-    const-string v3, "800"
+    const-string v3, "800 getNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6812,7 +6810,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "801"
+    const-string v3, "801 getNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -6872,7 +6870,7 @@
     :try_start_0
     const-string v1, "%s In parentAreaCode = %d timeout = %d retryCount = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 getPrivacyNodeInformation"
 
     .line 4665
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6976,7 +6974,7 @@
 
     const-string v2, "%s return privacyNodeInformation = %d"
 
-    const-string v3, "999"
+    const-string v3, "999 getPrivacyNodeInformation"
 
     invoke-static {v0, v2, v3, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_2
@@ -7001,7 +6999,7 @@
     :try_start_3
     const-string v2, "%s Exception"
 
-    const-string v3, "802"
+    const-string v3, "802 getPrivacyNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7051,7 +7049,7 @@
 
     const-string v2, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v3, "700"
+    const-string v3, "700 getPrivacyNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7082,7 +7080,7 @@
 
     const-string v2, "%s OfflineException"
 
-    const-string v3, "800"
+    const-string v3, "800 getPrivacyNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7116,7 +7114,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "801"
+    const-string v3, "801 getPrivacyNodeInformation"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7159,7 +7157,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getPushNotificationListener"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7168,7 +7166,7 @@
 
     const-string v1, "%s return pushAppNotificationListener= %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getPushNotificationListener"
 
     .line 5924
     iget-object v3, p0, Lcom/felicanetworks/mfc/Felica;->pushAppNotificationListener:Lcom/felicanetworks/mfc/IFelicaPushAppNotificationListener;
@@ -7211,7 +7209,7 @@
     :try_start_0
     const-string v3, "%s"
 
-    const-string v4, "000"
+    const-string v4, "000 getRFSState"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7240,7 +7238,7 @@
 
     const-string v3, "%s return rfsState = %s"
 
-    const-string v4, "999"
+    const-string v4, "999 getRFSState"
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -7269,7 +7267,7 @@
     :try_start_2
     const-string v3, "%s OfflineException"
 
-    const-string v4, "800"
+    const-string v4, "800 getRFSState"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7304,7 +7302,7 @@
     :try_start_3
     const-string v3, "%s Exception"
 
-    const-string v4, "801"
+    const-string v4, "801 getRFSState"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7384,7 +7382,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getSystemCode"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7408,7 +7406,7 @@
 
     const-string v1, "%s return systemCode = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getSystemCode"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/Felica;->systemInfo:Lcom/felicanetworks/felica/offlineimpl/SystemInfo;
 
@@ -7465,7 +7463,7 @@
     :try_start_0
     const-string v4, "%s In timeout = %d retryCount = %d"
 
-    const-string v5, "000"
+    const-string v5, "000 getSystemCodeList"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -7520,7 +7518,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "001"
+    const-string v5, "001 getSystemCodeList"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7557,7 +7555,7 @@
 
     const-string v4, "%s return systemCodeList = %d"
 
-    const-string v5, "999"
+    const-string v5, "999 getSystemCodeList"
 
     invoke-static {v3, v4, v5, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_2
@@ -7582,7 +7580,7 @@
     :try_start_3
     const-string v4, "%s Exception"
 
-    const-string v5, "802"
+    const-string v5, "802 getSystemCodeList"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7617,7 +7615,7 @@
     :try_start_4
     const-string v4, "%s"
 
-    const-string v5, "002"
+    const-string v5, "002 getSystemCodeList"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7674,7 +7672,7 @@
 
     const-string v4, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v5, "700"
+    const-string v5, "700 getSystemCodeList"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7697,7 +7695,7 @@
 
     const-string v4, "%s OfflineException"
 
-    const-string v5, "800"
+    const-string v5, "800 getSystemCodeList"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7721,7 +7719,7 @@
 
     const-string v4, "%s Exception"
 
-    const-string v5, "801"
+    const-string v5, "801 getSystemCodeList"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7778,7 +7776,7 @@
     :try_start_0
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 inactivateFelica"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7792,7 +7790,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 inactivateFelica"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -7821,7 +7819,7 @@
     .line 4028
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 isAliveProcess"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7833,7 +7831,7 @@
     .line 4031
     const-string v0, "%s return false"
 
-    const-string v1, "998"
+    const-string v1, "998 isAliveProcess"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7848,7 +7846,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 isAliveProcess"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7885,7 +7883,7 @@
     .line 4051
     const-string v1, "%s In pid = %d, uid = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 isAliveProcess"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -7907,7 +7905,7 @@
     .line 4054
     const-string v1, "%s return true"
 
-    const-string v2, "997"
+    const-string v2, "997 isAliveProcess"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7926,7 +7924,7 @@
     .line 4058
     const-string v1, "%s return true"
 
-    const-string v2, "998"
+    const-string v2, "998 isAliveProcess"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7936,7 +7934,7 @@
     :cond_1
     const-string v0, "%s return false"
 
-    const-string v1, "999"
+    const-string v1, "999 isAliveProcess"
 
     invoke-static {v5, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -7978,7 +7976,7 @@
     .line 6267
     const-string v5, "%s In pid = %d, uid = %d"
 
-    const-string v6, "000"
+    const-string v6, "000 isAppExisted"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -8016,7 +8014,7 @@
     .line 6277
     const-string v5, "%s return false"
 
-    const-string v6, "997"
+    const-string v6, "997 isAppExisted"
 
     invoke-static {v9, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8039,7 +8037,7 @@
     .line 6289
     const-string v5, "%s return false"
 
-    const-string v6, "999"
+    const-string v6, "999 isAppExisted"
 
     invoke-static {v9, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8066,7 +8064,7 @@
     .line 6284
     const-string v4, "%s return false"
 
-    const-string v5, "998"
+    const-string v5, "998 isAppExisted"
 
     invoke-static {v9, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8151,7 +8149,7 @@
     .line 6218
     const-string v5, "%s In pid = %d, uid = %d"
 
-    const-string v6, "000"
+    const-string v6, "000 isServiceExisted"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -8191,7 +8189,7 @@
     .line 6228
     const-string v5, "%s return false"
 
-    const-string v6, "997"
+    const-string v6, "997 isServiceExisted"
 
     invoke-static {v9, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8214,7 +8212,7 @@
     .line 6240
     const-string v5, "%s return false"
 
-    const-string v6, "999"
+    const-string v6, "999 isServiceExisted"
 
     invoke-static {v9, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8241,7 +8239,7 @@
     .line 6235
     const-string v4, "%s return true"
 
-    const-string v5, "998"
+    const-string v5, "998 isServiceExisted"
 
     invoke-static {v9, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8309,7 +8307,7 @@
     :try_start_0
     const-string v3, "%s In pushSegment = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 push"
 
     move-object/from16 v0, p1
 
@@ -8334,7 +8332,7 @@
 
     const-string v3, "%s invalid pushSegment"
 
-    const-string v4, "800"
+    const-string v4, "800 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8435,7 +8433,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8456,7 +8454,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "002"
+    const-string v4, "002 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_5
@@ -8515,7 +8513,7 @@
 
     const-string v3, "%s Exception"
 
-    const-string v4, "811"
+    const-string v4, "811 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8602,7 +8600,7 @@
 
     const-string v3, "%s PushException"
 
-    const-string v4, "811"
+    const-string v4, "811 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8633,7 +8631,7 @@
     :try_start_a
     const-string v3, "%s PushException"
 
-    const-string v4, "801"
+    const-string v4, "801 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8682,7 +8680,7 @@
     const-string v3, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
     .line 5515
-    const-string v4, "700"
+    const-string v4, "700 push"
 
     .line 5514
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -8709,7 +8707,7 @@
 
     const-string v3, "%s OfflineException"
 
-    const-string v4, "803"
+    const-string v4, "803 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8738,7 +8736,7 @@
 
     const-string v3, "%s Exception"
 
-    const-string v4, "804"
+    const-string v4, "804 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8765,7 +8763,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "003"
+    const-string v4, "003 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_c
@@ -8808,7 +8806,7 @@
 
     const-string v3, "%s invalid send data size"
 
-    const-string v4, "805"
+    const-string v4, "805 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8841,7 +8839,7 @@
     :try_start_e
     const-string v3, "%s OfflineException"
 
-    const-string v4, "806"
+    const-string v4, "806 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8853,7 +8851,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "004"
+    const-string v4, "004 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8876,7 +8874,7 @@
     const-string v3, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
     .line 5574
-    const-string v4, "701"
+    const-string v4, "701 push"
 
     .line 5573
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -8917,7 +8915,7 @@
 
     const-string v3, "%s Exception"
 
-    const-string v4, "807"
+    const-string v4, "807 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -8929,7 +8927,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "005"
+    const-string v4, "005 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9006,7 +9004,7 @@
     :try_start_11
     const-string v3, "%s"
 
-    const-string v4, "009"
+    const-string v4, "009 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9019,7 +9017,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_11
@@ -9041,7 +9039,7 @@
     :try_start_12
     const-string v3, "%s OfflineException"
 
-    const-string v4, "808"
+    const-string v4, "808 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9053,7 +9051,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "006"
+    const-string v4, "006 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9076,7 +9074,7 @@
     const-string v3, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
     .line 5613
-    const-string v4, "702"
+    const-string v4, "702 push"
 
     .line 5612
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -9117,7 +9115,7 @@
 
     const-string v3, "%s Exception"
 
-    const-string v4, "809"
+    const-string v4, "809 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9129,7 +9127,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "007"
+    const-string v4, "007 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9161,7 +9159,7 @@
 
     const-string v3, "%s Exception"
 
-    const-string v4, "810"
+    const-string v4, "810 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9173,7 +9171,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "008"
+    const-string v4, "008 push"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9220,7 +9218,7 @@
     :try_start_0
     const-string v1, "%s In blockList = %s timeout = %d retryCount = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 read"
 
     .line 3128
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -9254,7 +9252,7 @@
 
     const-string v1, "%s invalid blockList"
 
-    const-string v2, "800"
+    const-string v2, "800 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9345,7 +9343,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9385,7 +9383,7 @@
 
     const-string v1, "%s return dataList = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 read"
 
     invoke-static {v0, v1, v2, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_3
@@ -9427,7 +9425,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "810"
+    const-string v2, "810 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9454,7 +9452,7 @@
     :try_start_5
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9514,7 +9512,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "808"
+    const-string v2, "808 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9537,7 +9535,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v2, "801"
+    const-string v2, "801 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9560,7 +9558,7 @@
 
     const-string v1, "%s OfflineException.TYPE_TIMEOUT_OCCURRED"
 
-    const-string v2, "802"
+    const-string v2, "802 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9587,7 +9585,7 @@
     const-string v1, "%s OfflineException.TYPE_INVALID_STATUS_FLAG(%d)"
 
     .line 3197
-    const-string v2, "001"
+    const-string v2, "001 read"
 
     invoke-virtual {v8}, Lcom/felicanetworks/felica/offlineimpl/OfflineException;->getStatusFlag2()I
 
@@ -9612,7 +9610,7 @@
 
     const-string v1, "%s StatusFlag2 : default"
 
-    const-string v2, "806"
+    const-string v2, "806 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9644,7 +9642,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x53"
 
-    const-string v2, "803"
+    const-string v2, "803 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9676,7 +9674,7 @@
 
     const-string v1, "%s StatusFlag2 : 0xA6"
 
-    const-string v2, "804"
+    const-string v2, "804 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9708,7 +9706,7 @@
 
     const-string v1, "%s StatusFlag2 : 0xA8"
 
-    const-string v2, "805"
+    const-string v2, "805 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9742,7 +9740,7 @@
     const-string v1, "%s OfflineException.TYPE_INVALID_STATUS_FLAG(INTERFACE_WIRELESS)"
 
     .line 3229
-    const-string v2, "807"
+    const-string v2, "807 read"
 
     .line 3227
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -9775,7 +9773,7 @@
 
     const-string v1, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v2, "700"
+    const-string v2, "700 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9803,7 +9801,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "809"
+    const-string v2, "809 read"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9860,7 +9858,7 @@
     :try_start_0
     const-string v3, "%s"
 
-    const-string v4, "000"
+    const-string v4, "000 reset"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9900,7 +9898,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 reset"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_2
@@ -9922,7 +9920,7 @@
     :try_start_3
     const-string v3, "%s"
 
-    const-string v4, "700"
+    const-string v4, "700 reset"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9948,7 +9946,7 @@
     :try_start_4
     const-string v3, "%s Exception"
 
-    const-string v4, "800"
+    const-string v4, "800 reset"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -9998,7 +9996,7 @@
     :try_start_0
     const-string v1, "%s In systemCode = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 select"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10025,7 +10023,7 @@
 
     const-string v1, "%s systemCode = %d"
 
-    const-string v2, "800"
+    const-string v2, "800 select"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10081,7 +10079,7 @@
     :try_start_1
     const-string v1, "%s systemCode = %d"
 
-    const-string v2, "805"
+    const-string v2, "805 select"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10154,7 +10152,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_3
@@ -10202,7 +10200,7 @@
     :try_start_6
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_6
@@ -10225,7 +10223,7 @@
     :try_start_7
     const-string v1, "%s Exception"
 
-    const-string v2, "806"
+    const-string v2, "806 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10257,7 +10255,7 @@
     :try_start_8
     const-string v1, "%s Exception(Turn OFF RF Power)"
 
-    const-string v2, "002"
+    const-string v2, "002 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_8
@@ -10288,7 +10286,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "803"
+    const-string v2, "803 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10311,7 +10309,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v2, "801"
+    const-string v2, "801 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10334,7 +10332,7 @@
 
     const-string v1, "%s OfflineException.TYPE_TIMEOUT_OCCURRED"
 
-    const-string v2, "802"
+    const-string v2, "802 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10357,7 +10355,7 @@
 
     const-string v1, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v2, "700"
+    const-string v2, "700 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10385,7 +10383,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "804"
+    const-string v2, "804 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10439,7 +10437,7 @@
     :try_start_0
     const-string v1, "%s In target = %d systemCode = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 select"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10467,7 +10465,7 @@
 
     const-string v1, "%s target = %d"
 
-    const-string v2, "800"
+    const-string v2, "800 select"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10509,7 +10507,7 @@
     :try_start_1
     const-string v1, "%s systemCode = %d"
 
-    const-string v2, "801"
+    const-string v2, "801 select"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10554,7 +10552,7 @@
 
     const-string v1, "%s systemCode = %d"
 
-    const-string v2, "805"
+    const-string v2, "805 select"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -10605,7 +10603,7 @@
     :try_start_3
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10646,7 +10644,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "003"
+    const-string v2, "003 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_3
@@ -10692,7 +10690,7 @@
     :try_start_6
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_6
@@ -10727,7 +10725,7 @@
     :try_start_8
     const-string v1, "%s Exception"
 
-    const-string v2, "806"
+    const-string v2, "806 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10754,7 +10752,7 @@
     :try_start_9
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10790,7 +10788,7 @@
 
     const-string v1, "%s Exception(Turn OFF RF Power)"
 
-    const-string v2, "004"
+    const-string v2, "004 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_9
@@ -10825,7 +10823,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "005"
+    const-string v2, "005 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_a
@@ -10860,7 +10858,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "804"
+    const-string v2, "804 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10887,7 +10885,7 @@
 
     const-string v1, "%s Exception(Turn OFF RF Power)"
 
-    const-string v2, "006"
+    const-string v2, "006 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10900,7 +10898,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v2, "802"
+    const-string v2, "802 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10923,7 +10921,7 @@
 
     const-string v1, "%s OfflineException.TYPE_fTIMEOUT_OCCURRED"
 
-    const-string v2, "803"
+    const-string v2, "803 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10944,7 +10942,7 @@
 
     const-string v1, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v2, "700"
+    const-string v2, "700 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -10984,7 +10982,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "007"
+    const-string v2, "007 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_c
@@ -11011,7 +11009,7 @@
     :try_start_e
     const-string v1, "%s Exception"
 
-    const-string v2, "805"
+    const-string v2, "805 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11038,7 +11036,7 @@
 
     const-string v1, "%s Exception(Turn OFF RF Power)"
 
-    const-string v2, "008"
+    const-string v2, "008 select"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_e
@@ -11118,7 +11116,7 @@
     :try_start_0
     const-string v10, "%s In context = %s"
 
-    const-string v11, "000"
+    const-string v11, "000 setContext"
 
     invoke-static {v9, v10, v11, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -11130,7 +11128,7 @@
 
     const-string v10, "%s"
 
-    const-string v11, "001"
+    const-string v11, "001 setContext"
 
     invoke-static {v9, v10, v11}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11206,7 +11204,7 @@
     const-string v10, "%s The length of Android OS version is too long \'%s\'"
 
     .line 6136
-    const-string v11, "002"
+    const-string v11, "002 setContext"
 
     .line 6135
     invoke-static {v9, v10, v11, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -11254,7 +11252,7 @@
     const-string v10, "%s The length of chip issuer id is too long \'%s\'"
 
     .line 6144
-    const-string v11, "003"
+    const-string v11, "003 setContext"
 
     .line 6143
     invoke-static {v9, v10, v11, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -11289,7 +11287,7 @@
 
     const-string v10, "%s The length of model name is too long \'%s\'"
 
-    const-string v11, "004"
+    const-string v11, "004 setContext"
 
     invoke-static {v9, v10, v11, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -11346,7 +11344,7 @@
 
     const-string v10, "%s userAgent=%s"
 
-    const-string v11, "005"
+    const-string v11, "005 setContext"
 
     iget-object v12, p0, Lcom/felicanetworks/mfc/Felica;->userAgent:Ljava/lang/String;
 
@@ -11371,7 +11369,7 @@
     :try_start_2
     const-string v10, "%s"
 
-    const-string v11, "999"
+    const-string v11, "999 setContext"
 
     invoke-static {v9, v10, v11}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_2
@@ -11393,7 +11391,7 @@
     :try_start_3
     const-string v10, "%s  ERROR:There was an unnecessary token."
 
-    const-string v11, "801"
+    const-string v11, "801 setContext"
 
     invoke-static {v9, v10, v11}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_3
@@ -11473,7 +11471,7 @@
     :try_start_0
     const-string v1, "%s In nodeCodeSize = %d timeout = %d retryCount = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 setNodeCodeSize"
 
     .line 2950
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -11506,7 +11504,7 @@
 
     const-string v1, "%s invalid nodeCodeSize"
 
-    const-string v2, "800"
+    const-string v2, "800 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11562,7 +11560,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11611,7 +11609,7 @@
     :try_start_3
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11665,7 +11663,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "804"
+    const-string v2, "804 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11688,7 +11686,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v2, "801"
+    const-string v2, "801 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11711,7 +11709,7 @@
 
     const-string v1, "%s OfflineException.TYPE_TIMEOUT_OCCURRED"
 
-    const-string v2, "802"
+    const-string v2, "802 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11732,7 +11730,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_STATUS_FLAG"
 
-    const-string v2, "803"
+    const-string v2, "803 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11755,7 +11753,7 @@
 
     const-string v1, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v2, "700"
+    const-string v2, "700 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11783,7 +11781,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "805"
+    const-string v2, "805 setNodeCodeSize"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11838,7 +11836,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11865,7 +11863,7 @@
 
     const-string v2, "%s invalid privacySettingData"
 
-    const-string v3, "800"
+    const-string v3, "800 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -11904,7 +11902,7 @@
 
     const-string v1, "%s In privacySettingData = %s timeout = %d retryCount = %d"
 
-    const-string v2, "001"
+    const-string v2, "001 setPrivacy"
 
     .line 5198
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -11984,7 +11982,7 @@
     :try_start_4
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_4
@@ -12017,7 +12015,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "803"
+    const-string v3, "803 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12054,7 +12052,7 @@
 
     const-string v2, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v3, "700"
+    const-string v3, "700 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12085,7 +12083,7 @@
 
     const-string v2, "%s OfflineException"
 
-    const-string v3, "801"
+    const-string v3, "801 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12119,7 +12117,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "802"
+    const-string v3, "802 setPrivacy"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12166,7 +12164,7 @@
     :try_start_0
     const-string v2, "%s In Listener = %s appIdentificationCode = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 setPushNotificationListener"
 
     invoke-static {v1, v2, v3, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -12189,7 +12187,7 @@
 
     const-string v2, "%s invalid parameter"
 
-    const-string v3, "800"
+    const-string v3, "800 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12222,7 +12220,7 @@
     :try_start_1
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12247,7 +12245,7 @@
 
     const-string v2, "%s invalid parameter"
 
-    const-string v3, "800"
+    const-string v3, "800 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12282,7 +12280,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12302,7 +12300,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -12340,7 +12338,7 @@
 
     const-string v2, "%s not ASCII code"
 
-    const-string v3, "802"
+    const-string v3, "802 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12366,7 +12364,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "003"
+    const-string v3, "003 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12584,7 +12582,7 @@
     :try_start_0
     const-string v2, "%s In context = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 startAdhoc"
 
     invoke-static {v0, v2, v3, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -12617,7 +12615,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -12669,7 +12667,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12696,7 +12694,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "804"
+    const-string v3, "804 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12792,7 +12790,7 @@
     :try_start_6
     const-string v2, "%s OfflineException"
 
-    const-string v3, "800"
+    const-string v3, "800 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12821,7 +12819,7 @@
 
     const-string v2, "%s Exception"
 
-    const-string v3, "801"
+    const-string v3, "801 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12857,7 +12855,7 @@
     :try_start_7
     const-string v2, "%s OfflineException"
 
-    const-string v3, "802"
+    const-string v3, "802 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12908,7 +12906,7 @@
 
     const-string v3, "%s"
 
-    const-string v5, "002"
+    const-string v5, "002 startAdhoc"
 
     invoke-static {v2, v3, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12934,7 +12932,7 @@
     :try_start_9
     const-string v2, "%s Exception"
 
-    const-string v3, "803"
+    const-string v3, "803 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -12980,7 +12978,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 startAdhoc"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_a
@@ -13113,7 +13111,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "006"
+    const-string v4, "006 startFalp"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -13136,7 +13134,7 @@
     :cond_1
     const/4 v2, 0x4
 
-    const-string v3, "MFC is already activated. check pid/uid."
+    const-string v3, "startFalp MFC is already activated. check pid/uid."
 
     invoke-static {v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -13163,7 +13161,7 @@
     .line 6551
     const/4 v2, 0x4
 
-    const-string v3, "MFC didn\'t open the chip. open it."
+    const-string v3, "startFalp MFC didn\'t open the chip. open it."
 
     invoke-static {v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -13281,7 +13279,7 @@
     .line 6661
     const/4 v2, 0x4
 
-    const-string v3, "exception occurred."
+    const-string v3, "startFalp exception occurred."
 
     invoke-static {v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -13447,7 +13445,7 @@
     const/4 v2, 0x4
 
     :try_start_8
-    const-string v3, "target device\'s baudrate is 424."
+    const-string v3, "startFalp target device\'s baudrate is 424."
 
     invoke-static {v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -13593,7 +13591,7 @@
     const/4 v2, 0x4
 
     :try_start_c
-    const-string v3, "target device\'s baudrate can\'t get."
+    const-string v3, "startFalp target device\'s baudrate can\'t get."
 
     invoke-static {v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -13756,7 +13754,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 turnOffRFPower"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -13783,7 +13781,7 @@
     :try_start_2
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 turnOffRFPower"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_2
@@ -13805,7 +13803,7 @@
     :try_start_3
     const-string v2, "%s OfflineException"
 
-    const-string v3, "800"
+    const-string v3, "800 turnOffRFPower"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_3
@@ -13833,7 +13831,7 @@
     :try_start_4
     const-string v2, "%s Exception"
 
-    const-string v3, "801"
+    const-string v3, "801 turnOffRFPower"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_4
@@ -13865,7 +13863,7 @@
     :try_start_0
     const-string v1, "%s In blockDataList = %s timeout = %d retryCount = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 write"
 
     .line 3384
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -13899,7 +13897,7 @@
 
     const-string v1, "%s invalid blockDataList"
 
-    const-string v2, "800"
+    const-string v2, "800 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -13990,7 +13988,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14033,7 +14031,7 @@
     :try_start_4
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_4
@@ -14077,7 +14075,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "816"
+    const-string v2, "816 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14104,7 +14102,7 @@
     :try_start_6
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14160,7 +14158,7 @@
 
     const-string v1, "%s OfflineException"
 
-    const-string v2, "814"
+    const-string v2, "814 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14183,7 +14181,7 @@
 
     const-string v1, "%s OfflineException.TYPE_INVALID_RESPONSE"
 
-    const-string v2, "801"
+    const-string v2, "801 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14206,7 +14204,7 @@
 
     const-string v1, "%s OfflineException.TYPE_TIMEOUT_OCCURRED"
 
-    const-string v2, "802"
+    const-string v2, "802 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14233,7 +14231,7 @@
     const-string v1, "%s OfflineException.TYPE_INVALID_STATUS_FLAG(%d)"
 
     .line 3448
-    const-string v2, "003"
+    const-string v2, "003 write"
 
     invoke-virtual {v7}, Lcom/felicanetworks/felica/offlineimpl/OfflineException;->getStatusFlag2()I
 
@@ -14258,7 +14256,7 @@
 
     const-string v1, "%s StatusFlag2 : default"
 
-    const-string v2, "812"
+    const-string v2, "812 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14290,7 +14288,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x01"
 
-    const-string v2, "803"
+    const-string v2, "803 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14322,7 +14320,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x02"
 
-    const-string v2, "804"
+    const-string v2, "804 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14354,7 +14352,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x50"
 
-    const-string v2, "805"
+    const-string v2, "805 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14386,7 +14384,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x51"
 
-    const-string v2, "806"
+    const-string v2, "806 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14418,7 +14416,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x53"
 
-    const-string v2, "807"
+    const-string v2, "807 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14450,7 +14448,7 @@
 
     const-string v1, "%s StatusFlag2 : 0x53"
 
-    const-string v2, "808"
+    const-string v2, "808 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14482,7 +14480,7 @@
 
     const-string v1, "%s StatusFlag2 : 0xA5"
 
-    const-string v2, "809"
+    const-string v2, "809 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14514,7 +14512,7 @@
 
     const-string v1, "%s StatusFlag2 : 0xA6"
 
-    const-string v2, "810"
+    const-string v2, "810 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14546,7 +14544,7 @@
 
     const-string v1, "%s StatusFlag2 : 0xA8"
 
-    const-string v2, "811"
+    const-string v2, "811 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14580,7 +14578,7 @@
     const-string v1, "%s OfflineException.TYPE_INVALID_STATUS_FLAG(INTERFACE_WIRELESS)"
 
     .line 3510
-    const-string v2, "813"
+    const-string v2, "813 write"
 
     .line 3508
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -14607,7 +14605,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "998"
+    const-string v2, "998 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14642,7 +14640,7 @@
 
     const-string v1, "%s OfflineException.TYPE_OFFLINE_CANCELED_OCCURRED"
 
-    const-string v2, "700"
+    const-string v2, "700 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -14670,7 +14668,7 @@
 
     const-string v1, "%s Exception"
 
-    const-string v2, "815"
+    const-string v2, "815 write"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

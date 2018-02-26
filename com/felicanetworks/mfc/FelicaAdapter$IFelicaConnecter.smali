@@ -55,7 +55,7 @@
     .line 1075
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 activateFelica"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -74,7 +74,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 activateFelica"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -94,7 +94,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 activateFelica"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -114,7 +114,7 @@
     .local v7, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 activateFelica"
 
     .line 1084
     invoke-virtual {v7}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -166,7 +166,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d otherAppPID = %s"
 
     .line 1095
-    const-string v2, "801"
+    const-string v2, "801 activateFelica"
 
     invoke-virtual {v7}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -226,7 +226,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1104
-    const-string v2, "802"
+    const-string v2, "802 activateFelica"
 
     invoke-virtual {v7}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -302,7 +302,7 @@
     .line 1256
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 cancelOffline"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -321,7 +321,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 cancelOffline"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -340,7 +340,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 cancelOffline"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -364,7 +364,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1266
-    const-string v2, "700"
+    const-string v2, "700 cancelOffline"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -454,7 +454,7 @@
     .line 1164
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 checkOnlineAccess"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -473,7 +473,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 checkOnlineAccess"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -493,7 +493,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkOnlineAccess"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -514,7 +514,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1175
-    const-string v2, "701"
+    const-string v2, "701 checkOnlineAccess"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -596,7 +596,7 @@
     .local v8, "e":Ljava/lang/NumberFormatException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 checkOnlineAccess"
 
     .line 1181
     invoke-virtual {v8}, Ljava/lang/NumberFormatException;->getMessage()Ljava/lang/String;
@@ -636,7 +636,7 @@
     .line 188
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 close"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -655,7 +655,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 close"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -674,7 +674,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 close"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -698,7 +698,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 198
-    const-string v2, "700"
+    const-string v2, "700 close"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -789,7 +789,7 @@
     .line 1292
     const-string v0, "%s"
 
-    const-string v1, "START"
+    const-string v1, "executeFelicaCommand START"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -812,7 +812,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "call Felica.executeFelicaCommand()"
+    const-string v2, "executeFelicaCommand call Felica.executeFelicaCommand()"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -833,7 +833,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "END"
+    const-string v1, "executeFelicaCommand END"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -854,7 +854,7 @@
     const/4 v0, 0x2
 
     .line 1305
-    const-string v1, "catch FelicaException id = %d type = %d"
+    const-string v1, "executeFelicaCommand catch FelicaException id = %d type = %d"
 
     invoke-virtual {v7}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -927,7 +927,7 @@
     .line 222
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getBlockCountInformation"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -950,7 +950,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getBlockCountInformation"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -972,7 +972,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getBlockCountInformation"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -992,7 +992,7 @@
     .local v9, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 getBlockCountInformation"
 
     .line 235
     invoke-virtual {v9}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -1027,7 +1027,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 242
-    const-string v2, "701"
+    const-string v2, "701 getBlockCountInformation"
 
     invoke-virtual {v9}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -1120,7 +1120,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 getContainerId"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1143,7 +1143,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getContainerId"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1164,7 +1164,7 @@
     :cond_0
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 getContainerId"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1185,7 +1185,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 280
-    const-string v2, "700"
+    const-string v2, "700 getContainerId"
 
     invoke-virtual {v9}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -1276,7 +1276,7 @@
     .line 304
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getContainerIssueInformation"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1299,7 +1299,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getContainerIssueInformation"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1320,7 +1320,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getContainerIssueInformation"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1344,7 +1344,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 318
-    const-string v2, "700"
+    const-string v2, "700 getContainerIssueInformation"
 
     invoke-virtual {v9}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -1428,14 +1428,14 @@
     .line 175
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getFelica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 176
     const-string v0, "%s : felicaEntity = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 getFelica"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/FelicaAdapter$IFelicaConnecter;->this$0:Lcom/felicanetworks/mfc/FelicaAdapter;
 
@@ -1469,7 +1469,7 @@
     .line 336
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getFelica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1492,7 +1492,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getFelica"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1513,7 +1513,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getFelica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1537,7 +1537,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 350
-    const-string v2, "700"
+    const-string v2, "700 getFelica"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -1626,7 +1626,7 @@
     .line 369
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getIDm"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1649,7 +1649,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getIDm"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1670,7 +1670,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getIDm"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1694,7 +1694,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 383
-    const-string v2, "700"
+    const-string v2, "700 getIDm"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -1783,7 +1783,7 @@
     .line 402
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInterface"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1806,7 +1806,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getInterface"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1827,7 +1827,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInterface"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1855,7 +1855,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 416
-    const-string v2, "700"
+    const-string v2, "700 getInterface"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -1949,7 +1949,7 @@
     .line 442
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getKeyVersion"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1972,7 +1972,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getKeyVersion"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1994,7 +1994,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getKeyVersion"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2018,7 +2018,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 getKeyVersion"
 
     .line 454
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -2053,7 +2053,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 461
-    const-string v2, "701"
+    const-string v2, "701 getKeyVersion"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -2147,7 +2147,7 @@
     .line 486
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getNodeInformation"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2170,7 +2170,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getNodeInformation"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2192,7 +2192,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getNodeInformation"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2212,7 +2212,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 getNodeInformation"
 
     .line 499
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -2247,7 +2247,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 506
-    const-string v2, "701"
+    const-string v2, "701 getNodeInformation"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -2341,7 +2341,7 @@
     .line 532
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 getPrivacyNodeInformation"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2364,7 +2364,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getPrivacyNodeInformation"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2386,7 +2386,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getPrivacyNodeInformation"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2406,7 +2406,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 getPrivacyNodeInformation"
 
     .line 545
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -2441,7 +2441,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 552
-    const-string v2, "701"
+    const-string v2, "701 getPrivacyNodeInformation"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -2530,7 +2530,7 @@
     .line 571
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getRFSState"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2553,7 +2553,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getRFSState"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2574,7 +2574,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getRFSState"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2602,7 +2602,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 585
-    const-string v2, "700"
+    const-string v2, "700 getRFSState"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -2691,7 +2691,7 @@
     .line 1226
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getSelectTimeout"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2714,7 +2714,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getSelectTimeout"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2752,7 +2752,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getSelectTimeout"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2774,7 +2774,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1238
-    const-string v2, "700"
+    const-string v2, "700 getSelectTimeout"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -2863,7 +2863,7 @@
     .line 604
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getSystemCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2886,7 +2886,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getSystemCode"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2907,7 +2907,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getSystemCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2935,7 +2935,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 618
-    const-string v2, "700"
+    const-string v2, "700 getSystemCode"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -3026,7 +3026,7 @@
     .line 642
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getSystemCodeList"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3049,7 +3049,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getSystemCodeList"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3070,7 +3070,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getSystemCodeList"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3094,7 +3094,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 656
-    const-string v2, "700"
+    const-string v2, "700 getSystemCodeList"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -3183,7 +3183,7 @@
     .line 675
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 inactivateFelica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3202,7 +3202,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 inactivateFelica"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3221,7 +3221,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 inactivateFelica"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3245,7 +3245,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 686
-    const-string v2, "700"
+    const-string v2, "700 inactivateFelica"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -3333,7 +3333,7 @@
     .line 704
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 open"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3352,7 +3352,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 open"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3371,7 +3371,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 open"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3395,7 +3395,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 714
-    const-string v2, "700"
+    const-string v2, "700 open"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -3486,7 +3486,7 @@
     .line 995
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 push"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3505,7 +3505,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 push"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3529,7 +3529,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 push"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3549,7 +3549,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 push"
 
     .line 1004
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -3584,7 +3584,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1011
-    const-string v2, "701"
+    const-string v2, "701 push"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -3677,7 +3677,7 @@
     .line 739
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 read"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3700,7 +3700,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 read"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3722,7 +3722,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 read"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3742,7 +3742,7 @@
     .local v9, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 read"
 
     .line 751
     invoke-virtual {v9}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -3777,7 +3777,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 758
-    const-string v2, "701"
+    const-string v2, "701 read"
 
     invoke-virtual {v9}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -3866,7 +3866,7 @@
     .line 777
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 reset"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3885,7 +3885,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 reset"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3904,7 +3904,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 reset"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -3928,7 +3928,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 788
-    const-string v2, "700"
+    const-string v2, "700 reset"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -4019,7 +4019,7 @@
     .line 810
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 select"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4038,7 +4038,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 select"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4058,7 +4058,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 select"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4078,7 +4078,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 select"
 
     .line 819
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -4113,7 +4113,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 826
-    const-string v2, "701"
+    const-string v2, "701 select"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -4205,7 +4205,7 @@
     .line 852
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 selectWithTarget"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4224,7 +4224,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 selectWithTarget"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4244,7 +4244,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 selectWithTarget"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4264,7 +4264,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 selectWithTarget"
 
     .line 861
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -4299,7 +4299,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 868
-    const-string v2, "701"
+    const-string v2, "701 selectWithTarget"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -4392,7 +4392,7 @@
     .line 917
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 setNodeCodeSize"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4411,7 +4411,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 setNodeCodeSize"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4431,7 +4431,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setNodeCodeSize"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4451,7 +4451,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 setNodeCodeSize"
 
     .line 926
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -4486,7 +4486,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 933
-    const-string v2, "701"
+    const-string v2, "701 setNodeCodeSize"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -4579,7 +4579,7 @@
     .line 1036
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 setPrivacy"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4598,7 +4598,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 setPrivacy"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4618,7 +4618,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setPrivacy"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4638,7 +4638,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 setPrivacy"
 
     .line 1045
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -4673,7 +4673,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1052
-    const-string v2, "701"
+    const-string v2, "701 setPrivacy"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -4765,7 +4765,7 @@
     .line 1130
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 setPushNotificationListener"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4784,7 +4784,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 setPushNotificationListener"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4804,7 +4804,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setPushNotificationListener"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4824,7 +4824,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 setPushNotificationListener"
 
     .line 1139
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -4859,7 +4859,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1146
-    const-string v2, "701"
+    const-string v2, "701 setPushNotificationListener"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -4948,7 +4948,7 @@
     .line 1199
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setSelectTimeout"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4967,7 +4967,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 setSelectTimeout"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -4986,7 +4986,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setSelectTimeout"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5010,7 +5010,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 1209
-    const-string v2, "700"
+    const-string v2, "700 setSelectTimeout"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -5103,7 +5103,7 @@
     .line 958
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 write"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5122,7 +5122,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 write"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5142,7 +5142,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 write"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -5162,7 +5162,7 @@
     .local v8, "e":Ljava/lang/IllegalArgumentException;
     const-string v1, "%s : Catch IllegalArgumentException message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 write"
 
     .line 967
     invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -5197,7 +5197,7 @@
     const-string v1, "%s : catch FelicaException id = %d message = %s type = %d statusFlag1 = %d statusFlag2 = %d"
 
     .line 974
-    const-string v2, "701"
+    const-string v2, "701 write"
 
     invoke-virtual {v8}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 

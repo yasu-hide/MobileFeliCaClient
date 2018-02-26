@@ -65,7 +65,7 @@
     .line 66
     const-string v0, "%s : pin = %d, newPIN = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PINChangeData"
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -86,7 +86,7 @@
     .line 69
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PINChangeData"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -107,7 +107,7 @@
     .line 207
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PINChangeData"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -117,7 +117,7 @@
     .line 209
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PINChangeData"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -145,7 +145,7 @@
     .line 190
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v6, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -166,7 +166,7 @@
     .line 196
     const-string v0, "%s : pin = %d, newPIN = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->pin:J
 
@@ -208,7 +208,7 @@
     .line 250
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -229,7 +229,7 @@
     :cond_0
     const-string v0, "%s : pin = %d, Throw IllegalArgumentException EXC_PIN"
 
-    const-string v1, "800"
+    const-string v1, "800 checkFormat"
 
     .line 254
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->pin:J
@@ -268,7 +268,7 @@
     :cond_2
     const-string v0, "%s : pin = %d, Throw IllegalArgumentException EXC_PIN"
 
-    const-string v1, "801"
+    const-string v1, "801 checkFormat"
 
     .line 260
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->newPIN:J
@@ -293,7 +293,7 @@
     :cond_3
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -320,14 +320,14 @@
     .line 129
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getNewPIN"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 130
     const-string v0, "%s : newPIN = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getNewPIN"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->newPIN:J
 
@@ -352,14 +352,14 @@
     .line 93
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPIN"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 94
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getPIN"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->pin:J
 
@@ -386,14 +386,14 @@
     .line 80
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getType"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 81
     const-string v0, "%s : TYPE = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getType"
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -420,7 +420,7 @@
     .line 148
     const-string v0, "%s : newPIN = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setNewPIN"
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -447,7 +447,7 @@
 
     const-string v1, "%s : pin = %d, Throw IllegalArgumentException EXC_PIN"
 
-    const-string v2, "800"
+    const-string v2, "800 setNewPIN"
 
     .line 151
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -473,7 +473,7 @@
     .line 155
     const-string v0, "%s : this.newPIN = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 setNewPIN"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->newPIN:J
 
@@ -502,7 +502,7 @@
     .line 111
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setPIN"
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -529,7 +529,7 @@
 
     const-string v1, "%s : pin = %d, Throw IllegalArgumentException EXC_PIN"
 
-    const-string v2, "800"
+    const-string v2, "800 setPIN"
 
     .line 114
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -555,7 +555,7 @@
     .line 118
     const-string v0, "%s : this.pin = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 setPIN"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINChangeData;->pin:J
 
@@ -580,7 +580,7 @@
     .line 232
     const-string v0, "%s : out = %d, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -601,7 +601,7 @@
     .line 238
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

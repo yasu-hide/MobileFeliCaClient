@@ -38,14 +38,14 @@
     .line 75
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/offlineimpl/ProposeAdhocResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 76
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/offlineimpl/ProposeAdhocResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -62,7 +62,7 @@
     .line 87
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -76,7 +76,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getInstance"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -91,7 +91,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -125,7 +125,7 @@
     .line 111
     const-string v4, "%s : command = %s, byteBuffer = %s"
 
-    const-string v5, "000"
+    const-string v5, "000 get"
 
     invoke-static {v10, v4, v5, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -138,7 +138,7 @@
     :cond_0
     const-string v4, "%s : Throw OfflineException = %d"
 
-    const-string v5, "700"
+    const-string v5, "700 get"
 
     .line 115
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -175,7 +175,7 @@
 
     const-string v5, "%s : %s"
 
-    const-string v6, "701"
+    const-string v6, "701 get"
 
     .line 126
     const-string v7, "Throw OfflineException.TYPE_INVALID_RESPONSE"
@@ -203,7 +203,7 @@
     .local v2, "e":Lcom/felicanetworks/felica/offlineimpl/OfflineException;
     const-string v4, "%s : %s = %d"
 
-    const-string v5, "703"
+    const-string v5, "703 get"
 
     const-string v6, "catch OfflineException"
 
@@ -250,7 +250,7 @@
 
     const-string v5, "%s : %s"
 
-    const-string v6, "702"
+    const-string v6, "702 get"
 
     .line 135
     const-string v7, "Throw OfflineException.TYPE_INVALID_RESPONSE"
@@ -279,7 +279,7 @@
     .local v2, "e":Ljava/lang/Exception;
     const-string v4, "%s : %s"
 
-    const-string v5, "704"
+    const-string v5, "704 get"
 
     const-string v6, "Throw OfflineException.TYPE_INVALID_RESPONSE"
 
@@ -341,7 +341,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "001"
+    const-string v6, "001 get"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -359,7 +359,7 @@
 
     const-string v5, "%s : %s"
 
-    const-string v6, "701"
+    const-string v6, "701 get"
 
     .line 157
     const-string v7, "Throw OfflineException.TYPE_INVALID_RESPONSE"
@@ -383,7 +383,7 @@
     :cond_4
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 get"
 
     invoke-static {v10, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -400,14 +400,14 @@
     .line 187
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getIDm"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 188
     const-string v0, "%s : idm = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 getIDm"
 
     iget-object v2, p0, Lcom/felicanetworks/felica/offlineimpl/ProposeAdhocResponse;->idm:[B
 
@@ -428,14 +428,14 @@
     .line 224
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getSendDataSize"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 225
     const-string v0, "%s : sendDataSize = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getSendDataSize"
 
     iget v2, p0, Lcom/felicanetworks/felica/offlineimpl/ProposeAdhocResponse;->sendDataSize:I
 
@@ -460,14 +460,14 @@
     .line 199
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getStatusFlag1"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 200
     const-string v0, "%s return=%d"
 
-    const-string v1, "999"
+    const-string v1, "999 getStatusFlag1"
 
     iget-byte v2, p0, Lcom/felicanetworks/felica/offlineimpl/ProposeAdhocResponse;->statusFlag1:B
 
@@ -496,14 +496,14 @@
     .line 211
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getStatusFlag2"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 212
     const-string v0, "%s return=%d"
 
-    const-string v1, "999"
+    const-string v1, "999 getStatusFlag2"
 
     iget-byte v2, p0, Lcom/felicanetworks/felica/offlineimpl/ProposeAdhocResponse;->statusFlag2:B
 

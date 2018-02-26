@@ -57,7 +57,7 @@
     .line 302
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushStartMailerSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -67,7 +67,7 @@
     .line 306
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushStartMailerSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -102,7 +102,7 @@
     .line 72
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushStartMailerSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -132,7 +132,7 @@
     .line 84
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushStartMailerSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -150,7 +150,7 @@
     .line 274
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -162,7 +162,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 readFromParcel"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -220,7 +220,7 @@
     .line 292
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -244,7 +244,7 @@
     .line 352
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -262,7 +262,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 checkFormat"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -277,7 +277,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -294,14 +294,14 @@
     .line 317
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 318
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -320,14 +320,14 @@
     .line 133
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getBody"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 134
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getBody"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartMailerSegment;->body:Ljava/lang/String;
 
@@ -348,14 +348,14 @@
     .line 107
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getCcAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 108
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getCcAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -374,14 +374,14 @@
     .line 146
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getMailerStartupParam"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 147
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getMailerStartupParam"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartMailerSegment;->mailerStartupParam:Ljava/lang/String;
 
@@ -402,14 +402,14 @@
     .line 120
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getSubject"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 121
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getSubject"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartMailerSegment;->subject:Ljava/lang/String;
 
@@ -430,14 +430,14 @@
     .line 94
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getToAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 95
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getToAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -457,14 +457,14 @@
     .line 218
     const-string v0, "%s body=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setBody"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 219
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setBody"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -485,14 +485,14 @@
     .line 186
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setCcAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 187
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setCcAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -513,14 +513,14 @@
     .line 234
     const-string v0, "%s mailerStartupParam=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setMailerStartupParam"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 235
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setMailerStartupParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -541,14 +541,14 @@
     .line 202
     const-string v0, "%s subject=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setSubject"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 203
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setSubject"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -569,14 +569,14 @@
     .line 166
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setToAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 167
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setToAddress"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -598,7 +598,7 @@
     .line 331
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -630,7 +630,7 @@
     .line 340
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

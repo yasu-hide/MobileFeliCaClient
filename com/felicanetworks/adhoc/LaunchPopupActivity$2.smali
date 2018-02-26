@@ -48,7 +48,7 @@
     .line 152
     const-string v0, "%s No button clicked.: dialog = %s whichButton = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 onClick"
 
     .line 153
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -66,7 +66,7 @@
     .line 155
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 onClick"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

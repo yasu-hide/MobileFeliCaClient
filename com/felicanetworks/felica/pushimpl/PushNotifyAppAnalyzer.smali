@@ -28,7 +28,7 @@
     .line 133
     const-string v0, "%s In pushSeg = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -38,7 +38,7 @@
     .line 136
     const-string v0, "%s pushSeg null"
 
-    const-string v1, "800"
+    const-string v1, "800 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -60,7 +60,7 @@
     .line 143
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -86,7 +86,7 @@
 
     const-string v12, "%s In rcvdata = %s"
 
-    const-string v13, "000"
+    const-string v13, "000 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -114,7 +114,7 @@
 
     const-string v12, "%s"
 
-    const-string v13, "998"
+    const-string v13, "998 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -135,7 +135,7 @@
 
     const-string v12, "%s data error"
 
-    const-string v13, "800"
+    const-string v13, "800 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -196,7 +196,7 @@
 
     const-string v12, "%s"
 
-    const-string v13, "001"
+    const-string v13, "001 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -210,7 +210,7 @@
 
     const-string v12, "%s app identification code error"
 
-    const-string v13, "801"
+    const-string v13, "801 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -243,7 +243,7 @@
 
     const-string v12, "%s Exception"
 
-    const-string v13, "802"
+    const-string v13, "802 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -385,7 +385,7 @@
 
     const-string v12, "%s"
 
-    const-string v13, "999"
+    const-string v13, "999 felica/pushimpl/PushNotifyAppAnalyzer"
 
     invoke-static {v11, v12, v13}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -441,7 +441,7 @@
     .line 157
     const-string v1, "%s In Felica = %s : Context = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 execute"
 
     invoke-static {v4, v1, v2, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -454,7 +454,7 @@
     :cond_0
     const-string v1, "%s parameter error"
 
-    const-string v2, "800"
+    const-string v2, "800 execute"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -488,7 +488,7 @@
     .line 170
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 execute"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -510,7 +510,7 @@
 
     const-string v21, "%s"
 
-    const-string v22, "000"
+    const-string v22, "000 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -596,7 +596,7 @@
 
     const-string v21, "%s"
 
-    const-string v22, "001"
+    const-string v22, "001 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -608,7 +608,7 @@
 
     const-string v21, "%s app identification code error"
 
-    const-string v22, "800"
+    const-string v22, "800 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -639,7 +639,7 @@
 
     const-string v21, "%s Exception"
 
-    const-string v22, "801"
+    const-string v22, "801 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -709,7 +709,7 @@
 
     const-string v21, "%s app identification code error"
 
-    const-string v22, "801"
+    const-string v22, "801 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -798,7 +798,7 @@
 
     const-string v21, "%s"
 
-    const-string v22, "004"
+    const-string v22, "004 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -885,7 +885,7 @@
 
     const-string v21, "%s return serializeData "
 
-    const-string v22, "999"
+    const-string v22, "999 serialize"
 
     move/from16 v0, v20
 
@@ -941,7 +941,7 @@
 
     const-string v21, "%s"
 
-    const-string v22, "005"
+    const-string v22, "005 serialize"
 
     invoke-static/range {v20 .. v22}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

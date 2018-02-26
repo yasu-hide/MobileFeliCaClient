@@ -161,7 +161,7 @@
     .line 601
     const-string v0, "%s In areaCode = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 checkAreaCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -179,7 +179,7 @@
 
     const-string v1, "%s (areaCode & ATTRIBUTE_ATTRIBUTE_MASK) = %d"
 
-    const-string v2, "801"
+    const-string v2, "801 checkAreaCode"
 
     .line 610
     and-int/lit8 v3, p1, 0x3f
@@ -204,7 +204,7 @@
     :pswitch_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkAreaCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -524,7 +524,7 @@
     .line 712
     const-string v0, "%s In serviceCode = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 checkEndServiceCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -542,7 +542,7 @@
 
     const-string v1, "%s (endServiceCode & ATTRIBUTE_ATTRIBUTE_MASK) = %d"
 
-    const-string v2, "801"
+    const-string v2, "801 checkEndServiceCode"
 
     .line 720
     and-int/lit8 v3, p1, 0x3f
@@ -567,7 +567,7 @@
     :pswitch_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkEndServiceCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -598,7 +598,7 @@
     .line 628
     const-string v0, "%s In nodeCode = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 checkNodeCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -617,7 +617,7 @@
 
     const-string v1, "%s (nodeCode & ATTRIBUTE_ATTRIBUTE_MASK) = %d"
 
-    const-string v2, "801"
+    const-string v2, "801 checkNodeCode"
 
     .line 653
     and-int/lit8 v3, p1, 0x3f
@@ -642,7 +642,7 @@
     :pswitch_1
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkNodeCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -696,7 +696,7 @@
     .line 671
     const-string v0, "%s In serviceCode = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 checkServiceCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -714,7 +714,7 @@
 
     const-string v1, "%s (serviceCode & ATTRIBUTE_ATTRIBUTE_MASK) = %d"
 
-    const-string v2, "801"
+    const-string v2, "801 checkServiceCode"
 
     .line 694
     and-int/lit8 v3, p1, 0x3f
@@ -739,7 +739,7 @@
     :pswitch_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkServiceCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

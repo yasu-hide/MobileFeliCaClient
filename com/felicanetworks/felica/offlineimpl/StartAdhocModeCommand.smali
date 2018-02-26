@@ -31,7 +31,7 @@
     .line 35
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -45,7 +45,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getInstance"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -60,7 +60,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -91,7 +91,7 @@
     .line 56
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 doSet"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -101,7 +101,7 @@
     .line 59
     const-string v1, "%s : Throw OfflineException = %d"
 
-    const-string v2, "700"
+    const-string v2, "700 doSet"
 
     .line 60
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -135,7 +135,7 @@
     .line 72
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doSet"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -150,7 +150,7 @@
     .local v0, "e":Ljava/lang/ArrayIndexOutOfBoundsException;
     const-string v1, "%s : %s"
 
-    const-string v2, "701"
+    const-string v2, "701 doSet"
 
     invoke-virtual {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;->toString()Ljava/lang/String;
 
@@ -183,7 +183,7 @@
     .line 87
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 get"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -195,7 +195,7 @@
 
     const-string v2, "%s : Throw OfflineException = %d"
 
-    const-string v3, "700"
+    const-string v3, "700 get"
 
     .line 91
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -222,7 +222,7 @@
     .local v0, "response":Lcom/felicanetworks/felica/offlineimpl/StartAdhocModeResponse;
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 get"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

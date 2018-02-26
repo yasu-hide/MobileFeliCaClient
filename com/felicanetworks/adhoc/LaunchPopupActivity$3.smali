@@ -45,7 +45,7 @@
     const/4 v1, 0x4
 
     .line 341
-    const-string v0, "000"
+    const-string v0, "000 onDismiss"
 
     invoke-static {v1, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -55,7 +55,7 @@
     invoke-virtual {v0}, Lcom/felicanetworks/adhoc/LaunchPopupActivity;->finish()V
 
     .line 343
-    const-string v0, "999"
+    const-string v0, "999 onDismiss"
 
     invoke-static {v1, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

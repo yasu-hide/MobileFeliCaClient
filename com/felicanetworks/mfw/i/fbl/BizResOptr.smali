@@ -872,7 +872,7 @@
 
     const-string v9, "%s : resourceData=%s"
 
-    const-string v10, "000"
+    const-string v10, "000 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -896,7 +896,7 @@
 
     const-string v9, "%s invalid edit flag"
 
-    const-string v10, "800"
+    const-string v10, "800 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -949,7 +949,7 @@
 
     const-string v9, "%s invalid rvction num limit"
 
-    const-string v10, "801"
+    const-string v10, "801 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1007,7 +1007,7 @@
 
     const-string v9, "%s invalid used date"
 
-    const-string v10, "812"
+    const-string v10, "812 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1050,7 +1050,7 @@
 
     const-string v9, "%s invalid rvction term"
 
-    const-string v10, "802"
+    const-string v10, "802 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1097,7 +1097,7 @@
 
     const-string v9, "%s invalid date"
 
-    const-string v10, "803"
+    const-string v10, "803 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1140,7 +1140,7 @@
 
     const-string v9, "%s invalid rvction point size"
 
-    const-string v10, "804"
+    const-string v10, "804 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1185,7 +1185,7 @@
 
     const-string v9, "%s invalid rvction point"
 
-    const-string v10, "805"
+    const-string v10, "805 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1221,7 +1221,7 @@
 
     const-string v9, "%s rvction point size unmatch"
 
-    const-string v10, "806"
+    const-string v10, "806 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1259,7 +1259,7 @@
 
     const-string v9, "%s invalid serial number size"
 
-    const-string v10, "807"
+    const-string v10, "807 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1350,7 +1350,7 @@
 
     const-string v9, "%s invalid data(remain)"
 
-    const-string v10, "811"
+    const-string v10, "811 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1389,7 +1389,7 @@
 
     const-string v9, "%s invalid serial number(all 0x00)"
 
-    const-string v10, "808"
+    const-string v10, "808 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1421,7 +1421,7 @@
 
     const-string v9, "%s invalid serial number(partial 0x00)"
 
-    const-string v10, "809"
+    const-string v10, "809 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1451,7 +1451,7 @@
 
     const-string v9, "%s invalid serial number(invalid char)"
 
-    const-string v10, "810"
+    const-string v10, "810 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1500,7 +1500,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "999"
+    const-string v10, "999 generateResDataPermitRvction"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

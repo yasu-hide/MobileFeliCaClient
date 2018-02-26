@@ -61,7 +61,7 @@
     .line 760
     const-string v0, "%s In permitList = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/Felica$ActivateThread$PermitOptrThread"
 
     invoke-static {v2, v0, v1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -85,7 +85,7 @@
     .line 766
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/Felica$ActivateThread$PermitOptrThread"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -94,7 +94,7 @@
 .end method
 
 .method private getCallerSignerHash()Ljava/util/Vector;
-    .locals 21
+    .locals 22
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -115,7 +115,7 @@
 
     const-string v18, "%s"
 
-    const-string v19, "000"
+    const-string v19, "000 getCallerSignerHash"
 
     invoke-static/range {v17 .. v19}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -147,7 +147,7 @@
 
     const-string v18, "%s"
 
-    const-string v19, "800"
+    const-string v19, "800 getCallerSignerHash"
 
     invoke-static/range {v17 .. v19}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -226,7 +226,7 @@
 
     const-string v18, "%s"
 
-    const-string v19, "801"
+    const-string v19, "801 getCallerSignerHash"
 
     invoke-static/range {v17 .. v19}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -326,7 +326,7 @@
 
     const-string v19, "%s"
 
-    const-string v20, "001"
+    const-string v20, "001 getCallerSignerHash"
 
     invoke-static/range {v18 .. v20}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -378,7 +378,7 @@
 
     const-string v18, "%s (count=%d) return "
 
-    const-string v19, "999"
+    const-string v19, "999 getCallerSignerHash"
 
     invoke-virtual/range {v16 .. v16}, Ljava/util/Vector;->size()I
 
@@ -448,7 +448,7 @@
 
     const-string v19, "%s"
 
-    const-string v20, "802"
+    const-string v20, "802 getCallerSignerHash"
 
     move/from16 v0, v17
 
@@ -479,7 +479,7 @@
 
     const-string v19, "%s"
 
-    const-string v20, "802"
+    const-string v20, "802 getCallerSignerHash"
 
     move/from16 v0, v17
 
@@ -594,7 +594,7 @@
     .line 1071
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getErrorMessage"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -608,7 +608,7 @@
     .line 1074
     const-string v0, "%s return errorMsg = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 getErrorMessage"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/Felica$ActivateThread$PermitOptrThread;->errorMessage:Ljava/lang/String;
 
@@ -625,7 +625,7 @@
 
     const-string v1, "%s isScceeded() is false"
 
-    const-string v2, "998"
+    const-string v2, "998 getErrorMessage"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -651,7 +651,7 @@
     .line 1047
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getErrorType"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -665,7 +665,7 @@
     .line 1050
     const-string v0, "%s return errorType = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 getErrorType"
 
     iget v2, p0, Lcom/felicanetworks/mfc/Felica$ActivateThread$PermitOptrThread;->errorType:I
 
@@ -686,7 +686,7 @@
 
     const-string v1, "%s isScceeded() is false"
 
-    const-string v2, "998"
+    const-string v2, "998 getErrorType"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -712,7 +712,7 @@
     .line 1022
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPermit"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -726,7 +726,7 @@
     .line 1025
     const-string v0, "%s return permit = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 getPermit"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/Felica$ActivateThread$PermitOptrThread;->permit:Lcom/felicanetworks/mfw/i/fbl/Permit;
 
@@ -743,7 +743,7 @@
 
     const-string v1, "%s isScceeded() is false"
 
-    const-string v2, "998"
+    const-string v2, "998 getPermit"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -764,14 +764,14 @@
     .line 1004
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 isSucceeded"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 1006
     const-string v0, "%s return scceeded = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 isSucceeded"
 
     iget-boolean v2, p0, Lcom/felicanetworks/mfc/Felica$ActivateThread$PermitOptrThread;->succeeded:Z
 
@@ -800,7 +800,7 @@
     .line 943
     const-string v0, "%s In result = %s : message = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 ntfyVerificationResult"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -814,7 +814,7 @@
     .line 965
     const-string v0, "%s, result=%d, message=%s"
 
-    const-string v1, "702"
+    const-string v1, "702 ntfyVerificationResult"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -826,7 +826,7 @@
     :goto_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 ntfyVerificationResult"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -839,7 +839,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 ntfyVerificationResult"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -854,7 +854,7 @@
     :sswitch_1
     const-string v0, "%s, result=%d, message=%s"
 
-    const-string v1, "700"
+    const-string v1, "700 ntfyVerificationResult"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -876,7 +876,7 @@
     :sswitch_2
     const-string v0, "%s, result=%d, message=%s"
 
-    const-string v1, "701"
+    const-string v1, "701 ntfyVerificationResult"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -926,7 +926,7 @@
 
     const-string v2, "%s %s"
 
-    const-string v3, "000"
+    const-string v3, "000 run"
 
     const-string v4, "PermitOptrThread"
 
@@ -940,7 +940,7 @@
     .line 797
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 run"
 
     invoke-static {v14, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1000,7 +1000,7 @@
     const-string v1, "%s, APPLICATION_VERSION:%s, FILE_DIR:%s, CHIP_ISSUER_ID:%s, USER_AGENT:%s"
 
     .line 829
-    const-string v2, "800"
+    const-string v2, "800 run"
 
     sget-object v3, Lcom/felicanetworks/mfw/i/fbl/Property;->APPLICATION_VERSION:Ljava/lang/String;
 
@@ -1036,7 +1036,7 @@
     const-string v1, "%s, getValue(SYSTEM_FILE_CAREER_IDENTIFY_CODE_KEY) failed, Exception(%s)"
 
     .line 813
-    const-string v2, "802"
+    const-string v2, "802 run"
 
     invoke-virtual {v9}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -1115,7 +1115,7 @@
     .line 885
     const-string v0, "%s"
 
-    const-string v1, "997"
+    const-string v1, "997 run"
 
     invoke-static {v6, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1194,7 +1194,7 @@
     const-string v1, "%s, BizResOptr.init() failed, Exception(%s)"
 
     .line 855
-    const-string v2, "801"
+    const-string v2, "801 run"
 
     invoke-virtual {v9}, Lcom/felicanetworks/mfw/i/cmn/SysException;->toString()Ljava/lang/String;
 
@@ -1223,7 +1223,7 @@
     .line 862
     const-string v1, "%s, BizResOptr.init() failed, Exception(%s)"
 
-    const-string v2, "802"
+    const-string v2, "802 run"
 
     .line 863
     invoke-virtual {v9}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1253,7 +1253,7 @@
     .line 877
     const-string v0, "%s"
 
-    const-string v1, "996"
+    const-string v1, "996 run"
 
     invoke-static {v6, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1295,7 +1295,7 @@
     .line 915
     const-string v0, "%s"
 
-    const-string v1, "003"
+    const-string v1, "003 run"
 
     invoke-static {v14, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1314,7 +1314,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 run"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1360,7 +1360,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 run"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_6
@@ -1386,7 +1386,7 @@
     .line 909
     const-string v0, "%s"
 
-    const-string v1, "998"
+    const-string v1, "998 run"
 
     invoke-static {v6, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1409,7 +1409,7 @@
     .line 982
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 stopVerification"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1426,7 +1426,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 stopVerification"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1439,7 +1439,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 stopVerification"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

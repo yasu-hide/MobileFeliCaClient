@@ -108,7 +108,7 @@
     .line 169
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/BlockCountInformation"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -116,7 +116,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/BlockCountInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 171
-    const-string v0, "999"
+    const-string v0, "999 mfc/BlockCountInformation"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -178,7 +178,7 @@
 
     const-string v1, "%s : in = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     invoke-static {v0, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -197,7 +197,7 @@
     iput v0, p0, Lcom/felicanetworks/mfc/BlockCountInformation;->emptyBlocks:I
 
     .line 157
-    const-string v0, "001 assignedBlocks=%d emptyBlocks=%d"
+    const-string v0, "001 readFromParcel assignedBlocks=%d emptyBlocks=%d"
 
     iget v1, p0, Lcom/felicanetworks/mfc/BlockCountInformation;->assignedBlocks:I
 
@@ -214,7 +214,7 @@
     invoke-static {v3, v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 158
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -301,7 +301,7 @@
 
     const-string v1, "%s : out = %s, flag = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -310,7 +310,7 @@
     invoke-static {v0, v1, v2, p1, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 195
-    const-string v0, "001 assignedBlocks=%d emptyBlocks=%d"
+    const-string v0, "001 writeToParcel assignedBlocks=%d emptyBlocks=%d"
 
     iget v1, p0, Lcom/felicanetworks/mfc/BlockCountInformation;->assignedBlocks:I
 
@@ -337,7 +337,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 200
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     invoke-static {v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

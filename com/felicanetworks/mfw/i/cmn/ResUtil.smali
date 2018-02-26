@@ -185,7 +185,7 @@
     const-string v5, "%s : areaNumber = %s, position = %d, length = %d, listener = %s"
 
     .line 78
-    const-string v6, "000"
+    const-string v6, "000 readArea"
 
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -221,7 +221,7 @@
     const/4 v4, 0x1
 
     .line 83
-    const-string v5, "800 areaNumber = %s, position = %d, length = %d, listener = %s, FILE_DIR = %s"
+    const-string v5, "800 readArea areaNumber = %s, position = %d, length = %d, listener = %s, FILE_DIR = %s"
 
     .line 84
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -386,7 +386,7 @@
     .line 96
     const/4 v4, 0x1
 
-    const-string v5, "801 areaNumber = %s, position = %d, length = %d"
+    const-string v5, "801 readArea areaNumber = %s, position = %d, length = %d"
 
     .line 97
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -496,7 +496,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "002"
+    const-string v6, "002 readArea"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -520,7 +520,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "003"
+    const-string v6, "003 readArea"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -537,7 +537,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "004"
+    const-string v6, "004 readArea"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -553,7 +553,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "005"
+    const-string v6, "005 readArea"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -576,7 +576,7 @@
 
     const-string v5, "%s Exception:%s"
 
-    const-string v6, "803"
+    const-string v6, "803 readArea"
 
     invoke-virtual {v14}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -626,7 +626,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "001"
+    const-string v6, "001 readArea"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_2
@@ -667,7 +667,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "999"
+    const-string v6, "999 readArea"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -690,7 +690,7 @@
     .line 172
     const-string v3, "%s : target = %s, areaNumber = %s, data = %s, position = %d, length = %d"
 
-    const-string v4, "000"
+    const-string v4, "000 recoverOnReading"
 
     .line 173
     invoke-static/range {p3 .. p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -725,7 +725,7 @@
 
     const-string v3, "%s createNewFile() failure"
 
-    const-string v4, "800"
+    const-string v4, "800 recoverOnReading"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -755,7 +755,7 @@
 
     const-string v3, "%s Exception:%s"
 
-    const-string v4, "801"
+    const-string v4, "801 recoverOnReading"
 
     invoke-virtual {v10}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -847,7 +847,7 @@
 
     const-string v3, "%s size unmatch"
 
-    const-string v4, "803"
+    const-string v4, "803 recoverOnReading"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -874,7 +874,7 @@
     :try_start_2
     const-string v3, "%s Exception:%s"
 
-    const-string v4, "802"
+    const-string v4, "802 recoverOnReading"
 
     invoke-virtual {v11}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -927,7 +927,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 recoverOnReading"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_3
@@ -948,7 +948,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 recoverOnReading"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -981,7 +981,7 @@
     .line 354
     const-string v3, "%s : target = %s, areaNumber = %s, data = %s, position = %d, length = %d"
 
-    const-string v4, "000"
+    const-string v4, "000 recoverOnWriting"
 
     .line 355
     invoke-static/range {p3 .. p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1016,7 +1016,7 @@
 
     const-string v3, "%s createNewFile() failure"
 
-    const-string v4, "800"
+    const-string v4, "800 recoverOnWriting"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1046,7 +1046,7 @@
 
     const-string v3, "%s Exception:%s"
 
-    const-string v4, "801"
+    const-string v4, "801 recoverOnWriting"
 
     invoke-virtual {v10}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -1142,7 +1142,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 recoverOnWriting"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1163,7 +1163,7 @@
     :try_start_2
     const-string v3, "%s Exception:%s"
 
-    const-string v4, "802"
+    const-string v4, "802 recoverOnWriting"
 
     invoke-virtual {v11}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -1213,7 +1213,7 @@
     const-string v7, "%s : areaNumber = %s, position = %d, data = %s, length = %d, listener = %s"
 
     .line 257
-    const-string v8, "000"
+    const-string v8, "000 writeToArea"
 
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1261,7 +1261,7 @@
     const/4 v6, 0x1
 
     .line 262
-    const-string v7, "800 areaNumber = %s, position = %d, data = %s, length = %d, listener = %s, FILE_DIR = %s"
+    const-string v7, "800 writeToArea areaNumber = %s, position = %d, data = %s, length = %d, listener = %s, FILE_DIR = %s"
 
     .line 263
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1447,7 +1447,7 @@
     .line 276
     const/4 v6, 0x1
 
-    const-string v7, "801 areaNumber = %s, position = %d, length = %d"
+    const-string v7, "801 writeToArea areaNumber = %s, position = %d, length = %d"
 
     .line 277
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1532,7 +1532,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "001"
+    const-string v8, "001 writeToArea"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1549,7 +1549,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "002"
+    const-string v8, "002 writeToArea"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1565,7 +1565,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "003"
+    const-string v8, "003 writeToArea"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1588,7 +1588,7 @@
 
     const-string v7, "%s Exception:%s"
 
-    const-string v8, "803"
+    const-string v8, "803 writeToArea"
 
     invoke-virtual/range {v16 .. v16}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -1670,7 +1670,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "999"
+    const-string v8, "999 writeToArea"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

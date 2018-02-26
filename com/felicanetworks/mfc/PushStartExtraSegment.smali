@@ -75,7 +75,7 @@
     .line 138
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushStartExtraSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -85,7 +85,7 @@
     .line 142
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushStartExtraSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -113,7 +113,7 @@
     .line 112
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -125,7 +125,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 readFromParcel"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -166,7 +166,7 @@
     .line 128
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 readFromParcel"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -232,7 +232,7 @@
     .line 164
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -256,7 +256,7 @@
     .line 172
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

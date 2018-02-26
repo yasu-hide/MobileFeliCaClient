@@ -34,7 +34,7 @@
     .line 55
     const-string v0, "%s In pushSeg = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushStartExtraAnalyzer"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -44,7 +44,7 @@
     .line 58
     const-string v0, "%s pushSeg null"
 
-    const-string v1, "800"
+    const-string v1, "800 felica/pushimpl/PushStartExtraAnalyzer"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -66,7 +66,7 @@
     .line 65
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushStartExtraAnalyzer"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -110,7 +110,7 @@
     .line 170
     const-string v6, "%s control info error"
 
-    const-string v7, "800"
+    const-string v7, "800 felica/pushimpl/PushStartExtraAnalyzer"
 
     invoke-static {v10, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -143,7 +143,7 @@
 
     const-string v7, "%s SendPushSecurityConfig.getInstance() return null"
 
-    const-string v8, "803"
+    const-string v8, "803 felica/pushimpl/PushStartExtraAnalyzer"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -171,7 +171,7 @@
     .local v3, "e":Ljava/lang/IllegalArgumentException;
     const-string v6, "%s throws IllegalArgumentException"
 
-    const-string v7, "802"
+    const-string v7, "802 felica/pushimpl/PushStartExtraAnalyzer"
 
     invoke-static {v10, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -286,14 +286,14 @@
     .line 82
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 execute"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 83
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 execute"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -327,7 +327,7 @@
     .line 101
     const-string v6, "%s"
 
-    const-string v7, "000"
+    const-string v7, "000 serialize"
 
     invoke-static {v8, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -363,7 +363,7 @@
     .line 112
     const-string v6, "%s control info error"
 
-    const-string v7, "800"
+    const-string v7, "800 serialize"
 
     invoke-static {v9, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -387,7 +387,7 @@
     .line 117
     const-string v6, "%s extra info error"
 
-    const-string v7, "801"
+    const-string v7, "801 serialize"
 
     invoke-static {v9, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -433,7 +433,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "999"
+    const-string v8, "999 serialize"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -454,7 +454,7 @@
     .local v1, "e":Ljava/lang/Exception;
     const-string v6, "%s size over (%d)"
 
-    const-string v7, "803"
+    const-string v7, "803 serialize"
 
     invoke-virtual {v4}, Lcom/felicanetworks/felica/util/ByteBuffer;->getLength()I
 

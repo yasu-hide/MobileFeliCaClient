@@ -93,7 +93,7 @@
     .line 92
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/impl/chip/v20/Chip"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -107,7 +107,7 @@
     .line 94
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/impl/chip/v20/Chip"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -135,7 +135,7 @@
     .line 478
     const-string v2, "%s command=%s,timeout=%d"
 
-    const-string v3, "000"
+    const-string v3, "000 executeCommand"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -172,7 +172,7 @@
     .line 488
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 executeCommand"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -211,7 +211,7 @@
     .line 494
     const-string v2, "%s"
 
-    const-string v3, "701"
+    const-string v3, "701 executeCommand"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -226,7 +226,7 @@
     :cond_1
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 executeCommand"
 
     invoke-static {v6, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -254,7 +254,7 @@
     .line 514
     const-string v1, "%s command=%s,timeout=%d"
 
-    const-string v4, "000"
+    const-string v4, "000 executeThruCommand"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -295,7 +295,7 @@
     .line 526
     const-string v1, "%s"
 
-    const-string v4, "700"
+    const-string v4, "700 executeThruCommand"
 
     invoke-static {v6, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -334,7 +334,7 @@
     .line 532
     const-string v1, "%s"
 
-    const-string v4, "701"
+    const-string v4, "701 executeThruCommand"
 
     invoke-static {v6, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -358,7 +358,7 @@
     .line 536
     const-string v1, "%s"
 
-    const-string v4, "702"
+    const-string v4, "702 executeThruCommand"
 
     invoke-static {v6, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -384,7 +384,7 @@
     .line 540
     const-string v1, "%s"
 
-    const-string v4, "703"
+    const-string v4, "703 executeThruCommand"
 
     invoke-static {v6, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -401,7 +401,7 @@
     :cond_3
     const-string v1, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 executeThruCommand"
 
     invoke-static {v7, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -427,7 +427,7 @@
     .line 894
     const-string v4, "%s"
 
-    const-string v7, "000"
+    const-string v7, "000 getRFSState"
 
     invoke-static {v9, v4, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -468,7 +468,7 @@
     .line 915
     const-string v7, "%s return=%b"
 
-    const-string v8, "999"
+    const-string v8, "999 getRFSState"
 
     if-eqz v2, :cond_0
 
@@ -498,7 +498,7 @@
     .local v0, "e":Ljava/io/IOException;
     const-string v4, "%s"
 
-    const-string v6, "700"
+    const-string v6, "700 getRFSState"
 
     invoke-static {v5, v4, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -549,7 +549,7 @@
     .line 446
     const-string v1, "%s timeout=%d,skipPortReady=%b"
 
-    const-string v4, "000"
+    const-string v4, "000 read"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -599,7 +599,7 @@
     :cond_1
     const-string v1, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 read"
 
     invoke-static {v9, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -615,7 +615,7 @@
     .local v0, "e":Lcom/felicanetworks/felica/FeliCaChipException;
     const-string v1, "%s"
 
-    const-string v4, "700"
+    const-string v4, "700 read"
 
     invoke-static {v8, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -631,7 +631,7 @@
     .local v0, "e":Ljava/lang/Exception;
     const-string v1, "%s"
 
-    const-string v4, "701"
+    const-string v4, "701 read"
 
     invoke-static {v8, v1, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -666,7 +666,7 @@
     .line 980
     const-string v3, "%s cen=%b"
 
-    const-string v5, "000"
+    const-string v5, "000 setCENState"
 
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -704,7 +704,7 @@
     .line 997
     const-string v3, "%"
 
-    const-string v4, "999"
+    const-string v4, "999 setCENState"
 
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -727,7 +727,7 @@
     .local v1, "e":Ljava/io/IOException;
     const-string v3, "%"
 
-    const-string v5, "700"
+    const-string v5, "700 setCENState"
 
     invoke-static {v4, v3, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -760,7 +760,7 @@
     .line 603
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 cleanupWithPonCtrl"
 
     invoke-static {v7, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -775,7 +775,7 @@
     :try_start_0
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 cleanupWithPonCtrl"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -793,7 +793,7 @@
     :try_start_1
     const-string v3, "%s"
 
-    const-string v4, "002"
+    const-string v4, "002 cleanupWithPonCtrl"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -820,7 +820,7 @@
     :try_start_2
     const-string v3, "%s"
 
-    const-string v4, "003"
+    const-string v4, "003 cleanupWithPonCtrl"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -847,7 +847,7 @@
     :try_start_3
     const-string v3, "%s"
 
-    const-string v4, "004"
+    const-string v4, "004 cleanupWithPonCtrl"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -866,7 +866,7 @@
     :cond_2
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 cleanupWithPonCtrl"
 
     invoke-static {v7, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -881,7 +881,7 @@
     .local v1, "e1":Lcom/felicanetworks/felica/FeliCaChipException;
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 cleanupWithPonCtrl"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -896,7 +896,7 @@
     .local v0, "e":Ljava/io/IOException;
     const-string v2, "%s"
 
-    const-string v3, "701"
+    const-string v3, "701 cleanupWithPonCtrl"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -911,7 +911,7 @@
     .restart local v0    # "e":Ljava/io/IOException;
     const-string v2, "%s"
 
-    const-string v3, "702"
+    const-string v3, "702 cleanupWithPonCtrl"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -926,7 +926,7 @@
     .restart local v0    # "e":Ljava/io/IOException;
     const-string v2, "%s"
 
-    const-string v3, "703"
+    const-string v3, "703 cleanupWithPonCtrl"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -948,7 +948,7 @@
     .line 700
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 cleanupWithoutPonCtrl"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -963,7 +963,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 cleanupWithoutPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -982,7 +982,7 @@
     :cond_0
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 cleanupWithoutPonCtrl"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -997,7 +997,7 @@
     :try_start_1
     const-string v2, "%s"
 
-    const-string v3, "003"
+    const-string v3, "003 cleanupWithoutPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1016,7 +1016,7 @@
     :cond_1
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 cleanupWithoutPonCtrl"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1031,7 +1031,7 @@
     .local v0, "e":Ljava/io/IOException;
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 cleanupWithoutPonCtrl"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1046,7 +1046,7 @@
     .restart local v0    # "e":Ljava/io/IOException;
     const-string v1, "%s"
 
-    const-string v2, "701"
+    const-string v2, "701 cleanupWithoutPonCtrl"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1067,7 +1067,7 @@
     .line 161
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 doClose"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1094,7 +1094,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 doClose"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1111,7 +1111,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 doClose"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1128,14 +1128,14 @@
     .line 1064
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 doCloseNoReset"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 1065
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 doCloseNoReset"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1159,7 +1159,7 @@
     .line 238
     const-string v1, "%s command=%s,timeout=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 doExecute"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1181,7 +1181,7 @@
     .local v0, "ret":[B
     const-string v1, "%s return=%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doExecute"
 
     invoke-static {v4, v1, v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1205,7 +1205,7 @@
     .line 263
     const-string v1, "%s command=%s,timeout=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 doExecuteThru"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1227,7 +1227,7 @@
     .local v0, "ret":[B
     const-string v1, "%s return=%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doExecuteThru"
 
     invoke-static {v4, v1, v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1263,7 +1263,7 @@
     .local v0, "currentTime":J
     const-string v4, "%s"
 
-    const-string v5, "000"
+    const-string v5, "000 doInitialize"
 
     invoke-static {v10, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1288,7 +1288,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "001"
+    const-string v6, "001 doInitialize"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -1299,7 +1299,7 @@
     :goto_0
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 doInitialize"
 
     invoke-static {v10, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1314,7 +1314,7 @@
     .local v2, "e":Lcom/felicanetworks/felica/FeliCaChipException;
     const-string v4, "%s"
 
-    const-string v5, "700"
+    const-string v5, "700 doInitialize"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1330,7 +1330,7 @@
     .line 123
     const-string v4, "%s"
 
-    const-string v5, "701"
+    const-string v5, "701 doInitialize"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1346,7 +1346,7 @@
     .local v2, "e":Ljava/lang/Exception;
     const-string v4, "%s"
 
-    const-string v5, "702"
+    const-string v5, "702 doInitialize"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1396,14 +1396,14 @@
     .line 148
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 doInitializeWithoutPonCtrl"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 149
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 doInitializeWithoutPonCtrl"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1506,7 +1506,7 @@
     .line 185
     const-string v4, "%s"
 
-    const-string v5, "000"
+    const-string v5, "000 doReset"
 
     invoke-static {v10, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1531,7 +1531,7 @@
     .line 190
     const-string v4, "%s"
 
-    const-string v5, "700"
+    const-string v5, "700 doReset"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1576,7 +1576,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "001"
+    const-string v6, "001 doReset"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -1587,7 +1587,7 @@
     :goto_0
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 doReset"
 
     invoke-static {v10, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1602,7 +1602,7 @@
     .local v2, "e":Lcom/felicanetworks/felica/FeliCaChipException;
     const-string v4, "%s"
 
-    const-string v5, "700"
+    const-string v5, "700 doReset"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1618,7 +1618,7 @@
     .line 209
     const-string v4, "%s"
 
-    const-string v5, "701"
+    const-string v5, "701 doReset"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1634,7 +1634,7 @@
     .local v2, "e":Ljava/lang/Exception;
     const-string v4, "%s"
 
-    const-string v5, "702"
+    const-string v5, "702 doReset"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1720,14 +1720,14 @@
     .line 875
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 doSend"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 876
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 doSend"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1753,7 +1753,7 @@
     .line 937
     const-string v4, "%s"
 
-    const-string v7, "000"
+    const-string v7, "000 getCENState"
 
     invoke-static {v9, v4, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1794,7 +1794,7 @@
     .line 958
     const-string v7, "%s return=%b"
 
-    const-string v8, "999"
+    const-string v8, "999 getCENState"
 
     if-eqz v3, :cond_0
 
@@ -1825,7 +1825,7 @@
     .local v1, "e":Ljava/io/IOException;
     const-string v4, "%s"
 
-    const-string v6, "700"
+    const-string v6, "700 getCENState"
 
     invoke-static {v5, v4, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1875,7 +1875,7 @@
     .line 748
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 initialize"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1890,7 +1890,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "998"
+    const-string v3, "998 initialize"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -1901,7 +1901,7 @@
     .line 767
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 initialize"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1913,7 +1913,7 @@
     .line 769
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 initialize"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1948,7 +1948,7 @@
     .line 767
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 initialize"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1960,7 +1960,7 @@
     .line 769
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 initialize"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1971,7 +1971,7 @@
     :cond_2
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 initialize"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1988,7 +1988,7 @@
     :try_start_2
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 initialize"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2005,7 +2005,7 @@
     .line 767
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 initialize"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2017,7 +2017,7 @@
     .line 769
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 initialize"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2039,7 +2039,7 @@
     :try_start_3
     const-string v2, "%s"
 
-    const-string v3, "701"
+    const-string v3, "701 initialize"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2075,7 +2075,7 @@
     .line 812
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 initializeWithoutPonCtrl"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2090,7 +2090,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "998"
+    const-string v3, "998 initializeWithoutPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_0
@@ -2101,7 +2101,7 @@
     .line 831
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 initializeWithoutPonCtrl"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2113,7 +2113,7 @@
     .line 833
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 initializeWithoutPonCtrl"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2148,7 +2148,7 @@
     .line 831
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 initializeWithoutPonCtrl"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2160,7 +2160,7 @@
     .line 833
     const-string v1, "%s"
 
-    const-string v2, "002"
+    const-string v2, "002 initializeWithoutPonCtrl"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2171,7 +2171,7 @@
     :cond_2
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 initializeWithoutPonCtrl"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2188,7 +2188,7 @@
     :try_start_2
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 initializeWithoutPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2205,7 +2205,7 @@
     .line 831
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 initializeWithoutPonCtrl"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2217,7 +2217,7 @@
     .line 833
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 initializeWithoutPonCtrl"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2239,7 +2239,7 @@
     :try_start_3
     const-string v2, "%s"
 
-    const-string v3, "701"
+    const-string v3, "701 initializeWithoutPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2274,7 +2274,7 @@
     .line 400
     const-string v1, "%s limit=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 readByte"
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2291,7 +2291,7 @@
     .local v0, "ret":I
     const-string v1, "%s return=0x%s"
 
-    const-string v2, "999"
+    const-string v2, "999 readByte"
 
     invoke-static {v0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
@@ -2321,7 +2321,7 @@
     .line 424
     const-string v1, "%s buf=\"\",off=%d,len=%d,limit=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 readContinuousBytes"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2348,7 +2348,7 @@
     .line 427
     const-string v1, "%s buf=%s"
 
-    const-string v2, "999"
+    const-string v2, "999 readContinuousBytes"
 
     invoke-static {v0, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -2373,7 +2373,7 @@
     .line 1011
     const-string v2, "%s pon=%b"
 
-    const-string v4, "000"
+    const-string v4, "000 readContinuousBytes"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2396,7 +2396,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "001"
+    const-string v5, "001 readContinuousBytes"
 
     invoke-static {v2, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2423,7 +2423,7 @@
     .line 1033
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 readContinuousBytes"
 
     invoke-static {v6, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2445,7 +2445,7 @@
     .local v0, "e":Ljava/io/IOException;
     const-string v2, "%s"
 
-    const-string v4, "700"
+    const-string v4, "700 readContinuousBytes"
 
     invoke-static {v3, v2, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2479,7 +2479,7 @@
     .line 558
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 setupWithPonCtrl"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2496,7 +2496,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 setupWithPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2523,7 +2523,7 @@
     .local v0, "e":Ljava/io/IOException;
     const-string v1, "%s"
 
-    const-string v2, "701"
+    const-string v2, "701 setupWithPonCtrl"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2574,7 +2574,7 @@
     .line 592
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 setupWithPonCtrl"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2596,7 +2596,7 @@
     .line 665
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 setupWithPonCtrl"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2624,7 +2624,7 @@
     .line 689
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 setupWithPonCtrl"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2641,7 +2641,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 setupWithPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2675,7 +2675,7 @@
     .line 783
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 terminate"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2689,7 +2689,7 @@
     .line 791
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 terminate"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2706,7 +2706,7 @@
     :goto_0
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 terminate"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2724,7 +2724,7 @@
     :try_start_1
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 terminate"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -2733,7 +2733,7 @@
     .line 791
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 terminate"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2756,7 +2756,7 @@
     .line 791
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 terminate"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2786,7 +2786,7 @@
     .line 847
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 terminateWithoutPonCtrl"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2800,7 +2800,7 @@
     .line 855
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 terminateWithoutPonCtrl"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2817,7 +2817,7 @@
     :goto_0
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 terminateWithoutPonCtrl"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2835,7 +2835,7 @@
     :try_start_1
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 terminateWithoutPonCtrl"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -2844,7 +2844,7 @@
     .line 855
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 terminateWithoutPonCtrl"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2867,7 +2867,7 @@
     .line 855
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 terminateWithoutPonCtrl"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2900,7 +2900,7 @@
     .line 361
     const-string v0, "%s data=%d,flush=%b"
 
-    const-string v1, "000"
+    const-string v1, "000 writeByte"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2918,7 +2918,7 @@
     .line 363
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeByte"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -2943,7 +2943,7 @@
     .line 381
     const-string v1, "%s buf=%s,off=%d,len=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 writeContinuousBytes"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2968,7 +2968,7 @@
     .line 384
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 writeContinuousBytes"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

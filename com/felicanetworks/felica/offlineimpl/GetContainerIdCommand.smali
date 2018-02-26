@@ -22,14 +22,14 @@
     .line 35
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/offlineimpl/GetContainerIdCommand"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 36
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/offlineimpl/GetContainerIdCommand"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -46,7 +46,7 @@
     .line 47
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -58,7 +58,7 @@
     .line 49
     const-string v0, "%s"
 
-    const-string v1, "001"
+    const-string v1, "001 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -73,7 +73,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -100,7 +100,7 @@
     .line 67
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 doSet"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -110,7 +110,7 @@
     .line 69
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 doSet"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -145,7 +145,7 @@
     .line 82
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 doSet"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -160,7 +160,7 @@
     .local v0, "e":Ljava/lang/ArrayIndexOutOfBoundsException;
     const-string v1, "%s"
 
-    const-string v2, "701"
+    const-string v2, "701 doSet"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -189,7 +189,7 @@
     .line 97
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 get"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -202,7 +202,7 @@
     .local v0, "response":Lcom/felicanetworks/felica/offlineimpl/GetContainerIdResponse;
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 get"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

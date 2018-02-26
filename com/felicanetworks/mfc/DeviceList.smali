@@ -117,7 +117,7 @@
     .line 325
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/DeviceList"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -125,7 +125,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/DeviceList;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 327
-    const-string v0, "999"
+    const-string v0, "999 mfc/DeviceList"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -235,7 +235,7 @@
     .line 299
     const-string v4, "%s : in = %s"
 
-    const-string v5, "000"
+    const-string v5, "000 readFromParcel"
 
     invoke-static {v6, v4, v5, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -275,7 +275,7 @@
     iput v4, p0, Lcom/felicanetworks/mfc/DeviceList;->nextID:I
 
     .line 313
-    const-string v4, "001 deviceList len=%d"
+    const-string v4, "001 readFromParcel deviceList len=%d"
 
     iget-object v5, p0, Lcom/felicanetworks/mfc/DeviceList;->deviceList:Ljava/util/Hashtable;
 
@@ -290,7 +290,7 @@
     invoke-static {v6, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 314
-    const-string v4, "999"
+    const-string v4, "999 readFromParcel"
 
     invoke-static {v6, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -517,7 +517,7 @@
     .line 377
     const-string v9, "%s"
 
-    const-string v10, "000"
+    const-string v10, "000 checkFormat"
 
     invoke-static {v13, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -548,7 +548,7 @@
     :cond_0
     const-string v9, "%s DeviceList is invalid data"
 
-    const-string v10, "800"
+    const-string v10, "800 checkFormat"
 
     invoke-static {v11, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -593,7 +593,7 @@
     :cond_2
     const-string v9, "%s DeviceID is invalid data"
 
-    const-string v10, "801"
+    const-string v10, "801 checkFormat"
 
     invoke-static {v11, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -660,7 +660,7 @@
     :cond_4
     const-string v9, "%s Device_FeliCa is invalid data"
 
-    const-string v10, "803"
+    const-string v10, "803 checkFormat"
 
     invoke-static {v11, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -689,7 +689,7 @@
     .line 394
     const-string v9, "%s DeviceID is invalid data"
 
-    const-string v10, "802"
+    const-string v10, "802 checkFormat"
 
     invoke-static {v11, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -754,7 +754,7 @@
     :cond_8
     const-string v9, "%s Device_Display is invalid data"
 
-    const-string v10, "804"
+    const-string v10, "804 checkFormat"
 
     invoke-static {v11, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -808,7 +808,7 @@
     .line 434
     const-string v9, "%s"
 
-    const-string v10, "999"
+    const-string v10, "999 checkFormat"
 
     invoke-static {v13, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -903,7 +903,7 @@
     .line 429
     const-string v9, "%s There are plural same devices"
 
-    const-string v10, "805"
+    const-string v10, "805 checkFormat"
 
     invoke-static {v11, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1125,7 +1125,7 @@
 
     const-string v4, "%s : out = %s, flag = %d"
 
-    const-string v5, "000"
+    const-string v5, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1134,7 +1134,7 @@
     invoke-static {v3, v4, v5, p1, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 339
-    const-string v3, "001 deviceList len=%d"
+    const-string v3, "001 writeToParcel deviceList len=%d"
 
     iget-object v4, p0, Lcom/felicanetworks/mfc/DeviceList;->deviceList:Ljava/util/Hashtable;
 
@@ -1186,7 +1186,7 @@
     invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 353
-    const-string v3, "999"
+    const-string v3, "999 writeToParcel"
 
     invoke-static {v7, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

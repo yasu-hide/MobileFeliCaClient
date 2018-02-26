@@ -49,14 +49,14 @@
     .line 69
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAdhocMode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 71
     const-string v0, "%s return adhocMode = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getAdhocMode"
 
     iget v2, p0, Lcom/felicanetworks/mfc/AdhocInformation;->adhocMode:I
 
@@ -81,14 +81,14 @@
     .line 144
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getReceiveData"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 146
     const-string v0, "%s return receiveData = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getReceiveData"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/AdhocInformation;->receiveData:[B
 
@@ -109,14 +109,14 @@
     .line 107
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getSessionID"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 109
     const-string v0, "%s return sessionID = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getSessionID"
 
     iget v2, p0, Lcom/felicanetworks/mfc/AdhocInformation;->sessionID:I
 
@@ -144,7 +144,7 @@
     .line 86
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAdhocMode"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -156,7 +156,7 @@
     .line 89
     const-string v0, "%s byteBuffer == %d"
 
-    const-string v1, "800"
+    const-string v1, "800 setAdhocMode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -179,7 +179,7 @@
 
     const-string v1, "%s adhocMode = %s"
 
-    const-string v2, "001"
+    const-string v2, "001 setAdhocMode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -193,7 +193,7 @@
     .line 96
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAdhocMode"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -211,7 +211,7 @@
     .line 161
     const-string v0, "%s In receiveData = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 setReceiveData"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -223,7 +223,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 setReceiveData"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -245,7 +245,7 @@
 
     const-string v1, "%s receiveData.length > %d"
 
-    const-string v2, "800"
+    const-string v2, "800 setReceiveData"
 
     array-length v3, p1
 
@@ -271,7 +271,7 @@
     .line 177
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setReceiveData"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -289,7 +289,7 @@
     .line 124
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setSessionID"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -306,7 +306,7 @@
 
     const-string v1, "%s sessionID == %d"
 
-    const-string v2, "800"
+    const-string v2, "800 setSessionID"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -329,7 +329,7 @@
 
     const-string v1, "%s sessionID = %s"
 
-    const-string v2, "001"
+    const-string v2, "001 setSessionID"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -343,7 +343,7 @@
     .line 133
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setSessionID"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

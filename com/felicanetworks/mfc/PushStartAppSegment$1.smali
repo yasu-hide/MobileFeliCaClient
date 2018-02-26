@@ -51,14 +51,14 @@
     .line 196
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 createFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 197
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 createFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -94,14 +94,14 @@
     .line 204
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 newArray"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 205
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 newArray"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

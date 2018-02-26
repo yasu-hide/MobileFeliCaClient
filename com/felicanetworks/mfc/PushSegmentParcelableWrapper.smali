@@ -52,7 +52,7 @@
     .line 43
     const-string v0, "%s in"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushSegmentParcelableWrapper"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -74,7 +74,7 @@
     .line 52
     const-string v0, "%s pushSegment=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushSegmentParcelableWrapper"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushSegmentParcelableWrapper;->pushSegment:Lcom/felicanetworks/mfc/PushSegment;
 
@@ -107,7 +107,7 @@
     .line 28
     const-string v0, "%s pushSegment=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushSegmentParcelableWrapper"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -117,7 +117,7 @@
     .line 32
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushSegmentParcelableWrapper"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -136,14 +136,14 @@
     .line 124
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 125
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -162,14 +162,14 @@
     .line 77
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPushSegment"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 78
     const-string v0, "%s pushSegment=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getPushSegment"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushSegmentParcelableWrapper;->pushSegment:Lcom/felicanetworks/mfc/PushSegment;
 
@@ -191,7 +191,7 @@
     .line 63
     const-string v0, "%s pushSegment=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setPushSegment"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -201,7 +201,7 @@
     .line 67
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setPushSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -220,7 +220,7 @@
     .line 140
     const-string v0, "%s dst"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -232,7 +232,7 @@
     .line 144
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

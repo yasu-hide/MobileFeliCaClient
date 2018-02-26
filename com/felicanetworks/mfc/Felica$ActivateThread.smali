@@ -78,7 +78,7 @@
     .line 571
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkInterrupted"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -94,7 +94,7 @@
 
     const-string v1, "%s %s"
 
-    const-string v2, "001"
+    const-string v2, "001 checkInterrupted"
 
     const-string v3, "Interruption is occured."
 
@@ -113,7 +113,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkInterrupted"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -134,7 +134,7 @@
     .line 584
     const-string v6, "%s %s"
 
-    const-string v7, "000"
+    const-string v7, "000 run"
 
     const-string v8, "ActivateThread"
 
@@ -220,7 +220,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "001"
+    const-string v8, "001 run"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -258,7 +258,7 @@
     :try_start_2
     const-string v7, "%s"
 
-    const-string v8, "006"
+    const-string v8, "006 run"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -275,7 +275,7 @@
     :goto_2
     const-string v6, "%s"
 
-    const-string v7, "999"
+    const-string v7, "999 run"
 
     invoke-static {v13, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -306,7 +306,7 @@
 
     const-string v7, "%s RemoteException"
 
-    const-string v8, "800"
+    const-string v8, "800 run"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -316,7 +316,7 @@
     .line 676
     const-string v6, "%s"
 
-    const-string v7, "009"
+    const-string v7, "009 run"
 
     invoke-static {v11, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -362,7 +362,7 @@
     :try_start_6
     const-string v7, "%s"
 
-    const-string v8, "002"
+    const-string v8, "002 run"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -414,7 +414,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "003"
+    const-string v9, "003 run"
 
     invoke-static {v6, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -470,7 +470,7 @@
     .local v3, "ie":Ljava/lang/InterruptedException;
     const-string v6, "%s InterrptedException"
 
-    const-string v7, "801"
+    const-string v7, "801 run"
 
     invoke-static {v12, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -484,7 +484,7 @@
     :try_start_b
     const-string v8, "%s"
 
-    const-string v9, "004"
+    const-string v9, "004 run"
 
     invoke-static {v6, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -535,7 +535,7 @@
     :try_start_c
     const-string v8, "%s"
 
-    const-string v9, "005"
+    const-string v9, "005 run"
 
     invoke-static {v6, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -574,7 +574,7 @@
     :try_start_d
     const-string v7, "%s"
 
-    const-string v8, "007"
+    const-string v8, "007 run"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -586,7 +586,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "008"
+    const-string v8, "008 run"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

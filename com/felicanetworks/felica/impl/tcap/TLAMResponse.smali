@@ -52,7 +52,7 @@
     .line 83
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/impl/tcap/TLAMResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -75,7 +75,7 @@
     .line 89
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/impl/tcap/TLAMResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -94,14 +94,14 @@
     .line 485
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getCookie"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 486
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getCookie"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -121,14 +121,14 @@
     .line 471
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getValue"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 472
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getValue"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -153,7 +153,7 @@
 
     const-string v11, "%s"
 
-    const-string v12, "000"
+    const-string v12, "000 parse"
 
     invoke-static {v10, v11, v12}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -230,7 +230,7 @@
 
     const-string v11, "%s"
 
-    const-string v12, "999"
+    const-string v12, "999 parse"
 
     invoke-static {v10, v11, v12}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -863,7 +863,7 @@
     .line 117
     const-string v8, "%s"
 
-    const-string v9, "000"
+    const-string v9, "000 receive"
 
     invoke-static {v12, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -882,7 +882,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "001"
+    const-string v10, "001 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -902,7 +902,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "700"
+    const-string v10, "700 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -940,7 +940,7 @@
     .local v3, "he":Lcom/felicanetworks/felica/impl/tcap/HTTPException;
     const-string v8, "%s HTTPException"
 
-    const-string v9, "705"
+    const-string v9, "705 receive"
 
     invoke-static {v11, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -956,7 +956,7 @@
     :try_start_1
     const-string v9, "%s"
 
-    const-string v10, "701"
+    const-string v10, "701 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -981,7 +981,7 @@
     .local v1, "e":Ljava/lang/Exception;
     const-string v8, "%s Exception"
 
-    const-string v9, "706"
+    const-string v9, "706 receive"
 
     invoke-static {v11, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1013,7 +1013,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "702"
+    const-string v10, "702 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1041,7 +1041,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "002"
+    const-string v10, "002 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1069,7 +1069,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "703"
+    const-string v10, "703 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1101,7 +1101,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "704"
+    const-string v10, "704 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1131,7 +1131,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "003"
+    const-string v10, "003 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1160,7 +1160,7 @@
     .line 199
     const-string v8, "%s"
 
-    const-string v9, "999"
+    const-string v9, "999 receive"
 
     invoke-static {v12, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1175,7 +1175,7 @@
     :try_start_3
     const-string v9, "%s"
 
-    const-string v10, "004"
+    const-string v10, "004 receive"
 
     invoke-static {v8, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1199,7 +1199,7 @@
     .line 98
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 reset"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1218,7 +1218,7 @@
     .line 104
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 reset"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

@@ -62,7 +62,7 @@
     .line 58
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PINCheckData"
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -73,7 +73,7 @@
     .line 59
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PINCheckData"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -97,7 +97,7 @@
     .line 158
     const-string v0, "%s : in = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PINCheckData"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -107,7 +107,7 @@
     .line 160
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PINCheckData"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -135,7 +135,7 @@
     .line 144
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v4, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -149,7 +149,7 @@
     .line 147
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINCheckData;->pin:J
 
@@ -179,7 +179,7 @@
     .line 198
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -206,7 +206,7 @@
 
     const-string v1, "%s : Throw IllegalArgumentException EXC_PIN"
 
-    const-string v2, "800"
+    const-string v2, "800 checkFormat"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -223,7 +223,7 @@
     :cond_1
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -250,14 +250,14 @@
     .line 85
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPIN"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 86
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getPIN"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINCheckData;->pin:J
 
@@ -282,14 +282,14 @@
     .line 72
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getType"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 73
     const-string v0, "%s : TYPE = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getType"
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -316,7 +316,7 @@
     .line 103
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setPIN"
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -343,7 +343,7 @@
 
     const-string v1, "%s : Throw IllegalArgumentException EXC_PIN"
 
-    const-string v2, "800"
+    const-string v2, "800 setPIN"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -363,7 +363,7 @@
     .line 109
     const-string v0, "%s : this.pin = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 setPIN"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINCheckData;->pin:J
 
@@ -388,7 +388,7 @@
     .line 183
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -404,7 +404,7 @@
     .line 186
     const-string v0, "%s : pin = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PINCheckData;->pin:J
 

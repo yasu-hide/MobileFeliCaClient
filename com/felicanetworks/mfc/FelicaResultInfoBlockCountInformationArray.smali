@@ -61,7 +61,7 @@
     .line 40
     const-string v0, "%s : exceptionType = %d, message = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -72,7 +72,7 @@
     .line 42
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -96,7 +96,7 @@
     .line 62
     const-string v1, "%s : exceptionType = %d, message = %s, id = %d, type = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBlockCountInformationArray"
 
     .line 63
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -119,7 +119,7 @@
     .line 64
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -146,7 +146,7 @@
     const-string v1, "%s : exceptionType = %d, message = %s, id = %d, type = %d, statusFlag1 = %d, statusFlag2 = %d"
 
     .line 91
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -176,7 +176,7 @@
     .line 92
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -199,7 +199,7 @@
     .line 152
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -209,7 +209,7 @@
     .line 154
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -240,14 +240,14 @@
     .line 24
     const-string v0, "%s : value = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 25
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/FelicaResultInfoBlockCountInformationArray"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -280,7 +280,7 @@
     .line 130
     const-string v2, "%s : in = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 readFromParcel"
 
     invoke-static {v5, v2, v3, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -304,7 +304,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 readFromParcel"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -329,7 +329,7 @@
     :cond_0
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 readFromParcel"
 
     invoke-static {v5, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -369,7 +369,7 @@
     .line 178
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -387,7 +387,7 @@
     .line 180
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

@@ -76,7 +76,7 @@
     .line 245
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/BlockDataList"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -91,7 +91,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/BlockDataList;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 248
-    const-string v0, "999"
+    const-string v0, "999 mfc/BlockDataList"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -119,7 +119,7 @@
     .line 226
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -137,7 +137,7 @@
     .line 233
     const/4 v0, 0x7
 
-    const-string v1, "001 blockDataList len=%d"
+    const-string v1, "001 readFromParcel blockDataList len=%d"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/BlockDataList;->blockDataList:Ljava/util/Vector;
 
@@ -152,7 +152,7 @@
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 234
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -316,7 +316,7 @@
     const/4 v5, 0x1
 
     .line 289
-    const-string v2, "000"
+    const-string v2, "000 checkFormat"
 
     invoke-static {v3, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -336,7 +336,7 @@
     .line 295
     const-string v2, "%s blockDataList = %s"
 
-    const-string v3, "800"
+    const-string v3, "800 checkFormat"
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -365,7 +365,7 @@
     if-lt v1, v2, :cond_1
 
     .line 308
-    const-string v2, "999"
+    const-string v2, "999 checkFormat"
 
     invoke-static {v3, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -387,7 +387,7 @@
     if-nez v0, :cond_2
 
     .line 303
-    const-string v2, "801"
+    const-string v2, "801 checkFormat"
 
     invoke-static {v5, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -563,7 +563,7 @@
     .line 271
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -574,7 +574,7 @@
     .line 272
     const/4 v0, 0x6
 
-    const-string v1, "001 blockDataList len=%d"
+    const-string v1, "001 writeToParcel blockDataList len=%d"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/BlockDataList;->blockDataList:Ljava/util/Vector;
 
@@ -594,7 +594,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
 
     .line 277
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

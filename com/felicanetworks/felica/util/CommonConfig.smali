@@ -28,14 +28,14 @@
     .line 53
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/util/CommonConfig"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 54
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/util/CommonConfig"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -64,7 +64,7 @@
     :try_start_0
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 getInstance"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -78,7 +78,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 getInstance"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -102,7 +102,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 getInstance"
 
     invoke-static {v0, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -143,7 +143,7 @@
     .line 98
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 initialize"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -166,7 +166,7 @@
     .line 125
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 initialize"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -181,7 +181,7 @@
     .local v0, "e":Ljava/io/FileNotFoundException;
     const-string v1, "%s : catch FileNotFoundException msg = %s"
 
-    const-string v2, "800"
+    const-string v2, "800 initialize"
 
     .line 107
     invoke-virtual {v0}, Ljava/io/FileNotFoundException;->getMessage()Ljava/lang/String;
@@ -194,7 +194,7 @@
     .line 108
     const-string v1, "%s : $s %s"
 
-    const-string v2, "801"
+    const-string v2, "801 initialize"
 
     const-string v3, "/system/etc/felica/common.cfg"
 
@@ -214,7 +214,7 @@
     .local v0, "e":Ljava/text/ParseException;
     const-string v1, "%s : catch ParseException msg = %s line = %d"
 
-    const-string v2, "801"
+    const-string v2, "801 initialize"
 
     .line 113
     invoke-virtual {v0}, Ljava/text/ParseException;->getMessage()Ljava/lang/String;
@@ -244,7 +244,7 @@
     .local v0, "e":Ljava/io/IOException;
     const-string v1, "%s : catch IOException msg = %s"
 
-    const-string v2, "802"
+    const-string v2, "802 initialize"
 
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
@@ -264,7 +264,7 @@
     .local v0, "e":Ljava/lang/Exception;
     const-string v1, "%s : catch Exception msg = %s"
 
-    const-string v2, "803"
+    const-string v2, "803 initialize"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -300,7 +300,7 @@
 
     const-string v13, "%s"
 
-    const-string v14, "000"
+    const-string v14, "000 readConfigFile"
 
     invoke-static {v12, v13, v14}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -373,7 +373,7 @@
 
     const-string v13, "%s"
 
-    const-string v14, "003"
+    const-string v14, "003 readConfigFile"
 
     invoke-static {v12, v13, v14}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -386,7 +386,7 @@
 
     const-string v13, "%s"
 
-    const-string v14, "999"
+    const-string v14, "999 readConfigFile"
 
     invoke-static {v12, v13, v14}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -423,7 +423,7 @@
 
     const-string v13, "%s"
 
-    const-string v14, "001"
+    const-string v14, "001 readConfigFile"
 
     invoke-static {v12, v13, v14}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -447,7 +447,7 @@
     const-string v13, "%s : throw ParseException str = %s line = %d"
 
     .line 197
-    const-string v14, "800"
+    const-string v14, "800 readConfigFile"
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -495,7 +495,7 @@
 
     const-string v14, "%s"
 
-    const-string v15, "003"
+    const-string v15, "003 readConfigFile"
 
     invoke-static {v13, v14, v15}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -524,7 +524,7 @@
     :try_start_5
     const-string v13, "%s : throw ParseException str = %s line = %d"
 
-    const-string v14, "801"
+    const-string v14, "801 readConfigFile"
 
     .line 202
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -554,7 +554,7 @@
 
     const-string v13, "%s"
 
-    const-string v14, "002"
+    const-string v14, "002 readConfigFile"
 
     invoke-static {v12, v13, v14}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -579,7 +579,7 @@
 
     const-string v13, "%s : throw ParseException str = %s line = %d"
 
-    const-string v14, "802"
+    const-string v14, "802 readConfigFile"
 
     .line 212
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -663,7 +663,7 @@
     .line 140
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getValue"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -673,7 +673,7 @@
     .line 143
     const-string v0, "%s : throw IllegalArgumentException key == null"
 
-    const-string v1, "800"
+    const-string v1, "800 getValue"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -699,7 +699,7 @@
     .line 146
     const-string v0, "%s : throw IllegalArgumentException key_length = %d"
 
-    const-string v1, "801"
+    const-string v1, "801 getValue"
 
     .line 147
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -726,7 +726,7 @@
     :cond_1
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getValue"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

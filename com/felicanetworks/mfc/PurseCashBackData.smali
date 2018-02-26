@@ -89,7 +89,7 @@
     .line 210
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PurseCashBackData"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -97,7 +97,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/PurseCashBackData;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 212
-    const-string v0, "999"
+    const-string v0, "999 mfc/PurseCashBackData"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -125,7 +125,7 @@
     .line 190
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v4, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -144,7 +144,7 @@
     iput v0, p0, Lcom/felicanetworks/mfc/PurseCashBackData;->execID:I
 
     .line 198
-    const-string v0, "001 cashBackData=%d execID=%d"
+    const-string v0, "001 readFromParcel cashBackData=%d execID=%d"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PurseCashBackData;->cashBackData:J
 
@@ -161,7 +161,7 @@
     invoke-static {v4, v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 199
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     invoke-static {v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -185,7 +185,7 @@
     const/4 v4, 0x1
 
     .line 254
-    const-string v0, "000"
+    const-string v0, "000 checkFormat"
 
     invoke-static {v5, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -210,7 +210,7 @@
     :cond_0
     const-string v0, "%s : cashBackData = %d"
 
-    const-string v1, "800"
+    const-string v1, "800 checkFormat"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PurseCashBackData;->cashBackData:J
 
@@ -245,7 +245,7 @@
     :cond_2
     const-string v0, "%s : execID = %d"
 
-    const-string v1, "801"
+    const-string v1, "801 checkFormat"
 
     iget v2, p0, Lcom/felicanetworks/mfc/PurseCashBackData;->execID:I
 
@@ -266,7 +266,7 @@
 
     .line 264
     :cond_3
-    const-string v0, "999"
+    const-string v0, "999 checkFormat"
 
     invoke-static {v5, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -401,7 +401,7 @@
     .line 235
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -422,7 +422,7 @@
     .line 241
     const/4 v0, 0x6
 
-    const-string v1, "001 cashBackData=%d execID=%d"
+    const-string v1, "001 writeToParcel cashBackData=%d execID=%d"
 
     iget-wide v2, p0, Lcom/felicanetworks/mfc/PurseCashBackData;->cashBackData:J
 
@@ -439,7 +439,7 @@
     invoke-static {v0, v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 242
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     invoke-static {v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

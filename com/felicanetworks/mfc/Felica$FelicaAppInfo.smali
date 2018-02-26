@@ -46,14 +46,14 @@
     .line 515
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPID"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 516
     const-string v0, "%s return pid = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getPID"
 
     iget v2, p0, Lcom/felicanetworks/mfc/Felica$FelicaAppInfo;->pid:I
 
@@ -78,14 +78,14 @@
     .line 494
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getUID"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 495
     const-string v0, "%s return uid = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getUID"
 
     iget v2, p0, Lcom/felicanetworks/mfc/Felica$FelicaAppInfo;->uid:I
 
@@ -111,7 +111,7 @@
     .line 526
     const-string v0, "%s In pid = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setPID"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -125,7 +125,7 @@
     .line 528
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setPID"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -143,7 +143,7 @@
     .line 505
     const-string v0, "%s In uid = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setUID"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -157,7 +157,7 @@
     .line 507
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setUID"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

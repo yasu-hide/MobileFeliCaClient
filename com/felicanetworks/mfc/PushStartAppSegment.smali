@@ -53,7 +53,7 @@
     .line 245
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushStartAppSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -63,7 +63,7 @@
     .line 249
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushStartAppSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -103,7 +103,7 @@
     .line 60
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushStartAppSegment"
 
     invoke-static {v7, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -124,7 +124,7 @@
     .line 68
     const-string v1, "%s appURL=%s"
 
-    const-string v2, "001"
+    const-string v2, "001 mfc/PushStartAppSegment"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/PushStartAppSegment;->appURL:Ljava/lang/String;
 
@@ -133,7 +133,7 @@
     .line 69
     const-string v1, "%s appIdentificationCode=%s"
 
-    const-string v2, "001"
+    const-string v2, "001 mfc/PushStartAppSegment"
 
     iget-object v3, p0, Lcom/felicanetworks/mfc/PushStartAppSegment;->appIdentificationCode:Ljava/lang/String;
 
@@ -161,7 +161,7 @@
     .line 78
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushStartAppSegment"
 
     invoke-static {v7, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -176,7 +176,7 @@
     .local v0, "param":Ljava/lang/String;
     const-string v4, "%s appStartupParam=%s"
 
-    const-string v5, "001"
+    const-string v5, "001 mfc/PushStartAppSegment"
 
     invoke-static {v6, v4, v5, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -198,7 +198,7 @@
     .line 219
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -211,7 +211,7 @@
     .line 224
     const-string v0, "%s"
 
-    const-string v1, "700"
+    const-string v1, "700 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -250,7 +250,7 @@
     .line 235
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -276,7 +276,7 @@
     .line 292
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -295,7 +295,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "700"
+    const-string v1, "700 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -310,7 +310,7 @@
     :cond_1
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -327,14 +327,14 @@
     .line 260
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 261
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -353,14 +353,14 @@
     .line 101
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAppIdentificationCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 102
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getAppIdentificationCode"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartAppSegment;->appIdentificationCode:Ljava/lang/String;
 
@@ -381,14 +381,14 @@
     .line 114
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAppStartupParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 115
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getAppStartupParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -407,14 +407,14 @@
     .line 88
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAppURL"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 89
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getAppURL"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartAppSegment;->appURL:Ljava/lang/String;
 
@@ -441,7 +441,7 @@
     .line 153
     const-string v0, "%s appIdentificationCode=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAppIdentificationCode"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -453,7 +453,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 setAppIdentificationCode"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -471,7 +471,7 @@
     .line 161
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAppIdentificationCode"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -489,7 +489,7 @@
     .line 178
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAppStartupParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -499,7 +499,7 @@
     .line 182
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAppStartupParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -517,14 +517,14 @@
     .line 132
     const-string v0, "%s appURL=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAppURL"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 133
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAppURL"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -546,7 +546,7 @@
     .line 273
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -568,7 +568,7 @@
     .line 280
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

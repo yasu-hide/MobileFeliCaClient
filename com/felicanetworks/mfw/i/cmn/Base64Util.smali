@@ -24,7 +24,7 @@
     .line 74
     const-string v2, "%s : target = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 decode"
 
     invoke-static {v4, v2, v3, p0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -58,7 +58,7 @@
     :cond_0
     const/4 v2, 0x1
 
-    const-string v3, "800 target = %s"
+    const-string v3, "800 decode target = %s"
 
     invoke-static {v2, v3, p0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -122,7 +122,7 @@
     .local v1, "decoded":[B
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 decode"
 
     invoke-static {v4, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

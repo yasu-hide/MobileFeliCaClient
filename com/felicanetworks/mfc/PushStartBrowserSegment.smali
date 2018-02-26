@@ -51,7 +51,7 @@
     .line 191
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushStartBrowserSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -61,7 +61,7 @@
     .line 195
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushStartBrowserSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -100,7 +100,7 @@
     .line 50
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushStartBrowserSegment"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -112,7 +112,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 mfc/PushStartBrowserSegment"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -138,7 +138,7 @@
     .line 62
     const-string v0, "%s url=%s"
 
-    const-string v1, "001"
+    const-string v1, "001 mfc/PushStartBrowserSegment"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartBrowserSegment;->url:Ljava/lang/String;
 
@@ -147,7 +147,7 @@
     .line 63
     const-string v0, "%s browserStartupParam=%s"
 
-    const-string v1, "001"
+    const-string v1, "001 mfc/PushStartBrowserSegment"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartBrowserSegment;->browserStartupParam:Ljava/lang/String;
 
@@ -156,7 +156,7 @@
     .line 65
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushStartBrowserSegment"
 
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -174,7 +174,7 @@
     .line 166
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -186,7 +186,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 readFromParcel"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -223,7 +223,7 @@
     .line 181
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -247,7 +247,7 @@
     .line 238
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -270,7 +270,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 checkFormat"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -285,7 +285,7 @@
     :cond_1
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -302,14 +302,14 @@
     .line 206
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 207
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -328,14 +328,14 @@
     .line 87
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getBrowserStartupParam"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 88
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getBrowserStartupParam"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartBrowserSegment;->browserStartupParam:Ljava/lang/String;
 
@@ -356,14 +356,14 @@
     .line 75
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getURL"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 76
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getURL"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushStartBrowserSegment;->url:Ljava/lang/String;
 
@@ -385,7 +385,7 @@
     .line 127
     const-string v0, "%s browserStartupParam=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setBrowserStartupParam"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -395,7 +395,7 @@
     .line 129
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setBrowserStartupParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -418,7 +418,7 @@
     .line 105
     const-string v0, "%s url=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setURL"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -430,7 +430,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 setURL"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -448,7 +448,7 @@
     .line 114
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setURL"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -467,7 +467,7 @@
     .line 220
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -484,7 +484,7 @@
     .line 226
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

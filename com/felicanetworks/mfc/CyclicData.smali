@@ -51,7 +51,7 @@
     .line 149
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/CyclicData"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -59,7 +59,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/CyclicData;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 151
-    const-string v0, "999"
+    const-string v0, "999 mfc/CyclicData"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -107,7 +107,7 @@
     .line 122
     const-string v1, "%s : in = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     invoke-static {v0, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -126,7 +126,7 @@
     invoke-virtual {p0, v7}, Lcom/felicanetworks/mfc/CyclicData;->setBytes([B)V
 
     .line 136
-    const-string v1, "001 bytes.length=%d bytes[]:%d %d %d ... %d"
+    const-string v1, "001 readFromParcel bytes.length=%d bytes[]:%d %d %d ... %d"
 
     array-length v2, v7
 
@@ -173,7 +173,7 @@
     invoke-static/range {v0 .. v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 138
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     invoke-static {v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -195,7 +195,7 @@
     const/4 v1, 0x4
 
     .line 193
-    const-string v0, "000"
+    const-string v0, "000 checkFormat"
 
     invoke-static {v1, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -205,7 +205,7 @@
     invoke-virtual {p0, v0}, Lcom/felicanetworks/mfc/CyclicData;->checkBytes([B)V
 
     .line 195
-    const-string v0, "999"
+    const-string v0, "999 checkFormat"
 
     invoke-static {v1, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -274,7 +274,7 @@
     .line 174
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -285,7 +285,7 @@
     .line 175
     const/4 v0, 0x6
 
-    const-string v1, "001 bytes.length=%d bytes[]:%d %d %d ... %d"
+    const-string v1, "001 writeToParcel bytes.length=%d bytes[]:%d %d %d ... %d"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/CyclicData;->bytes:[B
 
@@ -349,7 +349,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByteArray([B)V
 
     .line 181
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     invoke-static {v8, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

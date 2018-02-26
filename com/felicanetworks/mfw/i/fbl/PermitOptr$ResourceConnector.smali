@@ -108,7 +108,7 @@
 
     .line 2675
     .local v0, "e":Ljava/lang/SecurityException;
-    const-string v5, "800 throw SecurityException"
+    const-string v5, "800 checkFileSize throw SecurityException"
 
     invoke-static {v1, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -148,7 +148,7 @@
     .line 2699
     const/4 v1, 0x1
 
-    const-string v2, "800 failed to delete file"
+    const-string v2, "800 checkFileSize failed to delete file"
 
     invoke-static {v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -175,7 +175,7 @@
 
     .line 2703
     .local v0, "e":Ljava/lang/SecurityException;
-    const-string v1, "801 throw SecurityException"
+    const-string v1, "801 checkFileSize throw SecurityException"
 
     invoke-static {v5, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -496,7 +496,7 @@
 
     new-instance v20, Ljava/lang/StringBuilder;
 
-    const-string v21, "700 checkFileSize error. filesize = "
+    const-string v21, "700 checkFileSize checkFileSize error. filesize = "
 
     invoke-direct/range {v20 .. v21}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -711,7 +711,7 @@
     .line 2477
     const/16 v17, 0x2
 
-    const-string v20, "701 isUrlExist"
+    const-string v20, "701 checkFileSize isUrlExist"
 
     move/from16 v0, v17
 
@@ -909,7 +909,7 @@
     :goto_6
     const/16 v17, 0x2
 
-    const-string v20, "702 SysException"
+    const-string v20, "702 checkFileSize SysException"
 
     move/from16 v0, v17
 

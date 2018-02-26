@@ -48,7 +48,7 @@
     .line 125
     const-string v1, "%s Yes button clicked.: dialog = %s whichButton = %d"
 
-    const-string v2, "000"
+    const-string v2, "000 onClick"
 
     .line 126
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -122,7 +122,7 @@
     .line 141
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 onClick"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -139,7 +139,7 @@
 
     const-string v2, "%s message=%s"
 
-    const-string v3, "700"
+    const-string v3, "700 onClick"
 
     invoke-virtual {v0}, Landroid/content/ActivityNotFoundException;->toString()Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     const-string v2, "%s message=%s"
 
-    const-string v3, "800"
+    const-string v3, "800 onClick"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 

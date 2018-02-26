@@ -45,7 +45,7 @@
     .line 51
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -59,7 +59,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getInstance"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -74,7 +74,7 @@
     :cond_0
     const-string v0, "%s return instance %s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     sget-object v2, Lcom/felicanetworks/felica/pushimpl/PushAnalyzerUtil;->instance:Lcom/felicanetworks/felica/pushimpl/PushAnalyzerUtil;
 
@@ -105,7 +105,7 @@
     .line 235
     const-string v1, "%s In rcvData = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 checkAsciiCode"
 
     invoke-static {v4, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -115,7 +115,7 @@
     .line 238
     const-string v1, "%s data null"
 
-    const-string v2, "800"
+    const-string v2, "800 checkAsciiCode"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -141,7 +141,7 @@
     .line 249
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 checkAsciiCode"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -166,7 +166,7 @@
     :cond_2
     const-string v1, "%s not ASCII code"
 
-    const-string v2, "801"
+    const-string v2, "801 checkAsciiCode"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -206,7 +206,7 @@
     .line 125
     const-string v0, "%s In formatData = %s : checkData = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkConvert"
 
     invoke-static {v3, v0, v1, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -220,7 +220,7 @@
     .line 129
     const-string v0, "%s code chenge error"
 
-    const-string v1, "800"
+    const-string v1, "800 checkConvert"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -237,7 +237,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkConvert"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -263,7 +263,7 @@
     .line 148
     const-string v1, "%s In byteData = %s : encodingType = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 convertByteToString"
 
     invoke-static {v3, v1, v2, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -273,7 +273,7 @@
     :try_start_0
     const-string v2, "%s return data "
 
-    const-string v3, "999"
+    const-string v3, "999 convertByteToString"
 
     new-instance v4, Ljava/lang/String;
 
@@ -298,7 +298,7 @@
     .local v0, "e":Ljava/lang/Exception;
     const-string v1, "%s Exception"
 
-    const-string v2, "800"
+    const-string v2, "800 convertByteToString"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -330,7 +330,7 @@
     .line 172
     const-string v6, "%s In stringData = %s : encodingType = %s"
 
-    const-string v7, "000"
+    const-string v7, "000 convertStringToByte"
 
     invoke-static {v8, v6, v7, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -375,7 +375,7 @@
 
     const-string v7, "%s return data : %s"
 
-    const-string v8, "999"
+    const-string v8, "999 convertStringToByte"
 
     invoke-static {v6, v7, v8, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
@@ -397,7 +397,7 @@
     .local v3, "e":Ljava/lang/Exception;
     const-string v6, "%s Exception %s"
 
-    const-string v7, "800"
+    const-string v7, "800 convertStringToByte"
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -438,7 +438,7 @@
     .line 210
     const-string v1, "%s In index = %s : rcvByteBuffer = %s : size = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 getData"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -460,7 +460,7 @@
     .line 214
     const-string v0, "%s rcvByteBuffer null"
 
-    const-string v1, "800"
+    const-string v1, "800 getData"
 
     invoke-static {v7, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -486,7 +486,7 @@
     .line 221
     const-string v1, "%s return data : %s"
 
-    const-string v2, "999"
+    const-string v2, "999 getData"
 
     invoke-static {v0, v1, v2, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -514,7 +514,7 @@
     .line 73
     const-string v3, "%s In byteBuffer = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 makeSerializeData"
 
     invoke-static {v7, v3, v4, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -533,7 +533,7 @@
     :cond_0
     const-string v3, "%s code chenge error"
 
-    const-string v4, "800"
+    const-string v4, "800 makeSerializeData"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -554,7 +554,7 @@
     :pswitch_0
     const-string v3, "%s activate type error"
 
-    const-string v4, "801"
+    const-string v4, "801 makeSerializeData"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -573,7 +573,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "001"
+    const-string v5, "001 makeSerializeData"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -638,7 +638,7 @@
     .line 109
     const-string v3, "%s return serializeData %s"
 
-    const-string v4, "999"
+    const-string v4, "999 makeSerializeData"
 
     invoke-static {v7, v3, v4, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -673,7 +673,7 @@
 
     const-string v8, "%s In rcvData = %s : separater = %s"
 
-    const-string v9, "000"
+    const-string v9, "000 resolveData"
 
     invoke-static {p2}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
@@ -689,7 +689,7 @@
 
     const-string v8, "%s rcvData null"
 
-    const-string v9, "801"
+    const-string v9, "801 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -731,7 +731,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "001"
+    const-string v9, "001 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -748,7 +748,7 @@
 
     const-string v8, "%s return resolveData "
 
-    const-string v9, "999"
+    const-string v9, "999 resolveData"
 
     invoke-static {v7, v8, v9, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -762,7 +762,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "002"
+    const-string v9, "002 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -801,7 +801,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "004"
+    const-string v9, "004 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -848,7 +848,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "003"
+    const-string v9, "003 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -870,7 +870,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "005"
+    const-string v9, "005 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -892,7 +892,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "006"
+    const-string v9, "006 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -936,7 +936,7 @@
 
     const-string v8, "%s"
 
-    const-string v9, "007"
+    const-string v9, "007 resolveData"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

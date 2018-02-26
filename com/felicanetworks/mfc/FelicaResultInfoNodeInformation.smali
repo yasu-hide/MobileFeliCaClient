@@ -61,7 +61,7 @@
     .line 40
     const-string v0, "%s exceptionType=%d message=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -72,7 +72,7 @@
     .line 41
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -96,7 +96,7 @@
     .line 60
     const-string v1, "%s exceptionType=%d message=%s id=%d type=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     .line 61
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -119,7 +119,7 @@
     .line 62
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -146,7 +146,7 @@
     const-string v1, "%s exceptionType=%d message=%s id=%d type=%d statusFlag1=%d statusFlag2=%d"
 
     .line 88
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -176,7 +176,7 @@
     .line 89
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -199,7 +199,7 @@
     .line 143
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -207,7 +207,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/FelicaResultInfoNodeInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 145
-    const-string v0, "999"
+    const-string v0, "999 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -238,14 +238,14 @@
     .line 24
     const-string v0, "%s value=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 25
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/FelicaResultInfoNodeInformation"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -275,7 +275,7 @@
     .line 126
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -298,7 +298,7 @@
     iput-object v0, p0, Lcom/felicanetworks/mfc/FelicaResultInfoNodeInformation;->value:Ljava/lang/Object;
 
     .line 131
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -317,7 +317,7 @@
     .line 168
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -336,7 +336,7 @@
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
     .line 173
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

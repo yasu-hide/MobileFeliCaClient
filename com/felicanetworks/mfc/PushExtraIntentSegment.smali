@@ -64,7 +64,7 @@
     .line 50
     const-string v1, "%s In intent = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushExtraIntentSegment"
 
     invoke-static {v4, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -74,7 +74,7 @@
     .line 53
     const-string v1, "%s intent == null"
 
-    const-string v2, "800"
+    const-string v2, "800 mfc/PushExtraIntentSegment"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -114,7 +114,7 @@
     .line 68
     const-string v1, "%s componentName=%s"
 
-    const-string v2, "001"
+    const-string v2, "001 mfc/PushExtraIntentSegment"
 
     invoke-virtual {p1}, Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
 
@@ -125,7 +125,7 @@
     .line 69
     const-string v1, "%s %s="
 
-    const-string v2, "001"
+    const-string v2, "001 mfc/PushExtraIntentSegment"
 
     const-string v3, "com.felicanetworks.mfc.FeliCaPushSegmentByteData"
 
@@ -139,7 +139,7 @@
     .line 72
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushExtraIntentSegment"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -150,7 +150,7 @@
     :cond_1
     const-string v1, "%s byteData.length <= 0"
 
-    const-string v2, "801"
+    const-string v2, "801 mfc/PushExtraIntentSegment"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -175,7 +175,7 @@
     .line 143
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushExtraIntentSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -185,7 +185,7 @@
     .line 147
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushExtraIntentSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -203,7 +203,7 @@
     .line 124
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -235,7 +235,7 @@
     .line 132
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -261,7 +261,7 @@
     .line 190
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -273,7 +273,7 @@
     .line 193
     const-string v0, "%s intent == null"
 
-    const-string v1, "800"
+    const-string v1, "800 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -303,7 +303,7 @@
     .line 199
     const-string v0, "%s activateType < MIN_ACTIVATETYPE"
 
-    const-string v1, "801"
+    const-string v1, "801 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -318,7 +318,7 @@
     :cond_1
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -345,14 +345,14 @@
     .line 83
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getIntentData"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 85
     const-string v0, "%s return = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 getIntentData"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushExtraIntentSegment;->intent:Landroid/content/Intent;
 
@@ -375,7 +375,7 @@
     .line 171
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -392,7 +392,7 @@
     .line 177
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

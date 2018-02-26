@@ -37,7 +37,7 @@
     .line 37
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/FSCAdapter"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -51,7 +51,7 @@
     .line 39
     const-string v0, "%s : fscEntry = %s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/FSCAdapter"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/FSCAdapter;->fscEntity:Lcom/felicanetworks/mfc/FSC;
 
@@ -83,14 +83,14 @@
     .line 51
     const-string v0, "%s : intent = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 onBind"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 52
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 onBind"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -109,7 +109,7 @@
     .line 87
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 onDestroy"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -128,7 +128,7 @@
     :goto_0
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 onDestroy"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -145,7 +145,7 @@
 
     const-string v2, "%s : catch Exception = "
 
-    const-string v3, "700"
+    const-string v3, "700 onDestroy"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -166,7 +166,7 @@
     .line 64
     const-string v1, "%s : intent = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 onUnbind"
 
     invoke-static {v5, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -182,7 +182,7 @@
     :goto_0
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 onUnbind"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -203,7 +203,7 @@
 
     const-string v2, "%s : catch Exception = "
 
-    const-string v3, "700"
+    const-string v3, "700 onUnbind"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 

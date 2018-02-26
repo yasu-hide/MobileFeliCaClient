@@ -27,7 +27,7 @@
     .line 42
     const-string v0, "%s sgment=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/pushimpl/PushCallbackExecutor"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -37,7 +37,7 @@
     .line 44
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/pushimpl/PushCallbackExecutor"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -71,7 +71,7 @@
     .line 59
     const-string v1, "%s felica=%s : context=%s"
 
-    const-string v2, "000"
+    const-string v2, "000 execute"
 
     iget-object v3, p0, Lcom/felicanetworks/felica/pushimpl/PushCallbackExecutor;->segment:Lcom/felicanetworks/mfc/PushNotifyAppSegment;
 
@@ -96,7 +96,7 @@
 
     const-string v2, "%s,"
 
-    const-string v3, "001"
+    const-string v3, "001 execute"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -124,7 +124,7 @@
     .local v6, "e":Lcom/felicanetworks/mfc/FelicaException;
     const-string v1, "%s : id = %d type = %d message = %s"
 
-    const-string v2, "700"
+    const-string v2, "700 execute"
 
     invoke-virtual {v6}, Lcom/felicanetworks/mfc/FelicaException;->getID()I
 
@@ -168,7 +168,7 @@
     .local v6, "e":Ljava/lang/Exception;
     const-string v1, "%s"
 
-    const-string v2, "701"
+    const-string v2, "701 execute"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -202,7 +202,7 @@
     .line 94
     const-string v1, "%s,"
 
-    const-string v2, "002"
+    const-string v2, "002 execute"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -218,7 +218,7 @@
     .line 96
     const-string v1, "%s,"
 
-    const-string v2, "003"
+    const-string v2, "003 execute"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -233,7 +233,7 @@
     const-string v1, "%s : throw PushImplException.TYPE_INVALID_STATUS"
 
     .line 99
-    const-string v2, "702"
+    const-string v2, "702 execute"
 
     .line 98
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -253,7 +253,7 @@
     :cond_1
     const-string v1, "%s,"
 
-    const-string v2, "004"
+    const-string v2, "004 execute"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -279,7 +279,7 @@
     const-string v1, "%s : throw PushImplException.TYPE_INVALID_STATUS"
 
     .line 108
-    const-string v2, "703"
+    const-string v2, "703 execute"
 
     .line 107
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -308,7 +308,7 @@
     .line 117
     const-string v1, "%s"
 
-    const-string v2, "701"
+    const-string v2, "701 execute"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -335,7 +335,7 @@
     .line 129
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 execute"
 
     invoke-static {v10, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -349,7 +349,7 @@
     .local v6, "e":Landroid/os/RemoteException;
     const-string v1, "%s message=%s"
 
-    const-string v2, "702"
+    const-string v2, "702 execute"
 
     invoke-virtual {v6}, Landroid/os/RemoteException;->getMessage()Ljava/lang/String;
 

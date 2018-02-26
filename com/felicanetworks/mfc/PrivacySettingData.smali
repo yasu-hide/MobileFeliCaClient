@@ -60,7 +60,7 @@
     .line 46
     const-string v1, "%s nodeCode = %s : privacySetting = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PrivacySettingData"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -93,7 +93,7 @@
     .line 59
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PrivacySettingData"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -110,7 +110,7 @@
 
     const-string v2, "%s %s"
 
-    const-string v3, "800"
+    const-string v3, "800 mfc/PrivacySettingData"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -139,7 +139,7 @@
     .line 184
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PrivacySettingData"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -147,7 +147,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/PrivacySettingData;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 186
-    const-string v0, "999"
+    const-string v0, "999 mfc/PrivacySettingData"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -175,7 +175,7 @@
     .line 164
     const-string v0, "%s : in = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v3, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -199,7 +199,7 @@
     iput-boolean v0, p0, Lcom/felicanetworks/mfc/PrivacySettingData;->privacySetting:Z
 
     .line 172
-    const-string v0, "001 nodeCode=%d privacySetting=%b"
+    const-string v0, "001 readFromParcel nodeCode=%d privacySetting=%b"
 
     iget v1, p0, Lcom/felicanetworks/mfc/PrivacySettingData;->nodeCode:I
 
@@ -216,7 +216,7 @@
     invoke-static {v3, v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 173
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -244,7 +244,7 @@
     const/4 v2, 0x4
 
     .line 228
-    const-string v0, "000"
+    const-string v0, "000 checkFormat"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -258,7 +258,7 @@
     invoke-virtual {v0, v1}, Lcom/felicanetworks/mfc/ServiceUtil;->checkNodeCode(I)V
 
     .line 230
-    const-string v0, "999"
+    const-string v0, "999 checkFormat"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -285,14 +285,14 @@
     .line 72
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getNodeCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 74
     const-string v0, "%s return nodeCode = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getNodeCode"
 
     iget v2, p0, Lcom/felicanetworks/mfc/PrivacySettingData;->nodeCode:I
 
@@ -317,14 +317,14 @@
     .line 110
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPrivacySetting"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 112
     const-string v0, "%s return privacySetting = %d"
 
-    const-string v1, "999"
+    const-string v1, "999 getPrivacySetting"
 
     iget-boolean v2, p0, Lcom/felicanetworks/mfc/PrivacySettingData;->privacySetting:Z
 
@@ -355,7 +355,7 @@
 
     const-string v2, "%s nodeCode = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 setNodeCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -381,7 +381,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "999"
+    const-string v3, "999 setNodeCode"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -398,7 +398,7 @@
 
     const-string v2, "%s %s"
 
-    const-string v3, "800"
+    const-string v3, "800 setNodeCode"
 
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -414,7 +414,7 @@
     throw v1
 .end method
 
-.method public setPraivacySetting(Z)V
+.method public setPrivacySetting(Z)V
     .locals 4
     .param p1, "privacySetting"    # Z
 
@@ -424,7 +424,7 @@
     .line 124
     const-string v0, "%s In privacySetting = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 setPrivacySetting"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -438,7 +438,7 @@
     .line 128
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setPrivacySetting"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -457,7 +457,7 @@
     .line 209
     const-string v0, "%s : out = %s, flag = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -468,7 +468,7 @@
     .line 210
     const/4 v0, 0x6
 
-    const-string v1, "001 nodeCode=%d privacySetting=%b"
+    const-string v1, "001 writeToParcel nodeCode=%d privacySetting=%b"
 
     iget v2, p0, Lcom/felicanetworks/mfc/PrivacySettingData;->nodeCode:I
 
@@ -500,7 +500,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 216
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     invoke-static {v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 

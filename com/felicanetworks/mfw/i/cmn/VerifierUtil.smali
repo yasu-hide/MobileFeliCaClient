@@ -26,7 +26,7 @@
     .line 161
     const-string v1, "%s : issuerId = %s, keyId = %s, listener = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 getKeyValue"
 
     move-object v3, p0
 
@@ -47,7 +47,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    const-string v1, "800 issuerId = %s, keyId = %s, listener = %s"
+    const-string v1, "800 getKeyValue issuerId = %s, keyId = %s, listener = %s"
 
     invoke-static {v0, v1, p0, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -101,7 +101,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getKeyValue"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -131,7 +131,7 @@
     .line 181
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 getKeyValue"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -156,7 +156,7 @@
     const-string v4, "%s : target = %s, targetLength = %d, sign = %s, signLength = %d, key = %s, keyLength = %d, listener = %s"
 
     .line 78
-    const-string v5, "000"
+    const-string v5, "000 verify"
 
     invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -196,7 +196,7 @@
 
     const-string v4, "%s : target = %s, sign = %s, key = %s, listener = %s"
 
-    const-string v5, "800"
+    const-string v5, "800 verify"
 
     move-object/from16 v6, p0
 
@@ -256,7 +256,7 @@
     const-string v4, "%s : target.length = %d, targetLength = %d, sign.length = %d, signLength = %d, key.length = %d, keyLength = %d"
 
     .line 90
-    const-string v5, "801"
+    const-string v5, "801 verify"
 
     move-object/from16 v0, p0
 
@@ -409,7 +409,7 @@
     :try_start_4
     const-string v4, "%s"
 
-    const-string v5, "001"
+    const-string v5, "001 verify"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -431,7 +431,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 verify"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -470,7 +470,7 @@
 
     const-string v4, "%s %s"
 
-    const-string v5, "802"
+    const-string v5, "802 verify"
 
     invoke-virtual {v13}, Ljava/security/NoSuchAlgorithmException;->toString()Ljava/lang/String;
 
@@ -527,7 +527,7 @@
 
     const-string v4, "%s InvalidKeySpecException"
 
-    const-string v5, "803"
+    const-string v5, "803 verify"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -557,7 +557,7 @@
     :try_start_9
     const-string v4, "%s"
 
-    const-string v5, "002"
+    const-string v5, "002 verify"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -590,7 +590,7 @@
 
     const-string v4, "%s InvalidKeyException"
 
-    const-string v5, "804"
+    const-string v5, "804 verify"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -618,7 +618,7 @@
 
     const-string v4, "%s SignatureException"
 
-    const-string v5, "805"
+    const-string v5, "805 verify"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

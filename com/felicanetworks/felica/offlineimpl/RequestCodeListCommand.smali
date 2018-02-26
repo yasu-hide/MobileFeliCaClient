@@ -39,7 +39,7 @@
     .line 58
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -53,7 +53,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "001"
+    const-string v2, "001 getInstance"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -68,7 +68,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -99,7 +99,7 @@
     .line 78
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 doSet"
 
     invoke-static {v6, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -109,7 +109,7 @@
     .line 80
     const-string v1, "%s : Throw OfflineException = %d"
 
-    const-string v2, "700"
+    const-string v2, "700 doSet"
 
     .line 81
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -157,7 +157,7 @@
     .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 107
-    const-string v1, "999"
+    const-string v1, "999 doSet"
 
     invoke-static {v6, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -171,7 +171,7 @@
     :try_start_1
     const-string v2, "%s"
 
-    const-string v3, "001"
+    const-string v3, "001 doSet"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -196,7 +196,7 @@
     .local v0, "e":Ljava/lang/ArrayIndexOutOfBoundsException;
     const-string v1, "%s"
 
-    const-string v2, "701"
+    const-string v2, "701 doSet"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -215,7 +215,7 @@
     :try_start_2
     const-string v2, "%s"
 
-    const-string v3, "002"
+    const-string v3, "002 doSet"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -260,7 +260,7 @@
     .line 122
     const-string v1, "%s : byteBuffer = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 get"
 
     invoke-static {v4, v1, v2, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -272,7 +272,7 @@
 
     const-string v2, "%s : Throw OfflineException = %d"
 
-    const-string v3, "700"
+    const-string v3, "700 get"
 
     .line 125
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -299,7 +299,7 @@
     .local v0, "response":Lcom/felicanetworks/felica/offlineimpl/RequestCodeListResponse;
     const-string v1, "%s : byteBuffer = %s"
 
-    const-string v2, "999"
+    const-string v2, "999 get"
 
     invoke-virtual {p1}, Lcom/felicanetworks/felica/util/ByteBuffer;->getBytes()[B
 
@@ -324,14 +324,14 @@
     .line 142
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getIDm"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 143
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getIDm"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -350,14 +350,14 @@
     .line 196
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getNodeCodeSize"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 197
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getNodeCodeSize"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -376,14 +376,14 @@
     .line 223
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getPacketIndex"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 224
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getPacketIndex"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -402,14 +402,14 @@
     .line 169
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getParentAreaCode"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 170
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getParentAreaCode"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -429,7 +429,7 @@
     .line 156
     const-string v0, "%s : idm = %s"
 
-    const-string v1, "000"
+    const-string v1, "000 setIDm"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -439,7 +439,7 @@
     .line 158
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setIDm"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -457,7 +457,7 @@
     .line 210
     const-string v0, "%s : nodeCodeSize = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setNodeCodeSize"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -471,7 +471,7 @@
     .line 212
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setNodeCodeSize"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -489,7 +489,7 @@
     .line 237
     const-string v0, "%s : packetIndex = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setPacketIndex"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -503,7 +503,7 @@
     .line 239
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setPacketIndex"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -521,7 +521,7 @@
     .line 183
     const-string v0, "%s : parentAreaCode = %d"
 
-    const-string v1, "000"
+    const-string v1, "000 setParentAreaCode"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -535,7 +535,7 @@
     .line 185
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setParentAreaCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

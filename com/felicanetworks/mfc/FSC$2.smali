@@ -48,7 +48,7 @@
     .line 251
     const-string v1, "%s type=%d,message=%s"
 
-    const-string v2, "000"
+    const-string v2, "000 errorOccurred"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -79,7 +79,7 @@
     .line 262
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 errorOccurred"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -96,7 +96,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "800"
+    const-string v3, "800 errorOccurred"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -113,7 +113,7 @@
     .line 230
     const-string v1, "%s status=%d"
 
-    const-string v2, "000"
+    const-string v2, "000 finished"
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -144,7 +144,7 @@
     .line 241
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 finished"
 
     invoke-static {v4, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -161,7 +161,7 @@
 
     const-string v2, "%s"
 
-    const-string v3, "800"
+    const-string v3, "800 finished"
 
     invoke-static {v1, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -187,7 +187,7 @@
     .line 280
     const-string v1, "%s"
 
-    const-string v2, "000"
+    const-string v2, "000 operationRequested"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -248,7 +248,7 @@
     .line 304
     const-string v1, "%s"
 
-    const-string v2, "999"
+    const-string v2, "999 operationRequested"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -269,7 +269,7 @@
     .local v0, "e":Landroid/os/RemoteException;
     const-string v1, "%s"
 
-    const-string v2, "800"
+    const-string v2, "800 operationRequested"
 
     invoke-static {v3, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -303,7 +303,7 @@
     :try_start_3
     const-string v3, "%s"
 
-    const-string v4, "801"
+    const-string v4, "801 operationRequested"
 
     invoke-static {v1, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -324,7 +324,7 @@
     :cond_1
     const-string v1, "%s"
 
-    const-string v2, "998"
+    const-string v2, "998 operationRequested"
 
     invoke-static {v5, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

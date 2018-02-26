@@ -107,7 +107,7 @@
     const/4 v2, 0x6
 
     .line 257
-    const-string v0, "000"
+    const-string v0, "000 checkIntentType"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -121,7 +121,7 @@
 
     const-string v1, "%s : intentType = %d"
 
-    const-string v2, "800"
+    const-string v2, "800 checkIntentType"
 
     iget v3, p0, Lcom/felicanetworks/adhoc/LaunchPopupActivity;->intentType:I
 
@@ -144,12 +144,12 @@
     :pswitch_0
     const/4 v0, 0x7
 
-    const-string v1, "001"
+    const-string v1, "001 checkIntentType"
 
     invoke-static {v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
     .line 271
-    const-string v0, "999"
+    const-string v0, "999 checkIntentType"
 
     invoke-static {v2, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -180,7 +180,7 @@
     .line 225
     const-string v3, "%s : title = %s Message = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 createDialog"
 
     invoke-static {v7, v3, v4, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -236,7 +236,7 @@
     :goto_0
     const-string v3, "%s :dlg = %s"
 
-    const-string v4, "999"
+    const-string v4, "999 createDialog"
 
     invoke-static {v7, v3, v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -254,7 +254,7 @@
 
     const-string v4, "%s:message = %s"
 
-    const-string v5, "700"
+    const-string v5, "700 createDialog"
 
     invoke-virtual {v2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -292,7 +292,7 @@
     .line 166
     const-string v3, "%s"
 
-    const-string v4, "000"
+    const-string v4, "000 createDialogMessage"
 
     invoke-static {v6, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -313,7 +313,7 @@
     :goto_0
     const-string v3, "%s : message = %s"
 
-    const-string v4, "999"
+    const-string v4, "999 createDialogMessage"
 
     invoke-static {v6, v3, v4, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -324,7 +324,7 @@
     :pswitch_0
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 createDialogMessage"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -378,7 +378,7 @@
     .line 185
     const-string v3, "%s"
 
-    const-string v4, "002"
+    const-string v4, "002 createDialogMessage"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -420,7 +420,7 @@
     :cond_1
     const-string v3, "%s"
 
-    const-string v4, "010"
+    const-string v4, "010 createDialogMessage"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -466,7 +466,7 @@
     :pswitch_1
     const-string v3, "%s"
 
-    const-string v4, "004"
+    const-string v4, "004 createDialogMessage"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -516,7 +516,7 @@
     :pswitch_2
     const-string v3, "%s"
 
-    const-string v4, "005"
+    const-string v4, "005 createDialogMessage"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -534,7 +534,7 @@
     :pswitch_3
     const-string v3, "%s"
 
-    const-string v4, "006"
+    const-string v4, "006 createDialogMessage"
 
     invoke-static {v5, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -558,7 +558,7 @@
     const/4 v3, 0x6
 
     .line 366
-    const-string v0, "000"
+    const-string v0, "000 getWordString"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -690,7 +690,7 @@
     iput-object v0, p0, Lcom/felicanetworks/adhoc/LaunchPopupActivity;->MANY_TARGET_MSG:Ljava/lang/String;
 
     .line 379
-    const-string v0, "999"
+    const-string v0, "999 getWordString"
 
     invoke-static {v3, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -773,7 +773,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "001"
+    const-string v6, "001 init"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -813,7 +813,7 @@
     :goto_0
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 init"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -829,7 +829,7 @@
     :try_start_1
     const-string v5, "%s : Message is not created."
 
-    const-string v6, "002"
+    const-string v6, "002 init"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -843,7 +843,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "003"
+    const-string v6, "003 init"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -857,7 +857,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "004"
+    const-string v6, "004 init"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -886,7 +886,7 @@
 
     const-string v5, "%s : message = %s"
 
-    const-string v6, "800"
+    const-string v6, "800 init"
 
     invoke-virtual {v2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -910,7 +910,7 @@
     const/4 v1, 0x4
 
     .line 385
-    const-string v0, "000"
+    const-string v0, "000 onConfigurationChanged"
 
     invoke-static {v1, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -918,7 +918,7 @@
     invoke-super {p0, p1}, Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 388
-    const-string v0, "999"
+    const-string v0, "999 onConfigurationChanged"
 
     invoke-static {v1, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -939,7 +939,7 @@
 
     const-string v2, "%s : Bundle = %s"
 
-    const-string v3, "000"
+    const-string v3, "000 onCreate"
 
     invoke-static {v1, v2, v3, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -995,7 +995,7 @@
     .line 352
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 onPause"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1005,7 +1005,7 @@
     .line 358
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 onPause"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

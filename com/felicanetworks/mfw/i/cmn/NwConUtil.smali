@@ -67,7 +67,7 @@
     .line 197
     const-string v6, "%s"
 
-    const-string v7, "000"
+    const-string v7, "000 isControlCharacter createString"
 
     invoke-static {v8, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -110,7 +110,7 @@
 
     const-string v7, "%s"
 
-    const-string v8, "999"
+    const-string v8, "999 isControlCharacter createString"
 
     invoke-static {v6, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -140,7 +140,7 @@
     if-eqz v6, :cond_1
 
     .line 200
-    const-string v6, "800 control char(%x)"
+    const-string v6, "800 isControlCharacter createString control char(%x)"
 
     aget-byte v7, p0, v5
 
@@ -173,7 +173,7 @@
     .local v4, "e":Ljava/lang/Exception;
     const-string v6, "%s Exception(%s)"
 
-    const-string v7, "801"
+    const-string v7, "801 isControlCharacter createString"
 
     invoke-virtual {v4}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -203,7 +203,7 @@
     .line 299
     const-string v3, "%s : target = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 decode"
 
     invoke-static {v6, v3, v4, p0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -211,7 +211,7 @@
     if-nez p0, :cond_0
 
     .line 301
-    const-string v3, "800 target = %s"
+    const-string v3, "800 decode target = %s"
 
     invoke-static {v5, v3, p0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -264,7 +264,7 @@
     .local v0, "decoded":Ljava/lang/String;
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 decode"
 
     invoke-static {v6, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -278,7 +278,7 @@
 
     .line 310
     .local v1, "e":Ljava/io/UnsupportedEncodingException;
-    const-string v3, "801 UnsupportedEncodingException"
+    const-string v3, "801 decode UnsupportedEncodingException"
 
     invoke-static {v5, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -308,7 +308,7 @@
     .line 271
     const-string v3, "%s : target = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 encode"
 
     invoke-static {v6, v3, v4, p0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -316,7 +316,7 @@
     if-nez p0, :cond_0
 
     .line 273
-    const-string v3, "800 target = %s"
+    const-string v3, "800 encode target = %s"
 
     invoke-static {v5, v3, p0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -369,7 +369,7 @@
     .local v1, "encoded":Ljava/lang/String;
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 encode"
 
     invoke-static {v6, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -383,7 +383,7 @@
 
     .line 282
     .local v0, "e":Ljava/io/UnsupportedEncodingException;
-    const-string v3, "801 UnsupportedEncodingException"
+    const-string v3, "801 encode UnsupportedEncodingException"
 
     invoke-static {v5, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -418,7 +418,7 @@
 
     const-string v3, "%s : url = %s, parameter = %s, listener = %s"
 
-    const-string v4, "000"
+    const-string v4, "000 get"
 
     move-object/from16 v5, p0
 
@@ -448,7 +448,7 @@
     :cond_0
     const/4 v2, 0x1
 
-    const-string v3, "800 url = %s, listener = %s, UA = %s"
+    const-string v3, "800 get url = %s, listener = %s, UA = %s"
 
     .line 106
     sget-object v4, Lcom/felicanetworks/mfw/i/fbl/Property;->USER_AGENT:Ljava/lang/String;
@@ -551,7 +551,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -573,7 +573,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "002"
+    const-string v4, "002 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -666,7 +666,7 @@
 
     const-string v3, "%s null status line"
 
-    const-string v4, "803"
+    const-string v4, "803 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -688,7 +688,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "003"
+    const-string v4, "003 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -712,7 +712,7 @@
 
     const-string v3, "%s ClientProtocolException"
 
-    const-string v4, "801"
+    const-string v4, "801 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -736,7 +736,7 @@
 
     const-string v3, "%s IOException"
 
-    const-string v4, "802"
+    const-string v4, "802 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -776,7 +776,7 @@
 
     const-string v3, "%s null Conetnt-Type"
 
-    const-string v4, "804"
+    const-string v4, "804 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -812,7 +812,7 @@
 
     const-string v3, "%s null entity"
 
-    const-string v4, "805"
+    const-string v4, "805 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -838,7 +838,7 @@
 
     const-string v3, "%s Exception(%s)"
 
-    const-string v4, "806"
+    const-string v4, "806 get"
 
     invoke-virtual {v8}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -886,7 +886,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -961,7 +961,7 @@
 
     const-string v1, "%s : url = %s, parameter = %s, listener = %s"
 
-    const-string v2, "000"
+    const-string v2, "000 isControlCharacter"
 
     move-object v3, p0
 

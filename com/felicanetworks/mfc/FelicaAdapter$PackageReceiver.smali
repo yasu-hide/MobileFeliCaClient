@@ -48,7 +48,7 @@
     .line 1329
     const-string v7, "%s"
 
-    const-string v8, "000"
+    const-string v8, "000 onReceive"
 
     invoke-static {v12, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -91,7 +91,7 @@
     :cond_0
     const-string v7, "%s pkg=%s uid=%d"
 
-    const-string v8, "001"
+    const-string v8, "001 onReceive"
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -111,7 +111,7 @@
     .line 1341
     const-string v7, "%s"
 
-    const-string v8, "995"
+    const-string v8, "995 onReceive"
 
     invoke-static {v10, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -161,7 +161,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "996"
+    const-string v10, "996 onReceive"
 
     invoke-static {v7, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -194,7 +194,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "997"
+    const-string v10, "997 onReceive"
 
     invoke-static {v7, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -224,7 +224,7 @@
 
     const-string v9, "%s"
 
-    const-string v10, "998"
+    const-string v10, "998 onReceive"
 
     invoke-static {v7, v9, v10}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -277,7 +277,7 @@
     .line 1379
     const-string v7, "%s"
 
-    const-string v8, "999"
+    const-string v8, "999 onReceive"
 
     invoke-static {v12, v7, v8}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -294,7 +294,7 @@
     :try_start_5
     const-string v9, "%s %s"
 
-    const-string v10, "700"
+    const-string v10, "700 onReceive"
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -319,7 +319,7 @@
 
     const-string v9, "%s %s"
 
-    const-string v10, "701"
+    const-string v10, "701 onReceive"
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 

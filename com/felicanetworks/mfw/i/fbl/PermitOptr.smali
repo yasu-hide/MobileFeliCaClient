@@ -4633,7 +4633,7 @@
     .line 1705
     const-string v4, "%s : signatures = %s, permit = %s"
 
-    const-string v5, "000"
+    const-string v5, "000 verifyCaller"
 
     invoke-static {v7, v4, v5, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -4650,7 +4650,7 @@
 
     .line 1707
     :cond_0
-    const-string v4, "800 signatures = %s, permit = %s"
+    const-string v4, "800 verifyCaller signatures = %s, permit = %s"
 
     invoke-static {v6, v4, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -4720,7 +4720,7 @@
     if-lt v2, v4, :cond_4
 
     .line 1750
-    const-string v4, "801 signatures ummatch"
+    const-string v4, "801 verifyCaller signatures ummatch"
 
     invoke-static {v6, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;)V
 
@@ -4752,7 +4752,7 @@
     .line 1745
     const-string v4, "%s, (found at signatures[%d])"
 
-    const-string v5, "999"
+    const-string v5, "999 verifyCaller"
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

@@ -51,7 +51,7 @@
     .line 187
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushNotifyAppSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -61,7 +61,7 @@
     .line 191
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushNotifyAppSegment"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -95,7 +95,7 @@
     .line 45
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 mfc/PushNotifyAppSegment"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -111,7 +111,7 @@
     .line 52
     const-string v0, "%s appIdentificationCode=%s"
 
-    const-string v1, "001"
+    const-string v1, "001 mfc/PushNotifyAppSegment"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushNotifyAppSegment;->appIdentificationCode:Ljava/lang/String;
 
@@ -120,7 +120,7 @@
     .line 53
     const-string v0, "%s appNotificationParam=%s"
 
-    const-string v1, "001"
+    const-string v1, "001 mfc/PushNotifyAppSegment"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushNotifyAppSegment;->appNotificationParam:[Ljava/lang/String;
 
@@ -132,7 +132,7 @@
     .line 57
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 mfc/PushNotifyAppSegment"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -150,7 +150,7 @@
     .line 162
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -162,7 +162,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 readFromParcel"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -197,7 +197,7 @@
     .line 177
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -221,7 +221,7 @@
     .line 234
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -237,7 +237,7 @@
 
     const-string v1, "%s"
 
-    const-string v2, "700"
+    const-string v2, "700 checkFormat"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -252,7 +252,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -269,14 +269,14 @@
     .line 202
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 203
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 describeContents"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -295,14 +295,14 @@
     .line 67
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAppIdentificationCode"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 68
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getAppIdentificationCode"
 
     iget-object v2, p0, Lcom/felicanetworks/mfc/PushNotifyAppSegment;->appIdentificationCode:Ljava/lang/String;
 
@@ -323,14 +323,14 @@
     .line 80
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getAppNotificationParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 81
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getAppNotificationParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -350,14 +350,14 @@
     .line 101
     const-string v0, "%s appIdentificationCode=%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAppIdentificationCode"
 
     invoke-static {v2, v0, v1, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 102
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAppIdentificationCode"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -378,14 +378,14 @@
     .line 122
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 setAppNotificationParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 123
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 setAppNotificationParam"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -407,7 +407,7 @@
     .line 216
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -424,7 +424,7 @@
     .line 222
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

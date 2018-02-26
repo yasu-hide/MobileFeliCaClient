@@ -92,7 +92,7 @@
 
     const-string v4, "%s In type = %s : permit = %s"
 
-    const-string v5, "000"
+    const-string v5, "000 check"
 
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -111,7 +111,7 @@
     .line 129
     const-string v3, "%s permit data is null."
 
-    const-string v4, "800"
+    const-string v4, "800 check"
 
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -139,7 +139,7 @@
     .line 212
     const-string v3, "%s type is unknow"
 
-    const-string v4, "806"
+    const-string v4, "806 check"
 
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -154,7 +154,7 @@
     :pswitch_0
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 check"
 
     invoke-static {v10, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -182,7 +182,7 @@
     .line 148
     const-string v3, "%s category != CATEGORY_OFFLINE_ACCESS_ATTRIBUTE"
 
-    const-string v4, "801"
+    const-string v4, "801 check"
 
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -199,7 +199,7 @@
     :pswitch_1
     const-string v3, "%s"
 
-    const-string v4, "002"
+    const-string v4, "002 check"
 
     invoke-static {v10, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -229,7 +229,7 @@
     .line 161
     const-string v3, "%s category != CATEGORY_ONLINE_ACCESS_ATTRIBUTE"
 
-    const-string v4, "802"
+    const-string v4, "802 check"
 
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -246,7 +246,7 @@
     :pswitch_2
     const-string v3, "%s"
 
-    const-string v4, "003"
+    const-string v4, "003 check"
 
     invoke-static {v10, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -276,7 +276,7 @@
     .line 174
     const-string v3, "%s category != CATEGORY_RW_ACCESS_ATTRIBUTE"
 
-    const-string v4, "803"
+    const-string v4, "803 check"
 
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -293,7 +293,7 @@
     :pswitch_3
     const-string v3, "%s"
 
-    const-string v4, "004"
+    const-string v4, "004 check"
 
     invoke-static {v10, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -322,7 +322,7 @@
     const-string v3, "%s category != CATEGORY_PRIVILEGED_ACCESS_1_ATTRIBUTE"
 
     .line 188
-    const-string v4, "804"
+    const-string v4, "804 check"
 
     .line 187
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -340,7 +340,7 @@
     :pswitch_4
     const-string v3, "%s"
 
-    const-string v4, "005"
+    const-string v4, "005 check"
 
     invoke-static {v10, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -371,7 +371,7 @@
     const-string v3, "%s category != CATEGORY_PRIVILEGED_ACCESS_1_ATTRIBUTE"
 
     .line 202
-    const-string v4, "805"
+    const-string v4, "805 check"
 
     .line 201
     invoke-static {v7, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
@@ -389,7 +389,7 @@
 
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 check"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -428,7 +428,7 @@
     const-string v3, "%s In currentSystemCode = %s : nodeCodeList = %s : permit = %s"
 
     .line 314
-    const-string v4, "000"
+    const-string v4, "000 checkNodeCodeList"
 
     invoke-static/range {p0 .. p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -492,7 +492,7 @@
 
     const-string v3, "%s "
 
-    const-string v4, "800"
+    const-string v4, "800 checkNodeCodeList"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -544,7 +544,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "001"
+    const-string v4, "001 checkNodeCodeList"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -579,7 +579,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "999"
+    const-string v4, "999 checkNodeCodeList"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -618,7 +618,7 @@
 
     const-string v3, "%s "
 
-    const-string v4, "801"
+    const-string v4, "801 checkNodeCodeList"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -663,7 +663,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "003"
+    const-string v6, "003 checkNodeCodeList"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -731,7 +731,7 @@
 
     const-string v6, "%s"
 
-    const-string v7, "002"
+    const-string v7, "002 checkNodeCodeList"
 
     invoke-static {v5, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -774,7 +774,7 @@
     .line 253
     const-string v5, "%s In systemCode = %s : permit = %s"
 
-    const-string v6, "000"
+    const-string v6, "000 checkSystemCode"
 
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -815,7 +815,7 @@
 
     const-string v6, "%s "
 
-    const-string v7, "800"
+    const-string v7, "800 checkSystemCode"
 
     invoke-static {v5, v6, v7}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -862,7 +862,7 @@
     :cond_1
     const-string v5, "%s"
 
-    const-string v6, "999"
+    const-string v6, "999 checkSystemCode"
 
     invoke-static {v8, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 

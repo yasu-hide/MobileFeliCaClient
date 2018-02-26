@@ -1513,7 +1513,7 @@
     .line 312
     const-string v4, "%s In byteBuffer = %s : PrivacySettingData[] = %s"
 
-    const-string v5, "000"
+    const-string v5, "000 append"
 
     invoke-static {v8, v4, v5, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1523,7 +1523,7 @@
     .line 316
     const-string v4, "%s byteBuffer == null"
 
-    const-string v5, "800"
+    const-string v5, "800 append"
 
     invoke-static {v7, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1541,7 +1541,7 @@
     .line 321
     const-string v4, "%s privacySettingDataList == null"
 
-    const-string v5, "801"
+    const-string v5, "801 append"
 
     invoke-static {v7, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1568,7 +1568,7 @@
     :cond_2
     const-string v4, "%s privacySettingDataList.length == %d"
 
-    const-string v5, "802"
+    const-string v5, "802 append"
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1608,7 +1608,7 @@
     .line 357
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 append"
 
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1650,7 +1650,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "001"
+    const-string v6, "001 append"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1674,7 +1674,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "002"
+    const-string v6, "002 append"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_1
@@ -1733,7 +1733,7 @@
     .line 1024
     const-string v7, "%s In byteBuffer = %s"
 
-    const-string v8, "000"
+    const-string v8, "000 createAdhocInformation"
 
     invoke-static {v12, v7, v8, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1810,7 +1810,7 @@
 
     const-string v8, "%s return adhocInfo = %s"
 
-    const-string v9, "999"
+    const-string v9, "999 createAdhocInformation"
 
     invoke-static {v7, v8, v9, v0}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
@@ -1835,7 +1835,7 @@
 
     const-string v8, "%s %s"
 
-    const-string v9, "800"
+    const-string v9, "800 createAdhocInformation"
 
     invoke-virtual {v3}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -1867,7 +1867,7 @@
 
     const-string v8, "%s In byteBuffer = %s : nodeCodeList = %s"
 
-    const-string v9, "000"
+    const-string v9, "000 createBlockCountInformation"
 
     invoke-static {v7, v8, v9, p1, p2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1894,7 +1894,7 @@
 
     const-string v8, "%s INVALID node length"
 
-    const-string v9, "800"
+    const-string v9, "800 createBlockCountInformation"
 
     invoke-static {v7, v8, v9}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -1920,7 +1920,7 @@
 
     const-string v8, "%s %s"
 
-    const-string v9, "801"
+    const-string v9, "801 createBlockCountInformation"
 
     invoke-virtual {v3}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -1960,7 +1960,7 @@
 
     const-string v8, "%s return blockCountInfo = %s"
 
-    const-string v9, "999"
+    const-string v9, "999 createBlockCountInformation"
 
     invoke-static {v7, v8, v9, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -2033,7 +2033,7 @@
 
     const-string v21, "%s In byteBuffer = %s"
 
-    const-string v22, "000"
+    const-string v22, "000 createDataList"
 
     move-object/from16 v0, v21
 
@@ -2070,7 +2070,7 @@
 
     const-string v21, "%s %s"
 
-    const-string v22, "800"
+    const-string v22, "800 createDataList"
 
     const-string v23, "INVALID block size"
 
@@ -2107,7 +2107,7 @@
 
     const-string v21, "%s %s"
 
-    const-string v22, "802"
+    const-string v22, "802 createDataList"
 
     invoke-virtual {v14}, Lcom/felicanetworks/felica/offlineimpl/OfflineException;->toString()Ljava/lang/String;
 
@@ -2147,7 +2147,7 @@
 
     const-string v21, "%s return dataList = %s"
 
-    const-string v22, "999"
+    const-string v22, "999 createDataList"
 
     move-object/from16 v0, v21
 
@@ -2189,7 +2189,7 @@
 
     const-string v21, "%s %s"
 
-    const-string v22, "801"
+    const-string v22, "801 createDataList"
 
     const-string v23, "INVALID block type"
 
@@ -2229,7 +2229,7 @@
 
     const-string v21, "%s %s"
 
-    const-string v22, "803"
+    const-string v22, "803 createDataList"
 
     invoke-virtual {v14}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -2443,7 +2443,7 @@
 
     const-string v21, "%s"
 
-    const-string v22, "001"
+    const-string v22, "001 createDataList"
 
     move-object/from16 v0, v21
 
@@ -2474,7 +2474,7 @@
 
     const-string v21, "%s"
 
-    const-string v22, "002"
+    const-string v22, "002 createDataList"
 
     move-object/from16 v0, v21
 
@@ -2662,7 +2662,7 @@
     const-string v3, "%s In byteBuffer = %s : nodeCodeSize = %s : nodeStartIndex = %s"
 
     .line 965
-    const-string v4, "000"
+    const-string v4, "000 createNodeInformation"
 
     invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2750,7 +2750,7 @@
 
     const-string v3, "%s return nodeInformation = %s"
 
-    const-string v4, "999"
+    const-string v4, "999 createNodeInformation"
 
     invoke-static {v2, v3, v4, v15}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -2846,7 +2846,7 @@
 
     const-string v3, "%s %s"
 
-    const-string v4, "800"
+    const-string v4, "800 createNodeInformation"
 
     invoke-virtual {v11}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
@@ -2879,7 +2879,7 @@
     .line 863
     const-string v5, "%s In byteBuffer = %s"
 
-    const-string v6, "000"
+    const-string v6, "000 createSystemCode"
 
     invoke-static {v10, v5, v6, p1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -2915,7 +2915,7 @@
 
     const-string v6, "%s return systemCodeList = %s"
 
-    const-string v7, "999"
+    const-string v7, "999 createSystemCode"
 
     invoke-static {v5, v6, v7, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -2961,7 +2961,7 @@
 
     const-string v6, "%s %s"
 
-    const-string v7, "800"
+    const-string v7, "800 createSystemCode"
 
     invoke-virtual {v1}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 

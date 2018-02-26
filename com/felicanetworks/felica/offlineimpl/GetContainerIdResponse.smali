@@ -28,14 +28,14 @@
     .line 40
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/offlineimpl/GetContainerIdResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 41
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/offlineimpl/GetContainerIdResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -52,7 +52,7 @@
     .line 52
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -64,7 +64,7 @@
     .line 54
     const-string v0, "%s"
 
-    const-string v1, "001"
+    const-string v1, "001 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -79,7 +79,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -109,7 +109,7 @@
     .line 75
     const-string v2, "%s"
 
-    const-string v3, "000"
+    const-string v3, "000 get"
 
     invoke-static {v6, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -122,7 +122,7 @@
     :cond_0
     const-string v2, "%s"
 
-    const-string v3, "700"
+    const-string v3, "700 get"
 
     invoke-static {v6, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -155,7 +155,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "701"
+    const-string v4, "701 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -179,7 +179,7 @@
     .local v0, "e":Lcom/felicanetworks/felica/offlineimpl/OfflineException;
     const-string v2, "%s"
 
-    const-string v3, "703"
+    const-string v3, "703 get"
 
     invoke-static {v6, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -219,7 +219,7 @@
 
     const-string v3, "%s"
 
-    const-string v4, "702"
+    const-string v4, "702 get"
 
     invoke-static {v2, v3, v4}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -243,7 +243,7 @@
     .local v0, "e":Ljava/lang/Exception;
     const-string v2, "%s"
 
-    const-string v3, "704"
+    const-string v3, "704 get"
 
     invoke-static {v6, v2, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -262,7 +262,7 @@
     :try_start_2
     const-string v3, "%s CotainerID=%s"
 
-    const-string v4, "999"
+    const-string v4, "999 get"
 
     iget-object v5, p0, Lcom/felicanetworks/felica/offlineimpl/GetContainerIdResponse;->CotainerID:[B
 
@@ -284,14 +284,14 @@
     .line 122
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getContainerId"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 123
     const-string v0, "%s CotainerID=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getContainerId"
 
     iget-object v2, p0, Lcom/felicanetworks/felica/offlineimpl/GetContainerIdResponse;->CotainerID:[B
 

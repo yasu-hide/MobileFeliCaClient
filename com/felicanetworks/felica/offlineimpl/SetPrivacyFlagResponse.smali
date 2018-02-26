@@ -34,14 +34,14 @@
     .line 53
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 felica/offlineimpl/SetPrivacyFlagResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 54
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 felica/offlineimpl/SetPrivacyFlagResponse"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -58,7 +58,7 @@
     .line 65
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -70,7 +70,7 @@
     .line 67
     const-string v0, "%s"
 
-    const-string v1, "001"
+    const-string v1, "001 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -85,7 +85,7 @@
     :cond_0
     const-string v0, "%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getInstance"
 
     invoke-static {v2, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -117,7 +117,7 @@
     .line 88
     const-string v4, "%s"
 
-    const-string v5, "000"
+    const-string v5, "000 get"
 
     invoke-static {v7, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -130,7 +130,7 @@
     :cond_0
     const-string v4, "%s"
 
-    const-string v5, "700"
+    const-string v5, "700 get"
 
     invoke-static {v7, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -161,7 +161,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "701"
+    const-string v6, "701 get"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -185,7 +185,7 @@
     .local v2, "e":Lcom/felicanetworks/felica/offlineimpl/OfflineException;
     const-string v4, "%s"
 
-    const-string v5, "705"
+    const-string v5, "705 get"
 
     invoke-static {v7, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -212,7 +212,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "702"
+    const-string v6, "702 get"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -236,7 +236,7 @@
     .local v2, "e":Ljava/lang/Exception;
     const-string v4, "%s"
 
-    const-string v5, "705"
+    const-string v5, "705 get"
 
     invoke-static {v7, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -277,7 +277,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "703"
+    const-string v6, "703 get"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -338,7 +338,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "704"
+    const-string v6, "704 get"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
@@ -357,7 +357,7 @@
 
     const-string v5, "%s"
 
-    const-string v6, "999"
+    const-string v6, "999 get"
 
     invoke-static {v4, v5, v6}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
     :try_end_2
@@ -377,14 +377,14 @@
     .line 154
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getIDm"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 155
     const-string v0, "%s return=%s"
 
-    const-string v1, "999"
+    const-string v1, "999 getIDm"
 
     iget-object v2, p0, Lcom/felicanetworks/felica/offlineimpl/SetPrivacyFlagResponse;->idm:[B
 
@@ -405,14 +405,14 @@
     .line 166
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getStatusFlag1"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 167
     const-string v0, "%s return=%d"
 
-    const-string v1, "999"
+    const-string v1, "999 getStatusFlag1"
 
     iget-byte v2, p0, Lcom/felicanetworks/felica/offlineimpl/SetPrivacyFlagResponse;->statusFlag1:B
 
@@ -441,14 +441,14 @@
     .line 178
     const-string v0, "%s"
 
-    const-string v1, "000"
+    const-string v1, "000 getStatusFlag2"
 
     invoke-static {v3, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 179
     const-string v0, "%s return=%d"
 
-    const-string v1, "999"
+    const-string v1, "999 getStatusFlag2"
 
     iget-byte v2, p0, Lcom/felicanetworks/felica/offlineimpl/SetPrivacyFlagResponse;->statusFlag2:B
 

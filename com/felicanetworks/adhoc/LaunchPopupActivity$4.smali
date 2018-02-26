@@ -52,7 +52,7 @@
 
     const-string v1, "%d"
 
-    const-string v2, "001"
+    const-string v2, "001 onCancel"
 
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
