@@ -275,7 +275,7 @@
     return-object p0
 .end method
 
-.method getCotainerId()[B
+.method getContainerId()[B
     .locals 4
 
     .prologue

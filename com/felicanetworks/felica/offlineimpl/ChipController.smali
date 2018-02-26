@@ -1602,12 +1602,12 @@
 
     const-string v4, "%s"
 
-    const-string v5, "999"
+    const-string v5, "999 getContainerID"
 
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;Ljava/lang/Object;)V
 
     .line 824
-    invoke-virtual {v2}, Lcom/felicanetworks/felica/offlineimpl/GetContainerIdResponse;->getCotainerId()[B
+    invoke-virtual {v2}, Lcom/felicanetworks/felica/offlineimpl/GetContainerIdResponse;->getContainerId()[B
     :try_end_0
     .catch Lcom/felicanetworks/felica/offlineimpl/OfflineException; {:try_start_0 .. :try_end_0} :catch_0
 
