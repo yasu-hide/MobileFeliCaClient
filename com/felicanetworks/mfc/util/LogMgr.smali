@@ -3681,7 +3681,7 @@
 .end method
 
 .method protected static log(ILjava/lang/String;[Ljava/lang/Object;J)V
-    .locals 0
+    .locals 2
     .param p0, "level"    # I
     .param p1, "format"    # Ljava/lang/String;
     .param p2, "args"    # [Ljava/lang/Object;
@@ -3689,6 +3689,10 @@
 
     .prologue
     .line 484
+    const-string v0, "LogMgr"
+    invoke-static {p1, p2, p3, p4}, Lcom/felicanetworks/mfc/util/LogMgr;->format(Ljava/lang/String;[Ljava/lang/Object;J)Ljava/lang/String;
+    move-result-object v1
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
     return-void
 .end method
 
