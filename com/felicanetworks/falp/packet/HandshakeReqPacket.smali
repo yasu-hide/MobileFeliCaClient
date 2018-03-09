@@ -61,11 +61,842 @@
 .end method
 
 .method public makeTransmitCommand()Lcom/felicanetworks/felica/util/ByteBuffer;
-    .registers 13
+    .locals 12
+
     .prologue
-    const/4 v1, 0
+    const-wide/32 v10, -0x1000000
+
+    const/16 v9, 0x18
+
+    const/16 v8, 0x10
+
+    const/16 v7, 0x8
+
+    const/4 v6, 0x0
+
+    .line 216
     iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
-    invoke-virtual { v0, v1 }, Lcom/felicanetworks/felica/util/ByteBuffer;->setLength(I)V
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->setLength(I)V
+
+    .line 218
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    const-wide/16 v2, 0x0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v2, v3, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->appendInLittleEndian(JI)V
+
+    .line 220
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 221
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 223
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getAppid_len()C
+
+    move-result v1
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 225
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mAppCode:[B
+
+    iget-object v2, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v2}, Lcom/felicanetworks/falp/HandshakeParameter;->getAppid_len()C
+
+    move-result v2
+
+    invoke-virtual {v0, v1, v6, v2}, Lcom/felicanetworks/felica/util/ByteBuffer;->append([BII)V
+
+    .line 227
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getRecv_pkt_max()I
+
+    move-result v1
+
+    const v2, 0xff00
+
+    and-int/2addr v1, v2
+
+    shr-int/lit8 v1, v1, 0x8
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 228
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getRecv_pkt_max()I
+
+    move-result v1
+
+    and-int/lit16 v1, v1, 0xff
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 230
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getFalp_recvmax()S
+
+    move-result v1
+
+    const v2, 0xff00
+
+    and-int/2addr v1, v2
+
+    shr-int/lit8 v1, v1, 0x8
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 231
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getFalp_recvmax()S
+
+    move-result v1
+
+    and-int/lit16 v1, v1, 0xff
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 233
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdb()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 234
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdb()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 235
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdb()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 236
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdb()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 238
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdcc()I
+
+    move-result v1
+
+    and-int/lit16 v1, v1, 0xff
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 240
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_rs()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 241
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_rs()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 242
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_rs()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 243
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_rs()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 245
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tddc()I
+
+    move-result v1
+
+    and-int/lit16 v1, v1, 0xff
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 247
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tddb()I
+
+    move-result v1
+
+    and-int/lit16 v1, v1, 0xff
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 249
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_ws()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 250
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_ws()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 251
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_ws()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 252
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_ws()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 254
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tde()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 255
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tde()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 256
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tde()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 257
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tde()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 259
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdf()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 260
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdf()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 261
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdf()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 262
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdf()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 264
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdg()I
+
+    move-result v1
+
+    const/high16 v2, -0x1000000
+
+    and-int/2addr v1, v2
+
+    shr-int/lit8 v1, v1, 0x18
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 265
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdg()I
+
+    move-result v1
+
+    const/high16 v2, 0xff0000
+
+    and-int/2addr v1, v2
+
+    shr-int/lit8 v1, v1, 0x10
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 266
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdg()I
+
+    move-result v1
+
+    const v2, 0xff00
+
+    and-int/2addr v1, v2
+
+    shr-int/lit8 v1, v1, 0x8
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 267
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdg()I
+
+    move-result v1
+
+    and-int/lit16 v1, v1, 0xff
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 269
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdh()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 270
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdh()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 271
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdh()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 272
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdh()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 274
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdi()J
+
+    move-result-wide v2
+
+    and-long/2addr v2, v10
+
+    shr-long/2addr v2, v9
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 275
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdi()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff0000
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v8
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 276
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdi()J
+
+    move-result-wide v2
+
+    const-wide/32 v4, 0xff00
+
+    and-long/2addr v2, v4
+
+    shr-long/2addr v2, v7
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 277
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    iget-object v1, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mHsParam:Lcom/felicanetworks/falp/HandshakeParameter;
+
+    invoke-virtual {v1}, Lcom/felicanetworks/falp/HandshakeParameter;->getPara_tdi()J
+
+    move-result-wide v2
+
+    const-wide/16 v4, 0xff
+
+    and-long/2addr v2, v4
+
+    long-to-int v1, v2
+
+    int-to-byte v1, v1
+
+    invoke-virtual {v0, v1}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 279
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 280
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 281
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 282
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 284
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
+    invoke-virtual {v0, v6}, Lcom/felicanetworks/felica/util/ByteBuffer;->append(B)V
+
+    .line 286
+    iget-object v0, p0, Lcom/felicanetworks/falp/packet/HandshakeReqPacket;->mBuffer:Lcom/felicanetworks/felica/util/ByteBuffer;
+
     return-object v0
 .end method
 
